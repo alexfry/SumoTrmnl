@@ -36,8 +36,8 @@
         <tr>
           <td></td>
           <td style="text-align: right;">
-            {% if bout.east_jp_img != "" and bout.east_jp_img != nil %}
-              <img src="{{ bout.east_jp_img }}" style="height: 11px; vertical-align: middle; opacity: 0.45; margin-right: 4px;">
+            {% if bout.east_jp_svg != "" and bout.east_jp_svg != nil %}
+              {{ bout.east_jp_svg }}
             {% elsif bout.east_jp != "" and bout.east_jp != nil %}
               <span class="label label--small" style="opacity: 0.45; margin-right: 4px;">{{ bout.east_jp }}</span>
             {% endif %}
@@ -62,8 +62,8 @@
           <td style="text-align: center;"><span class="label label--small" style="opacity: 0.5;">{{ bout.west_rank }}</span></td>
           <td>
             <span class="label">{{ bout.west }}</span>
-            {% if bout.west_jp_img != "" and bout.west_jp_img != nil %}
-              <img src="{{ bout.west_jp_img }}" style="height: 11px; vertical-align: middle; opacity: 0.45; margin-left: 4px;">
+            {% if bout.west_jp_svg != "" and bout.west_jp_svg != nil %}
+              {{ bout.west_jp_svg }}
             {% elsif bout.west_jp != "" and bout.west_jp != nil %}
               <span class="label label--small" style="opacity: 0.45; margin-left: 4px;">{{ bout.west_jp }}</span>
             {% endif %}

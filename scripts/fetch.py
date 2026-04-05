@@ -255,9 +255,8 @@ def push_to_trmnl(uuid: str, api_key: str, variables: dict) -> None:
 # ── Japanese name image rendering ──────────────────────────────────────────────
 
 def render_jp_images(torikumi: list, font_path: str) -> list:
-    """Render Japanese ring names as base64 PNG data URIs embedded directly in the JSON."""
-    from PIL import Image, ImageDraw, ImageFont
-    import base64, io
+    """Render Japanese ring names as inline SVG elements embedded directly in the JSON."""
+    from PIL import ImageFont
 
     font = ImageFont.truetype(font_path, 11)
 
@@ -265,22 +264,24 @@ def render_jp_images(torikumi: list, font_path: str) -> list:
         if not text:
             return ""
         bbox = font.getbbox(text)
-        w, h = bbox[2] - bbox[0] + 2, bbox[3] - bbox[1] + 2
-        img = Image.new("RGBA", (w, h), (255, 255, 255, 0))
-        ImageDraw.Draw(img).text((1, 1 - bbox[1]), text, fill=(0, 0, 0, 255), font=font)
-        buf = io.BytesIO()
-        img.save(buf, "PNG")
-        b64 = base64.b64encode(buf.getvalue()).decode()
-        return f"data:image/png;base64,{b64}"
+        w = bbox[2] - bbox[0] + 2
+        h = 13  # match row height
+        # Inline SVG with text — no external resources needed
+        return (
+            f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
+            f'style="display:inline;vertical-align:middle;opacity:0.45;">'
+            f'<text x="1" y="10" font-family="sans-serif" font-size="10" fill="#000">{text}</text>'
+            f'</svg>'
+        )
 
     result = []
     for bout in torikumi:
         bout = dict(bout)
-        bout["east_jp_img"] = render(bout.get("east_jp", ""))
-        bout["west_jp_img"] = render(bout.get("west_jp", ""))
+        bout["east_jp_svg"] = render(bout.get("east_jp", ""))
+        bout["west_jp_svg"] = render(bout.get("west_jp", ""))
         result.append(bout)
 
-    print(f"Rendered {len(result) * 2} Japanese name images as inline data URIs")
+    print(f"Rendered {len(result) * 2} Japanese name SVGs")
     return result
 
 
