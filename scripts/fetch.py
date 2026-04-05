@@ -194,11 +194,11 @@ def fetch_torikumi(bid: str, day: int, record_by_shikona: dict, jp_by_id: dict) 
     for i, match in enumerate(data.get("torikumi", []), start=1):
         east = match.get("eastShikona", "")
         east_id = str(match.get("eastId", ""))
-        east_jp = jp_by_id.get(east_id, "")
+        east_jp = jp_by_id.get(east_id, "").split("\u3000")[0]
 
         west = match.get("westShikona", "")
         west_id = str(match.get("westId", ""))
-        west_jp = jp_by_id.get(west_id, "")
+        west_jp = jp_by_id.get(west_id, "").split("\u3000")[0]
 
         winner_id = str(match.get("winnerId", ""))
         winner = east if winner_id == east_id else (west if winner_id == west_id else "")
