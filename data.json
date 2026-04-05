@@ -363,8 +363,8 @@
       "winner": "Oshoumi",
       "kimarite": "tsuridashi",
       "past": "1-1",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">翔猿</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">欧勝海</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2ca89e621fb6.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/c5bd818df528.png"
     },
     {
       "bout": 2,
@@ -381,8 +381,8 @@
       "winner": "Fujiseiun",
       "kimarite": "okuridashi",
       "past": "3-1",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">獅司</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">藤青雲</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4d570452c51c.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/92ba90e18d4e.png"
     },
     {
       "bout": 3,
@@ -399,8 +399,8 @@
       "winner": "Kinbozan",
       "kimarite": "tsukidashi",
       "past": "4-5",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">金峰山</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">狼雅</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e762df1ffd46.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/518bf3389f6b.png"
     },
     {
       "bout": 4,
@@ -417,8 +417,8 @@
       "winner": "Tamawashi",
       "kimarite": "oshidashi",
       "past": "0-1",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">琴栄峰</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">玉鷲</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1cec8d605215.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7611430a3935.png"
     },
     {
       "bout": 5,
@@ -435,8 +435,8 @@
       "winner": "Fujiryoga",
       "kimarite": "okuridashi",
       "past": "0-1",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">時疾風</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">藤凌駕</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/02134f40ea77.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/afa9f05f0256.png"
     },
     {
       "bout": 6,
@@ -453,8 +453,8 @@
       "winner": "Chiyoshoma",
       "kimarite": "hatakikomi",
       "past": "10-3",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">宇良</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"46\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">千代翔馬</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e7eb13f08182.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/84d96ad326bd.png"
     },
     {
       "bout": 7,
@@ -471,8 +471,8 @@
       "winner": "Hakunofuji",
       "kimarite": "yorikiri",
       "past": "0-1",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">朝白龍</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"46\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">伯乃富士</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/43a7745f06f7.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f1d23efe738f.png"
     },
     {
       "bout": 8,
@@ -489,8 +489,8 @@
       "winner": "Ichiyamamoto",
       "kimarite": "oshidashi",
       "past": "4-1",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">一山本</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">御嶽海</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/91e44232e5ed.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/bf8e8b24b393.png"
     },
     {
       "bout": 9,
@@ -507,8 +507,8 @@
       "winner": "Kotoshoho",
       "kimarite": "tsukiotoshi",
       "past": "2-2",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">朝紅龍</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">琴勝峰</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/02163bbdf94c.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/63411af018d4.png"
     },
     {
       "bout": 10,
@@ -525,8 +525,8 @@
       "winner": "Nishikifuji",
       "kimarite": "yorikiri",
       "past": "4-2",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">阿炎</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">錦富士</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4e269abf09cd.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/ce2c148d8d2c.png"
     },
     {
       "bout": 11,
@@ -543,8 +543,8 @@
       "winner": "Gonoyama",
       "kimarite": "oshidashi",
       "past": "6-3",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">豪ノ山</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">隆の勝</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f7717f1f7ed0.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/6acfef49babb.png"
     },
     {
       "bout": 12,
@@ -561,8 +561,8 @@
       "winner": "Shodai",
       "kimarite": "tsukiotoshi",
       "past": "24-11",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">大栄翔</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">正代</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f62639ffe161.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/dc81dd4d3947.png"
     },
     {
       "bout": 13,
@@ -579,8 +579,8 @@
       "winner": "Hiradoumi",
       "kimarite": "oshidashi",
       "past": "10-3",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">平戸海</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">美ノ海</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/61c1c591c525.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/a88dc0be95cd.png"
     },
     {
       "bout": 14,
@@ -597,8 +597,8 @@
       "winner": "Fujinokawa",
       "kimarite": "sukuinage",
       "past": "1-0",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">藤ノ川</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">王鵬</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7d6ae672346e.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/8057faf4c1b5.png"
     },
     {
       "bout": 15,
@@ -615,8 +615,8 @@
       "winner": "Yoshinofuji",
       "kimarite": "yorikiri",
       "past": "0-1",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">朝乃山</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"46\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">義ノ富士</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/b63f0b1bdf33.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4f2ca042e712.png"
     },
     {
       "bout": 16,
@@ -633,8 +633,8 @@
       "winner": "Oshoma",
       "kimarite": "uwatenage",
       "past": "2-3",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">若元春</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">欧勝馬</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/237f8001784b.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/211e3175be03.png"
     },
     {
       "bout": 17,
@@ -651,8 +651,8 @@
       "winner": "Takayasu",
       "kimarite": "uwatehineri",
       "past": "4-4",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"46\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">熱海富士</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">高安</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/602aa26ea98e.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/86224e712662.png"
     },
     {
       "bout": 18,
@@ -669,8 +669,8 @@
       "winner": "Kotozakura",
       "kimarite": "oshidashi",
       "past": "16-9",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">霧島</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">琴櫻</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/50ddfa8933a5.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2fa78077be50.png"
     },
     {
       "bout": 19,
@@ -687,13 +687,13 @@
       "winner": "Hoshoryu",
       "kimarite": "kakenage",
       "past": "1-5",
-      "east_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">豊昇龍</text></svg>",
-      "west_jp_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"13\" style=\"display:inline;vertical-align:middle;opacity:0.45;\"><text x=\"1\" y=\"10\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#000\">安青錦</text></svg>"
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1e787d46ec35.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/0dd255ab0b70.png"
     }
   ],
   "leaders": [
     "Kirishima"
   ],
   "leader_wins": 12,
-  "last_updated": "2026-04-05 17:54 JST"
+  "last_updated": "2026-04-05 18:14 JST"
 }
