@@ -260,7 +260,7 @@ def render_jp_images(torikumi: list, img_dir: str, base_url: str, font_path: str
     import hashlib, pathlib
 
     pathlib.Path(img_dir).mkdir(parents=True, exist_ok=True)
-    font = ImageFont.truetype(font_path, 11)
+    font = ImageFont.truetype(font_path, 14)
 
     def render(text: str) -> str:
         if not text:
