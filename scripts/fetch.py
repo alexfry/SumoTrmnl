@@ -258,7 +258,7 @@ def write_data_file(path: str, variables: dict) -> None:
     import pathlib
     pathlib.Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"merge_variables": variables}, f, ensure_ascii=False, indent=2)
+        json.dump(variables, f, ensure_ascii=False, indent=2)
     print(f"Data written to {path}")
 
 
