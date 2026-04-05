@@ -1,5 +1,3 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
 <style>
   :root {
     --table-xsmall-tbody-height: 13px;
@@ -38,8 +36,10 @@
         <tr>
           <td></td>
           <td style="text-align: right;">
-            {% if bout.east_jp != "" and bout.east_jp != nil %}
-              <span class="label label--small jp" style="opacity: 0.45; margin-right: 4px;">{{ bout.east_jp }}</span>
+            {% if bout.east_jp_img != "" and bout.east_jp_img != nil %}
+              <img src="{{ bout.east_jp_img }}" style="height: 11px; vertical-align: middle; opacity: 0.45; margin-right: 4px;">
+            {% elsif bout.east_jp != "" and bout.east_jp != nil %}
+              <span class="label label--small" style="opacity: 0.45; margin-right: 4px;">{{ bout.east_jp }}</span>
             {% endif %}
             <span class="label">{{ bout.east }}</span>
           </td>
@@ -62,8 +62,10 @@
           <td style="text-align: center;"><span class="label label--small" style="opacity: 0.5;">{{ bout.west_rank }}</span></td>
           <td>
             <span class="label">{{ bout.west }}</span>
-            {% if bout.west_jp != "" and bout.west_jp != nil %}
-              <span class="label label--small jp" style="opacity: 0.45; margin-left: 4px;">{{ bout.west_jp }}</span>
+            {% if bout.west_jp_img != "" and bout.west_jp_img != nil %}
+              <img src="{{ bout.west_jp_img }}" style="height: 11px; vertical-align: middle; opacity: 0.45; margin-left: 4px;">
+            {% elsif bout.west_jp != "" and bout.west_jp != nil %}
+              <span class="label label--small" style="opacity: 0.45; margin-left: 4px;">{{ bout.west_jp }}</span>
             {% endif %}
           </td>
           <td style="text-align: center; min-width: 34px;">
