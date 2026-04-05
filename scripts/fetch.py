@@ -252,37 +252,35 @@ def push_to_trmnl(uuid: str, api_key: str, variables: dict) -> None:
         raise
 
 
-# ── Japanese name image rendering ──────────────────────────────────────────────
+# ── Japanese font subset ───────────────────────────────────────────────────────
 
-def render_jp_images(torikumi: list, font_path: str) -> list:
-    """Render Japanese ring names as inline SVG elements embedded directly in the JSON."""
-    from PIL import ImageFont
+def generate_jp_font_css(jp_names: list, font_path: str) -> str:
+    """Subset the JP font to only the characters in use and return a @font-face CSS string."""
+    import base64, io
+    from fonttools import subset as ft_subset
 
-    font = ImageFont.truetype(font_path, 11)
+    chars = set()
+    for name in jp_names:
+        if name:
+            chars.update(name)
 
-    def render(text: str) -> str:
-        if not text:
-            return ""
-        bbox = font.getbbox(text)
-        w = bbox[2] - bbox[0] + 2
-        h = 13  # match row height
-        # Inline SVG with text — no external resources needed
-        return (
-            f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" '
-            f'style="display:inline;vertical-align:middle;opacity:0.45;">'
-            f'<text x="1" y="10" font-family="sans-serif" font-size="10" fill="#000">{text}</text>'
-            f'</svg>'
-        )
+    if not chars:
+        return ""
 
-    result = []
-    for bout in torikumi:
-        bout = dict(bout)
-        bout["east_jp_svg"] = render(bout.get("east_jp", ""))
-        bout["west_jp_svg"] = render(bout.get("west_jp", ""))
-        result.append(bout)
+    options = ft_subset.Options()
+    options.name_IDs = []  # strip name table to save space
+    font = ft_subset.load_font(font_path, options)
+    subsetter = ft_subset.Subsetter(options=options)
+    subsetter.populate(unicodes=[ord(c) for c in chars])
+    subsetter.subset(font)
 
-    print(f"Rendered {len(result) * 2} Japanese name SVGs")
-    return result
+    buf = io.BytesIO()
+    ft_subset.save_font(font, buf, options)
+    b64 = base64.b64encode(buf.getvalue()).decode()
+
+    size_kb = len(buf.getvalue()) / 1024
+    print(f"Font subset: {len(chars)} chars, {size_kb:.1f}KB")
+    return f"@font-face {{ font-family: 'SumoJP'; src: url('data:font/otf;base64,{b64}') format('opentype'); }}"
 
 
 # ── File output ────────────────────────────────────────────────────────────────
@@ -321,8 +319,10 @@ def main():
     print(f"Fetched {len(torikumi)} bouts for day {info['day']}")
 
     font_path = os.environ.get("JP_FONT_PATH")
+    jp_font_css = ""
     if font_path:
-        torikumi = render_jp_images(torikumi, font_path)
+        jp_names = [b.get("east_jp", "") for b in torikumi] + [b.get("west_jp", "") for b in torikumi]
+        jp_font_css = generate_jp_font_css(jp_names, font_path)
 
     leader_wins = standings[0]["wins"] if standings else 0
     leaders = [w["shikona"] for w in standings if w["wins"] == leader_wins]
@@ -334,6 +334,7 @@ def main():
         "torikumi": torikumi,
         "leaders": leaders,
         "leader_wins": leader_wins,
+        "jp_font_css": jp_font_css,
         "last_updated": now.strftime("%Y-%m-%d %H:%M JST"),
     }
 
