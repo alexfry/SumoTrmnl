@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# POST sample data to the local trmnlp webhook endpoint.
+# Run this after `trmnlp serve` is up to inject variables into the preview.
+set -euo pipefail
+
+WEBHOOK="${1:-http://localhost:4567/webhook}"
+DATA_FILE="$(dirname "$0")/../data/sample.json"
+
+echo "Seeding $WEBHOOK with $DATA_FILE ..."
+curl -s -X POST "$WEBHOOK" \
+  -H "Content-Type: application/json" \
+  --data-binary "@$DATA_FILE" | python3 -m json.tool || true
+echo "Done."

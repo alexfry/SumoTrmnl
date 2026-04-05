@@ -1,0 +1,78 @@
+<style>
+  :root {
+    --table-xsmall-tbody-height: 13px;
+    --table-xsmall-thead-height: 10px;
+  }
+  .layout { padding: 0 !important; margin: 0 !important; }
+  .view { padding: 0 !important; }
+</style>
+
+<div style="display: flex; flex-direction: row; width: 800px; height: 480px; overflow: hidden;">
+
+  <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; height: auto; border-radius: 10px; margin: 8px 6px 8px 8px; padding: 10px 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
+    <span class="title">Grand Sumo &mdash; {{ basho_name }} {{ basho_year }} &mdash; Day {{ day }} / {{ total_days }}</span>
+  </div>
+
+  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
+  <table class="table table--xsmall" data-table-limit="true">
+    <thead>
+      <tr>
+        <th style="width: 20px;"></th>
+        <th style="text-align: right;"><span class="title" style="font-size: 9px; opacity: 0.35;">East</span></th>
+        <th style="width: 46px; text-align: center;"><span class="title" style="font-size: 9px; opacity: 0.35;">Rank</span></th>
+        <th style="width: 40px; text-align: center;"><span class="title" style="font-size: 9px; opacity: 0.35;">W-L</span></th>
+        <th style="width: 14px;"></th>
+        <th style="width: 96px; text-align: center;"><span class="title" style="font-size: 9px; opacity: 0.35;">Kimarite</span></th>
+        <th style="width: 14px;"></th>
+        <th style="width: 40px; text-align: center;"><span class="title" style="font-size: 9px; opacity: 0.35;">W-L</span></th>
+        <th style="width: 46px; text-align: center;"><span class="title" style="font-size: 9px; opacity: 0.35;">Rank</span></th>
+        <th><span class="title" style="font-size: 9px; opacity: 0.35;">West</span></th>
+        <th style="width: 34px; text-align: center;"><span class="title" style="font-size: 9px; opacity: 0.35;">Past</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for bout in torikumi %}
+        <tr>
+          <td></td>
+          <td style="text-align: right;">
+            {% if bout.east_jp != "" and bout.east_jp != nil %}
+              <span class="label label--small" style="opacity: 0.45; margin-right: 4px;">{{ bout.east_jp }}</span>
+            {% endif %}
+            <span class="label">{{ bout.east }}</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small" style="opacity: 0.5;">{{ bout.east_rank }}</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums" style="opacity: 0.65;">{{ bout.east_wins }}-{{ bout.east_losses }}</span></td>
+          <td style="text-align: right;">
+            {% if bout.winner == bout.east %}<span class="label label--small">•</span>{% endif %}
+          </td>
+          <td style="text-align: center;">
+            {% if bout.kimarite != "" and bout.kimarite != nil %}
+              <span class="label label--small" style="opacity: 0.65;">{{ bout.kimarite }}</span>
+            {% else %}
+              <span class="label label--small" style="opacity: 0.2;">vs</span>
+            {% endif %}
+          </td>
+          <td style="text-align: left;">
+            {% if bout.winner == bout.west %}<span class="label label--small">•</span>{% endif %}
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums" style="opacity: 0.65;">{{ bout.west_wins }}-{{ bout.west_losses }}</span></td>
+          <td style="text-align: center;"><span class="label label--small" style="opacity: 0.5;">{{ bout.west_rank }}</span></td>
+          <td>
+            <span class="label">{{ bout.west }}</span>
+            {% if bout.west_jp != "" and bout.west_jp != nil %}
+              <span class="label label--small" style="opacity: 0.45; margin-left: 4px;">{{ bout.west_jp }}</span>
+            {% endif %}
+          </td>
+          <td style="text-align: center; min-width: 34px;">
+            <span class="label label--small value--tnums" style="opacity: 0.45;">{{ bout.past }}</span>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
+</div>
+
+
+<script>terminalize()</script>

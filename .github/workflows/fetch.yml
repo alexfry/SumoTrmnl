@@ -1,0 +1,51 @@
+name: Fetch Sumo Stats
+
+on:
+  schedule:
+    # Runs every hour. GitHub Actions cron is UTC.
+    # The script handles skipping non-basho periods internally.
+    - cron: "0 * * * *"
+
+  # Allow manual trigger for testing
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    name: Fetch and publish data
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - uses: actions/checkout@v4
+        with:
+          path: src
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch sumo data
+        env:
+          DATA_OUTPUT_PATH: gh-pages/data.json
+          # Optional: also push to Trmnl if secrets are set
+          TRMNL_PLUGIN_UUID: ${{ secrets.TRMNL_PLUGIN_UUID }}
+          TRMNL_API_KEY: ${{ secrets.TRMNL_API_KEY }}
+        run: python3 src/scripts/fetch.py
+
+      - name: Commit and push to gh-pages
+        working-directory: gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet || git commit -m "chore: update sumo data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

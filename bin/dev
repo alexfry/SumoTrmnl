@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Start the trmnlp local development server.
+# Requires: gem install trmnl_preview (Ruby >= 3.x)
+# Alternatively: docker run --publish 4567:4567 --volume "$(pwd):/plugin" trmnl/trmnlp serve
+set -euo pipefail
+
+exec trmnlp serve "$@"

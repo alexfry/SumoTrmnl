@@ -1,0 +1,60 @@
+<div class="layout layout--col gap--none">
+  {% if torikumi == empty or torikumi == nil %}
+    <div class="flex flex--center-x flex--center-y" style="flex: 1;">
+      <span class="label" style="opacity: 0.4;">No bouts scheduled today.</span>
+    </div>
+  {% else %}
+    <table class="table table--small" data-table-limit="true">
+      <thead>
+        <tr>
+          <th style="width: 30px; text-align: center;"><span class="title">#</span></th>
+          <th><span class="title">East</span></th>
+          <th style="width: 32px; text-align: center;"><span class="title">vs</span></th>
+          <th><span class="title">West</span></th>
+          <th style="width: 130px; text-align: right;"><span class="title">Winner · Kimarite</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for bout in torikumi limit: 8 %}
+          <tr>
+            <td style="text-align: center;"><span class="label label--small" style="opacity: 0.4;">{{ bout.bout }}</span></td>
+            <td>
+              {% if bout.winner == bout.east %}
+                <strong><span class="label">{{ bout.east }}</span></strong>
+              {% else %}
+                <span class="label">{{ bout.east }}</span>
+              {% endif %}
+              <span class="label label--small" style="opacity: 0.5; margin-left: 3px;">{{ bout.east_rank }}</span>
+            </td>
+            <td style="text-align: center;"><span class="label label--small" style="opacity: 0.3;">—</span></td>
+            <td>
+              {% if bout.winner == bout.west %}
+                <strong><span class="label">{{ bout.west }}</span></strong>
+              {% else %}
+                <span class="label">{{ bout.west }}</span>
+              {% endif %}
+              <span class="label label--small" style="opacity: 0.5; margin-left: 3px;">{{ bout.west_rank }}</span>
+            </td>
+            <td style="text-align: right;">
+              {% if bout.winner != "" and bout.winner != nil %}
+                <strong><span class="label">{{ bout.winner }}</span></strong>
+                {% if bout.kimarite != "" and bout.kimarite != nil %}
+                  <span class="label label--small" style="opacity: 0.5;"> · {{ bout.kimarite }}</span>
+                {% endif %}
+              {% else %}
+                <span class="label label--small" style="opacity: 0.3;">—</span>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</div>
+
+<div class="title_bar">
+  <span class="title">Today's Bouts</span>
+  <span class="instance">{{ basho_name }} {{ basho_year }} — Day {{ day }}</span>
+</div>
+
+<script>terminalize()</script>

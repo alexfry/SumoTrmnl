@@ -1,0 +1,4 @@
+# trmnlp local dev server config
+# "webhook" strategy: POST data to http://localhost:4567/webhook to inject variables.
+# Run `bin/seed` to load sample data from data/sample.json.
+strategy = "webhook"
