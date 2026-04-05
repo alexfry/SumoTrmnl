@@ -362,7 +362,9 @@
       "west_losses": 10,
       "winner": "Oshoumi",
       "kimarite": "tsuridashi",
-      "past": "1-1"
+      "past": "1-1",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2ca89e621fb6.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/c5bd818df528.png"
     },
     {
       "bout": 2,
@@ -378,7 +380,9 @@
       "west_losses": 5,
       "winner": "Fujiseiun",
       "kimarite": "okuridashi",
-      "past": "3-1"
+      "past": "3-1",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4d570452c51c.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/92ba90e18d4e.png"
     },
     {
       "bout": 3,
@@ -394,7 +398,9 @@
       "west_losses": 10,
       "winner": "Kinbozan",
       "kimarite": "tsukidashi",
-      "past": "4-5"
+      "past": "4-5",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e762df1ffd46.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/518bf3389f6b.png"
     },
     {
       "bout": 4,
@@ -410,7 +416,9 @@
       "west_losses": 10,
       "winner": "Tamawashi",
       "kimarite": "oshidashi",
-      "past": "0-1"
+      "past": "0-1",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1cec8d605215.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7611430a3935.png"
     },
     {
       "bout": 5,
@@ -426,7 +434,9 @@
       "west_losses": 8,
       "winner": "Fujiryoga",
       "kimarite": "okuridashi",
-      "past": "0-1"
+      "past": "0-1",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/02134f40ea77.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/afa9f05f0256.png"
     },
     {
       "bout": 6,
@@ -442,7 +452,9 @@
       "west_losses": 5,
       "winner": "Chiyoshoma",
       "kimarite": "hatakikomi",
-      "past": "10-3"
+      "past": "10-3",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e7eb13f08182.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/84d96ad326bd.png"
     },
     {
       "bout": 7,
@@ -458,7 +470,9 @@
       "west_losses": 5,
       "winner": "Hakunofuji",
       "kimarite": "yorikiri",
-      "past": "0-1"
+      "past": "0-1",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/43a7745f06f7.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f1d23efe738f.png"
     },
     {
       "bout": 8,
@@ -474,7 +488,9 @@
       "west_losses": 7,
       "winner": "Ichiyamamoto",
       "kimarite": "oshidashi",
-      "past": "4-1"
+      "past": "4-1",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/91e44232e5ed.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/bf8e8b24b393.png"
     },
     {
       "bout": 9,
@@ -490,7 +506,9 @@
       "west_losses": 4,
       "winner": "Kotoshoho",
       "kimarite": "tsukiotoshi",
-      "past": "2-2"
+      "past": "2-2",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/02163bbdf94c.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/63411af018d4.png"
     },
     {
       "bout": 10,
@@ -506,7 +524,9 @@
       "west_losses": 6,
       "winner": "Nishikifuji",
       "kimarite": "yorikiri",
-      "past": "4-2"
+      "past": "4-2",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4e269abf09cd.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/ce2c148d8d2c.png"
     },
     {
       "bout": 11,
@@ -522,7 +542,9 @@
       "west_losses": 6,
       "winner": "Gonoyama",
       "kimarite": "oshidashi",
-      "past": "6-3"
+      "past": "6-3",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f7717f1f7ed0.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/6acfef49babb.png"
     },
     {
       "bout": 12,
@@ -538,7 +560,9 @@
       "west_losses": 7,
       "winner": "Shodai",
       "kimarite": "tsukiotoshi",
-      "past": "24-11"
+      "past": "24-11",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f62639ffe161.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/dc81dd4d3947.png"
     },
     {
       "bout": 13,
@@ -554,7 +578,9 @@
       "west_losses": 11,
       "winner": "Hiradoumi",
       "kimarite": "oshidashi",
-      "past": "10-3"
+      "past": "10-3",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/61c1c591c525.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/a88dc0be95cd.png"
     },
     {
       "bout": 14,
@@ -570,7 +596,9 @@
       "west_losses": 8,
       "winner": "Fujinokawa",
       "kimarite": "sukuinage",
-      "past": "1-0"
+      "past": "1-0",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7d6ae672346e.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/8057faf4c1b5.png"
     },
     {
       "bout": 15,
@@ -586,7 +614,9 @@
       "west_losses": 8,
       "winner": "Yoshinofuji",
       "kimarite": "yorikiri",
-      "past": "0-1"
+      "past": "0-1",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/b63f0b1bdf33.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4f2ca042e712.png"
     },
     {
       "bout": 16,
@@ -602,7 +632,9 @@
       "west_losses": 9,
       "winner": "Oshoma",
       "kimarite": "uwatenage",
-      "past": "2-3"
+      "past": "2-3",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/237f8001784b.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/211e3175be03.png"
     },
     {
       "bout": 17,
@@ -618,7 +650,9 @@
       "west_losses": 8,
       "winner": "Takayasu",
       "kimarite": "uwatehineri",
-      "past": "4-4"
+      "past": "4-4",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/602aa26ea98e.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/86224e712662.png"
     },
     {
       "bout": 18,
@@ -634,7 +668,9 @@
       "west_losses": 5,
       "winner": "Kotozakura",
       "kimarite": "oshidashi",
-      "past": "16-9"
+      "past": "16-9",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/50ddfa8933a5.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2fa78077be50.png"
     },
     {
       "bout": 19,
@@ -650,12 +686,14 @@
       "west_losses": 8,
       "winner": "Hoshoryu",
       "kimarite": "kakenage",
-      "past": "1-5"
+      "past": "1-5",
+      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1e787d46ec35.png",
+      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/0dd255ab0b70.png"
     }
   ],
   "leaders": [
     "Kirishima"
   ],
   "leader_wins": 12,
-  "last_updated": "2026-04-05 17:18 JST"
+  "last_updated": "2026-04-05 17:33 JST"
 }
