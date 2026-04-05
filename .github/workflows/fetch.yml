@@ -46,8 +46,6 @@ jobs:
         env:
           DATA_OUTPUT_PATH: gh-pages/data.json
           JP_FONT_PATH: fonts/NotoSansJP-Regular.otf
-          JP_IMG_DIR: gh-pages/jp
-          JP_IMG_BASE_URL: https://alexfry.github.io/SumoTrmnl/jp
           # Optional: also push to Trmnl if secrets are set
           TRMNL_PLUGIN_UUID: ${{ secrets.TRMNL_PLUGIN_UUID }}
           TRMNL_API_KEY: ${{ secrets.TRMNL_API_KEY }}
@@ -58,6 +56,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json jp/
+          git add data.json
           git diff --cached --quiet || git commit -m "chore: update sumo data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push

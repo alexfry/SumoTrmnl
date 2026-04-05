@@ -254,25 +254,24 @@ def push_to_trmnl(uuid: str, api_key: str, variables: dict) -> None:
 
 # ── Japanese name image rendering ──────────────────────────────────────────────
 
-def render_jp_images(torikumi: list, img_dir: str, base_url: str, font_path: str) -> list:
-    """Render Japanese ring names as PNGs; return torikumi with east_jp_img/west_jp_img URLs."""
+def render_jp_images(torikumi: list, font_path: str) -> list:
+    """Render Japanese ring names as base64 PNG data URIs embedded directly in the JSON."""
     from PIL import Image, ImageDraw, ImageFont
-    import hashlib, pathlib
+    import base64, io
 
-    pathlib.Path(img_dir).mkdir(parents=True, exist_ok=True)
     font = ImageFont.truetype(font_path, 11)
 
     def render(text: str) -> str:
         if not text:
             return ""
-        filename = hashlib.md5(text.encode()).hexdigest()[:12] + ".png"
-        filepath = os.path.join(img_dir, filename)
         bbox = font.getbbox(text)
         w, h = bbox[2] - bbox[0] + 2, bbox[3] - bbox[1] + 2
         img = Image.new("RGBA", (w, h), (255, 255, 255, 0))
         ImageDraw.Draw(img).text((1, 1 - bbox[1]), text, fill=(0, 0, 0, 255), font=font)
-        img.save(filepath, "PNG")
-        return f"{base_url}/{filename}"
+        buf = io.BytesIO()
+        img.save(buf, "PNG")
+        b64 = base64.b64encode(buf.getvalue()).decode()
+        return f"data:image/png;base64,{b64}"
 
     result = []
     for bout in torikumi:
@@ -281,7 +280,7 @@ def render_jp_images(torikumi: list, img_dir: str, base_url: str, font_path: str
         bout["west_jp_img"] = render(bout.get("west_jp", ""))
         result.append(bout)
 
-    print(f"Rendered {len(result) * 2} Japanese name images to {img_dir}")
+    print(f"Rendered {len(result) * 2} Japanese name images as inline data URIs")
     return result
 
 
@@ -321,10 +320,8 @@ def main():
     print(f"Fetched {len(torikumi)} bouts for day {info['day']}")
 
     font_path = os.environ.get("JP_FONT_PATH")
-    img_dir = os.environ.get("JP_IMG_DIR")
-    img_base_url = os.environ.get("JP_IMG_BASE_URL")
-    if font_path and img_dir and img_base_url:
-        torikumi = render_jp_images(torikumi, img_dir, img_base_url, font_path)
+    if font_path:
+        torikumi = render_jp_images(torikumi, font_path)
 
     leader_wins = standings[0]["wins"] if standings else 0
     leaders = [w["shikona"] for w in standings if w["wins"] == leader_wins]
