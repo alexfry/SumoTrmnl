@@ -363,8 +363,8 @@
       "winner": "Oshoumi",
       "kimarite": "tsuridashi",
       "past": "1-1",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2ca89e621fb6.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/c5bd818df528.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAAB/0lEQVR4nLXUPcjWZRQG8N/1aqlN+vqmBNKUQlKiCb5IoIjDax8g2BBCOLj0AUJL5iZFi+YiCFEKOpgukQ0lWCI4SCFEQqFLKilukR9RtMRpeM5jjw9vW17L/+I+5z4f1zn3P1XlYWJiSJI80t/5SSb++8rsSGP8fG4bF+A0NuEdTCZZ3T7nsbH5W3gMG/A59lTVm23bhmfw3gMZqkrL9AWewFnM67N3MdP8Q0wjOI7vsRpv4BQu4krzI8O4E93BVqzFSTyLnUkmu4YFSaZGalqIx/E3/sTMLIotTjIDGR1ykm+ran0HP9xV/d4S3cBneBp/4WXsraqrsyS4j+EM1mA/Vib5Bh/hHpbhS2zBZEt6rO9MY02S11q6WyNxp6tqlb4wOofvRvhC7GkJHtUzaNtTLc9O7MXmsTg/jM9gbncxleR4krdb5/Vd0XJsbd/FBrP62GCjLmFHkrtJbiY5iq8fkMhgWzZhHj7BEnyKnzrwOvzYvjtwsLsKfsZSHGipPsCxJCur6vJoW8/haPP9WNSJ97X+9yVqn104hAu40mcv4DrWjks0B+8bbImq2l1Vt7vCc1X1W/NRrMCJqnoed5JswJO42jPCv7+KF3Gtqr4aJkxyBttxI8lZg036JcmKJBcMXu3Ftv2Kl/AHXsGrSV5n7B38n0iSqqqHlmCIfwBSNc9TabepDwAAAABJRU5ErkJggg==",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACv0lEQVR4nM3Vb6ifYxgH8M+1s51tnDjDaP6F08yKJPkz5YUhyr/Em2NiJRxReOGFzfxLwyu28EJnTmnmz2aTEyeNyLCjDC8oSVlNzKixIpIuL57rd/rt6cfUvHDX3XM/1/W9r+d7f6/rvp7ITP+XMe2fnBFxfETM+DeBIqI/Ivr3gZkWEfF3/ukFmouNLd8zuAXn4Y9W0JcwB9/iCZyIPgxExATuzsybCvs8xjNzHa7FEO7ryabSdBQ2ZWbnfaZGta86tu6JiXq+XSTG8SDOx0pc3IU9oAgfhi34BJtbc0lmNsq0Tj2AVzCCeRGxpVwzsCIzN7e2jODQOvVZOBILIuKnzJzMzF9xW0Rcjm8yc7inKvaumYMjYjXOxEdYjAfwI5biffzSQ9kncYEmZUuxLTOvyszJiLgkIpZX3d2ALyNivDVX9SLzM3bjabyFJXgVUXMhPi3s/FLs8IgYxQSOxlO4NCI2RcQ1eFOTnkcz8wrMxTI8h42ZeRlO70UG7seBmIW1mfkFDsIA1pfksD0zz8UuPIJ+LMzMK3Eddmbmusz8PTPvrLgwD99hELsjYiZ+65aZKmBciDF8jIHy7cBwq4B/0BTj1/gc5+DWDg4bMNKFPw3rsaf27dAU8ocVa2Vm7kXmdbyHQzCMY3AG1mJNV+A+vFzrd3B1pWlnvW/FKE4qzCAmKwvvlm1NqbQAY1OxW2QuainwAk6ujxxRtlOwunO16zkbH2hqazEe6opxl6ZfnYDvi/guvFHEt+OO9tU+G3MiopPf2diamZ9FxMN4tq7nokpN91iBDZmZEXFsfVRETMf1FXs+lmfmaGdTRNyOPZk5hillBnFj12kWVXpmddmW4Wbcq+m4r2m69ON4rNKwStMWTq09x+GeHk1zCC9iG4Y69tjfH2VE9GXmn7WOOuA+g0bEtIJOYfebzH85/gLVBXagc0wtUAAAAABJRU5ErkJggg=="
     },
     {
       "bout": 2,
@@ -381,8 +381,8 @@
       "winner": "Fujiseiun",
       "kimarite": "okuridashi",
       "past": "3-1",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4d570452c51c.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/92ba90e18d4e.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAABiUlEQVR4nL3UPWuUURAF4OfEXWTFLo1gpb1oI9isgrYqiKKWAUUCNmnExi7kJyhRU9qICGIwlgHTaZGAjWCjUTtRwXRRxmLfDW9k4wcYDwzcO8zMmZk7c1NVthNjw0OSsSTdDLDrXxGkqiQ5gOv4gse4ikmcxOmW/f2quvc3BB2oqpdJOjiCOezHccxV1d0k81V1CpL08OwXMbv4WlX9dgU7GqclrOMzzqFfVd/bBL9DknE8GhJ0Gv1lLOAonuMJDmMiyRXsS7KC6ap6mGShyfRnLOHmJk1VbQheYBqL+IBLOIZ5XMDZtv0owTiWhvf2FPVxEMFkVe3Fty3acCLJapLFlrwdZdtpHHq4gVeNbjbJWlPym1GOBhN1rUW6PMpoWMGEQe8+NllPNmS9LYL/MYaPPFtVlWQKo1Y7uIiZlu58kkOt++stCZrgXYMRZbALa5jCu8bkTMvvE2aq6s6ImLvbSQ7fYA+e4gFWcbuq3m+kn6y3I1TVMjb1vNmlFezErQ39f/vstgs/AOLXrYFmsc/wAAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAOCAYAAACl66WxAAACUklEQVR4nM2VXWiOYRjHf38mHxNKW5EkYkqSfB6IxYlRWJqmeGvJEUlq2tEKB5MjUoRy5mPRLGGZTNnBfLYTptRISstH1HzW+Dt4rlfP3h6vmpSr7p77+vpf133d/7tHtvlfpKTQIKkDqLL9TVI5cMJ2dTEQSfdsL/6NLwdUFUm/YvsMgGwjaRWwO5zLgC7gOzAKmAfcDd9h2zcl7Yi4vKwFrqb0HtsHftNct+35Wb4SgCiwESgDJgCb41sGbAEOAiNtv4i8W8DCFM4P4GtKvxSF58T+Yco3TdK5lL4IWG/7cfqaJtmultQGDAD7gacBVg+cygfa7gHqUqddaruObLkOvALKgWvAbKAZWAG8BD4MmkyGrAE+AztJrmM0MEZSY4DtKoh/JOlCge1wvpDtplTj2G4FWkM/ntXM9AAsJ+FJKcno3wELgCfAXNsdQKekfcDUjIO8tV2fKt4g6Wiol4HeoERl2Pba7i9sps92TVzTfRJSrgAmAVNCv52KX5dFREndBaZxJPwDyAFfgA0p/0igH+I1Bchz4A4Jod4Dz0iIuymmUwF02T6dKvogYzLLbVdk2P8oJQE8Gei0nZPUZrtK0kpgDslV9NrenpE/UAxc0mpgW6iVwGPgDTACmAn0hO+k7RvEZLYCDbFvA2ri2wicBc4De4hJRlx3fp9eWXZiqsDw0CcC7fma+TUsOpsBtEhqis5fA7XALKDddi3QB4wvMoWcpGbgRYH9CHCchBcXJbUAx0ie+xJJh37FDvXfJGms7Y9DSh6MU2r701818y/kJ6PDB6wxMulzAAAAAElFTkSuQmCC"
     },
     {
       "bout": 3,
@@ -399,8 +399,8 @@
       "winner": "Kinbozan",
       "kimarite": "tsukidashi",
       "past": "4-5",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e762df1ffd46.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/518bf3389f6b.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAANCAYAAAAjf9cfAAAB6UlEQVR4nM2TS0iUYRSGn1dnly1c2CYILEiIqIgoSKELhUERDRgEhVCIIq4K3AWBBBIuhyKqRaS7WdTCFjGFSVDQqqjoMrgR2rUqMBPqbeGZ4fNvfi+tPPBzbu/5vvc/53yyzXqRpkZBST2Sfko6nFcoqZTYkjQpqWWlCyVN5CZtL/mALcBn4DQwC2zLYgJXTuxLwDtgHHgPXG5UE9hqbi4DbAPeAsXwz8XhbQlmK9AFlIG9wBngGfAa2AF8AFrTn1uODND+DxmgIzrSmwGfB2aA/eF3AgNBZgw4AbQARWAOuJCp/7gCmXq+KebYDdwFRoGLkqYkzUmaAvqAG0BJUk+DSX8CBoErQXJY0riknbm7kSOF0M+Bp7Z/A/eDYNX2kRpQ0j0WF/5A5oze6NxRYBLYF13a9F9kbP+SdF1SetFmSZXEf2F7RFL2jBJwCzgF7AYeAD9s96+VTP1p274KvAT6bR8Hvoa+BkzbHknqBoGDLC7vAvANmAf+hJ5dK5EaiXSZDgG300UDHgN7EkwnMBD2GLAhyVUaPOVVL3AhQ2xa0rGaL2kj8Mr2mwQ2D3wP+xFwVtLJ8HdJKod9x3YFKEiqpvdk/OZ63DaStgM3V9HIIdtf8pKSKjHaNPbEdvcyNQ9tF+tk1ov8BU8/d77Dd7E2AAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAAB20lEQVR4nNXUTYiPURQG8N8Zoxk1ssCUzaCmsBmymikLMSlfZTYmjSJKbDQbSVFqrA2zmiZZSCgfC98hk1FjYiXfS5IaZSXsHIv//fOaGisWTp06995z7jnP89z3jcz0L63hb10UEfMjojEimn87KAhW4BhacSEz6/tdOFFfl71ujE7xZoxjHs6j42d+pXAEr8sFa3ALE3hX4qFK7kXMwQDWoh1jmIHH1YEaCrwZmIkW3McC3M7Mzsxsw6aCZjrbg8V4gEURcTci1kFjSejDK3xGZ70oIrpL/CetFmIf+nEdw5nZUz9shMw8U5AcLg0mMZKZJysIJ0q8s1B4ryBtwsNp21d4bcd7NV778ALXit/Akylib8E3NQ1247kavZNqmi2tatCGyziKWaX3CA7iU2ZuxGBEtFRm68e5ynoQ2zCemesz8zW/uN2AQ3iLLxV0L9EREcfLxN/LQOvxDB8qDfbjLLoi4lpELPnZIDOHM/MmZlcbFDuF5Zm5NTO/RsTignRgSt4QtuNRZm7OzDdVBHVbVlC0YnVEnFZ7JU0Rsbfk9GBPZn5EVGoP4ApWRcRoROyq00DtDY+pfY0rcRVH1ARswVxcwo6SPxN38LTU9qK3+gjqHv/Nz246+wE41d2A8YBSkwAAAABJRU5ErkJggg=="
     },
     {
       "bout": 4,
@@ -417,8 +417,8 @@
       "winner": "Tamawashi",
       "kimarite": "oshidashi",
       "past": "0-1",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1cec8d605215.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7611430a3935.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACWElEQVR4nM3VXYjPaRQH8M/DRJnVKuUCi7JTrJcSKdmbGTvlSqyVUZqVNnOFRHLhhgtDXMhE0tZeuNJQW96z0l6skrYVc/ePqKUkL7Vesq09Lv7Pf3r8Bn9XOPX0O+f7nHM65/uc0y9FhM9Fhn3qAkppgZTSDGyr3B3Dygp2ICKuppTmoyMidqeUujAmIg7nXL24EhG/NoJSSn0RsT7rCSfRFRFP38geEYMHG7Gygm3G8grWgj8xA1/icsYX4DcMr/j3F/pa3MBRDGBT4y5FhJTSSPyM6XiBW9iKffgGz3AHG/A/TmEcHuIVRuIl2jL2CF0ZH5+b7MUkrMdorEE/vo2Ix+9i5kfMwai3MYOxuFCJ66kygalYiJ5s78VifIFleI7VZVyDmSU5aHhmYUHu/AH+QGPlTuA4pkXEQDETtYhoK+xpuI25mInvsn0QK7AER7AF17EnIgZacvxZ9aHqzHSew3bsxwTswrmIeJVSakVffQ4HZUJK6ZI3pdtQ6cZNdKg/9bzM0jgMMvMDdmYWJuJJo0mMwN/4Hjsj4kjBwGhcVJ+rG+gsNySltLDCzC4cytftuIR/ImIdNN64HfPK96vMQMLXmF3ZqLNYjVru+oxik9Rn5hruZp9W9OEX3Mvf7YP+ReCsnLx6/sLpSnGT1Z9yR7Zr+duL85hSFNOT9b1oLXJcGNL0u9gogo5iUWEvy512F1it0H/CfSxVH+BVRWFr1DerP/s09M6mxeT5+b2CfYXJFaxWsdswvknuIcykZj/KlFJLRPzXxGdERPz73kQfIE2L+ZjyGtQ56xSHnvO5AAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAABh0lEQVR4nLXUTYhPYRgF8N8xI2lSo3yUhc00aaxkSopJyU42NoTErOxsKLKysLKRj0jKymJSLJSiYSOfOymGWSkW9lKSHou5/+kaf/5jak69dZ973vec5+O9N1VlMbFkoQczg/6e+/63giTDOIxV2IyHeF5V95PcxQXsqaoT0N86OIm1nRDD+NDS/lJVu6pqOslLDGGq4b4nuYpN2I+BJFur6oWq+mOhD9PduIa/jePNeowNGMBnbG/v/e8ZJFmKj3iKdbiDTziHSQwlWZNknL/MIEkfpqpquAu3DT+xA18xiOV4hwc4jWW4VFXvZw2S7MOpjg5G8LalfbGqbraMnjSCP+bkcKSqRjrB7JCragIT7Qowit1Vda9bu5oK5hr81pJe97hwNMn6qrrShR/sYnCtHfxzyDXTv0MYTzLWI5kOViQ5k2RLT4PG5Bv24nXnXZKdeIONjcYoVpr58AYwVlWvaG5RkgM4OY/szuMRbuAgjuFW83wZZ7Eaz6rq+qzBYmLBP7v54hddgKkBAsMnWwAAAABJRU5ErkJggg=="
     },
     {
       "bout": 5,
@@ -435,8 +435,8 @@
       "winner": "Fujiryoga",
       "kimarite": "okuridashi",
       "past": "0-1",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/02134f40ea77.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/afa9f05f0256.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAOCAYAAACl66WxAAACUklEQVR4nM3UTahXVRQF8N8u+zJKUwcmoUhSpGUvIqGaCUpgJghBvAY6CE1EbZAQ9SKyGghBQkSSEIlIgzcosCDsUyiMBwYFQYGjqEcGiRk2e64G9/wftz9PhSJww+Wevc9a5667z967krhc7IqLbVbVnKr6/FKHVNXmqnr6v4qpJKpqBT7BSdyBUezGVViJEw2/KclkE3AQi1v85ob9qXf2oSRvV9UGvI5fZvj+YowmOQazehvvJ9lWVceTHMXRqprT4mum1Vetwe9YnuS+qlqFuY1zITuMpbgBwQS+wQOoAeii13QBO4UtPX8UCy7BOYMn8BiuTbInyQeY6ovpZ2Z9VS3DsqErUFWTmMThJK+1jKmq6/AQ7q6qV/Er/mi0h5Oc0/1wsBfzcGdVvYtvm5grpxW0blqBN9v6eBL9Bwdw71BsAk/iqR7mwRm4m7AV483/uL2PYAzrBth+Zqatqt7A8l7odtxTVfvwM57BfNyC+6tqXcOPVNWZxnkryThuapyZ7E9cPXBmFIOdeBljSaaq6gD2JzlRVavxCp5LMtbEF37EeazNP4fXAnyH01U1jpXtPYGzuH4A7BfwI22mnE0yhb/w/LDKJJ/hNnzRC+9q/pd4fIiyCt8n2Zrk0SbsBV1mT2N+Vd01OByWYMfQXc/Cs8M1g2vwg65VZ+NFfK1r27ltb7cu/YvwFTbiIN7Db/hIN5PWYz/2JmG44IYE3Ypjuspf2GIj2NPWH+IlXbsOOPPwDrbrCncjFjbxN/ZwI1iNT7E5STeBLxf7N0Pvf7O/AZm1JaNepPIQAAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACtElEQVR4nM3VTYiQVRQG4OdMA1MaDJMg/UsGEZn9D0UUUrbIpITIEsoWRQUVEmFFDEnMIqEIcpPgLCQMoyQnajGgNNBMZBFEUVhBYdRihpGsECLt57S4Z+RrGHdCXrh899yfc9573vfcLzLTydJ6TpSjiOiNiDihYCJiPCL6arw4IkbnCTowj68RXHIcoBsi4o6OPRwROzp9AURmioiVeKL23oB9+Bun4nJ8Umuv4Bdsx+2Ywru1thw/4DA+z8xnI2I5NuEmTGIRJrAiM28sYHtxV2b+JjOVbl7FLiT6sQTXFIAzsaSz91aMz9o1tx3LunM1fyVGNRYexCN1uR3Vp9CfmbqHRus7hoV4DUNYgZdx8ZwgZ+BF7MWv9f0JH9V4VYF+D+fgHmzBormAZ3vvfBzjNvyOx4u207AgIjZl5kHIzEN4uqh4JjPvi4gt2Ia/cBH24IOib3f5HouIQzhQ9s7MnMR/wCyNiF1YrOlkIf7Az7gaX2u6GC+ur8dVlYGtEfFo0TxUVA9n5pEqhqOYrjiHNd1N4+gskLlgpjNzbUSM4VOsLorOwrllTxSQS/Ec1uB1TQPTGMSfeCEzv+34jk6sU6r3mlvNHQ0cwBv4rsC8qYlvMzZqpftA7X1bo28QX+Czyuhl+AZ9Hb992Nexh7DmuJqJiLMxmZn3R8RYZq6KiJuxDOfj+8x8qPZei4HM/DAi7sa9Wsm+g4ECfKRz3z7sj4iRTpYuiIj1RddqXJGZM7NpWon9x3IasRZPYWkdviUinqwX9nQ8X1l9S9PHnRW0B+sj4rryE1r5jmhF8FgB3qhpcgOmMnNGh7MLsTsiNuMgZrBOVURmrtM00Z+Z72fmRLS2B8PaIzmoCfpHbIuIh7XH7qvM/LioPA87C9BL2IovjyXh//xRRkRPZv5zUoCZ2/4FHmpJBocXJ1AAAAAASUVORK5CYII="
     },
     {
       "bout": 6,
@@ -453,8 +453,8 @@
       "winner": "Chiyoshoma",
       "kimarite": "hatakikomi",
       "past": "10-3",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e7eb13f08182.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/84d96ad326bd.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAYAAAA1+Nx+AAABMUlEQVR4nLWUvUpDQRSEvwkp/AUhhaiNBkEkqKX2lla+QCCd2Iq9VoJPIIjYiAFtbCSFpYWINrFJoXDxLUw1Nptwc9kNivHAFmdm7p4ZDntlm/+sUoqQ1P7pJZLeU1w5CJaBywK3IumxgNVtZ+Gb+5zBeUmtnG7P9md/ADAJfNhuDHF5C0zkoKrt1YiuCUwNJMiRR8B25P5WBJsLQ4u1NdDZjh4gS3GB7yTwJlDr9eXi+F/UgqSHCL4GnAwkAGrAU+F8RbD1YgJgFngGSqFvANc9nVLvQFJmeyllX1Knt2RJF0A7uO8CB7a7/QR/3QFQATLgtKgbtgMlnAuoAjOSjoENYBHYAW4kTQNnttvRBMAd8AJcJZxXgFfgHNgHNoGxwI0Dh8AbsDt0B6Oq5L9oVPUN7bn5OjHLtDQAAAAASUVORK5CYII=",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAPCAYAAACbSf2kAAAC3ElEQVR4nNXWb8ifYxQH8M93/55NamutmSE1EZNYNEltTRhJpDZMKbzCG4xN3tCkRN7In/BCa2yNpZFttDWRGpsStqHGjBdqiUxtWThe3NdPv349z5M/jxc7dXWf6zrnPv/u7znXnapyLNK4/9tBkontOTnJmPmbMIrDKZiHBbgYt1XVwQGdNbizqg4leQPX4SGsqqqjzcZmLMJ9mJ7kvPb6u1jY+Duq6vMkc/D0KPFurKrnQFVpcLkJT+Et7MMRbMQDmI9xPd2mfzk29O13t+eNeK2n32yciG0Yamcrsbjxj+PCxp+LF/ts7sL4fr+91V/xg9iC/fgGe6rq2uHSThI8jNsHZVW1LskQpiZZgPOxDmfh1iTrm+qUJDOGMb8oyauNPw2vJPmj7e+pqu/og0pVbR0IbriYe/Sg7ivsaRg+FeOS3I2Tm8MjVbUeryfZUVUnJJmOF7ATs3Ww+HbA9jtVdUuLYReWVtXvgwGMiPGRKMkSLMFXWNqSOIApOki8j9XYl2QeHsPcJFvxLA615N7EFZg+4OJvVbyHpWX4eGD9OszZMtyLOW0/1IfHR3HVcHjEB338NNyPxZjkv2C8qtZi7UBl91fVvFEqP3j0Bc7Gpj6dCTgHM5K8hI+a/KKW+Om4Bhv67FyWZEvjz8DmvorD8qra+4+hMgrtxBM6aPQaeKVuFA7heczEy9jdAp6Pz/ps/IYLcKiqDic5Cd/jyqralGQtwhheQFW1F7OTzEwyGU9W1SNYgW1V9V4LdDG+xC+6kfp1n5m7MAtrkhyvg9Ek3JzklJb4D2MaeKNndJPiEvycZDxWaVCoqhVV9ZOuatur6sfGSzJNV+1PdffImbpL6lLdAJism0TdJTgc8Ftj7B9J1uQf6mvOgSY9gLm4Wlf5nmw83sYnurm+TQebWbgB1ze9hbqJMg1TsRzbsbpnKyP9ZCU5rqoO/8vKjym1fplYVUf/OjtW/w7/BDkIlNTUDQRaAAAAAElFTkSuQmCC"
     },
     {
       "bout": 7,
@@ -471,8 +471,8 @@
       "winner": "Hakunofuji",
       "kimarite": "yorikiri",
       "past": "0-1",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/43a7745f06f7.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f1d23efe738f.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACB0lEQVR4nOWVzYvNYRTHP1/3spDGS+mqWYiykCjZUFNqysZbmZQdriHG0CjZTTOKspDsGNT1B4iFl66ahbxEmrCSMgtqqJuNjSnK+FrMuXeeufPoGgsp3zo955znvD7Pc34/2eZfwZy/kUSBWRUjab+kg4lckTSc0OJMok5J1RZ5jgJ7E5+RnFExNruAHqA9GtkD3ABW294UNlVgXibGTuBWLrikzcAQMBZxB4B9QEnSncR0yPY9bDcI6AYOJ/KzhK8CpeB7gRrwJkM1oC/xGwA6gE7gdOjeAifrVLetn0w78Bh4HnIfcAhYIGk4ql/f1Pig7SuZ0+hl6sQPANuBbUAB+CbpXZxmIVxuAheoOwUe2i5HkHOhG7e9JXSt3sUM2K4AlUzBp4D5IS6s69NiOiRdD34DcDdxyKFf0pGMfilwPkn8HngQ4g6gBBwDXobuaa6YGQ0AKyXVA61r2j/b6poCBr4E/yPWT7Z3NfsWAWx/BFZJ6gaKtssxxo9sb40ks76mQM328YixMXRLJF0Mftx2f6MYST1AF1OjvTs6evKHBaRYJuly8MtjNfA1+IKkou3vvxxtJt/MmmTvPtNHewx4laEPTB/t9PMwwuQUvUh0K4ATjdFuhqS1wKjt15LaopA24HPS2RnbVzO+ZTJvUdI1YK7tCUmjkm4DE8Ai4BKA/rsf5e/iJ8Y/58SkYDB5AAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAPCAYAAACbSf2kAAACM0lEQVR4nNWWTYjNURjGf8/tlkEaStHMbAgzCaVsTJFmYTOLMYsp0iDJzkIWU3YWs6CJxayQ2aCxpolSwmLULEzGV00jNkOJULgL9/ZY/M/lON3rfiDNu3o/n/fp/3/O6cg2C9Fy/5tAs/YLcUlrJV2M4huStv7NhZIeNND7tFotn8QHgDthaBGwCXiUgC0GpkK4AZgNfgswa7s36m0HHgIzEcRnSbejeAvQbftFBX5LahKXJGAPsF3SXWAZ0Arcy0pM2h6yXQA2h5nntsv+TmCwwo77wC1gW4XaNPCxGrnfWfzFDwOvbRcktdr+IRFJncBIDawOYD5O2J4HBkJ4qcrchcYoZ5YPxNqAM8BkvYOS8kB8Ja0BDkrqC/5u21OhdxRYDbyL+lcA32wPhp59wMlkTbukx0nutO0r5S9+CDhPkECdth6IdfkG6LM9I+km8CHpLwHFKI59bI8D43FO0suyFFMrEz8HrAJGQ7xO0nTU1wLMJbPdRIfO9lhUWw58imrHKi3/E8sH4IKk+LfP1aHxI8DRKrgrgfdhthcYBsq/vBeYCP5G4Kztq00Rb9Qk9QDYTvVX1n7OdilKf+WnvouR/6WZ/VCdeFWphLt5DOhPCC8NBHuAZwnehO3h0LfL9vHgn0gwrgGdUaot4fHKdn9KvEh2wACu294fAXaQXZeQafuU7RgQsltpB/AWGEpqA5K6gv9E0uXgd5GdLwBs76VO079+ZEnKhT2lms2N4C7U1+F3axG8A2Q4ZJYAAAAASUVORK5CYII="
     },
     {
       "bout": 8,
@@ -489,8 +489,8 @@
       "winner": "Ichiyamamoto",
       "kimarite": "oshidashi",
       "past": "4-1",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/91e44232e5ed.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/bf8e8b24b393.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAABL0lEQVR4nM2VvUoDQRSFv7NRU/kEgpC0PoBdwELEypewEOzsRLCwCNjHN9DawgcI+AAKWqQIuJDG0kYEf9hjkS3WTbJxx3XJhcvMnXNm5nDnDle2WRSL6r5Q0uosrBIxki5L0B9mAVVlZrOKQ5ZCNklatz0qwFu2Y0kd4CIHr0l6zK0d2r7FdmkHBrl4WIRn1vtAAtxMw2srYEl7wAswApqStidIqeIT4PkXfhqSGWCZceG2gRjYAO6Bxg9eHc8EdIFuOo/TsQecZXlBBVzGJB0BHSD/LMdAX9IbcG7b/ypG0gGwC+wDd5Jg/JsGKWULuAJegZ5C2oGk4RxKw3ZbUhP4tJ1k9sa2W5k4AiLbX6GZebK9UyD2GsD2+7yDUqEJQFBm/mKSVmx/TMUWqWt/A9RKOCdnlXjbAAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACoElEQVR4nM3VTYiXVRQG8N/555SE1iCOJJWFLgzCdAxDImkjGJFOq4yMgbBaGGG6iJgiAgnUklpl0KIipqlFRYwUVEIUlDFIBn1BMRItQhISkpjs47R4z9/eXiZmEYQXLvc95733uec857n3RmY6V1rv/9wsInoREXMGExHDEfF8RFwSERNzgL7Vsb/p2Idb3xMRcUeZd+Kxf8XNTBGxBJO4HTfWgv4GR3ArBrAnM8cjYhqftHBuwaGWvTEzhyqYC7G/MN/AApzsxPFCZo4rzTxcQWyvTQbxbv27DyP1bxvOwyoswerM1O7YikWz+Ldgoutv93mQmY9HxFrchkcz89QcpX0CF2N3RDyES/FxZr5cQd8QEXuxpvr+8h+LiMkO3nRm7uwDi4gBPINXMRoRH2JdjVd1Fv+OaczHH7gC87AhIi7AnziAy/EeFmNfZo5gCGMYx+uZuRnXtrOEfbiowPdgI6YycwO+7gSzuXxf4kecwmmcwAw24Vksy8xfM3OXv0W7FD9oZPBTBT/TB+4L+HpcjTNF65OYwlF8WuNizJSAF2qE/SC+R+BnHK9xVWYeP7tJxHAxsgmf4UqNiM9gOZ7LzLEeZOZHRW+7fVE0nmg7I2JQU86pyvCaSmA5lmkEvrYz/6BG2MeK7XdwM0ZxKDPHaGo9WwvMj4j1Gk0Mao79qObUPYWV+AV7C3wrXilW1+O1wroHLxYbKyPibY1OLtNIY2lEPJCZT7eP3nbcj8P4tpj6TnN/jMxyVA/gOrxU9oSmpEP4AAsr2c81d8sw7u5g7MRdZ+1OMPdqbsl1WFD+HdjSmnc+3sT7xeBXxdRkHxg3YXex8cgsiazQlPooVvT98V8fyogYyMzfIiKyBRYRvczs6rC9rof8x5pz6dX+C6HrUhPNlHs/AAAAAElFTkSuQmCC"
     },
     {
       "bout": 9,
@@ -507,8 +507,8 @@
       "winner": "Kotoshoho",
       "kimarite": "tsukiotoshi",
       "past": "2-2",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/02163bbdf94c.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/63411af018d4.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACbElEQVR4nM3VT6iWRRQG8N/TvRGamLkxELKEWiQF4abIRQVuyoSsVUF5syijKJA2EdaqiLB2JQW3cpFCtCnjCkJRShaSIaiLNAoqqCSE0v5x7bR457u8fH1e/6w8MMyZM8887zNz5sybqnK+2AXnujDJ2FlgkyRnJSbJ2iQP9saTSXb22qUtfhF2J7n4DPU8ivt6vHtHiq4qSdZgPRYj+AHvYqKqbmwEU1iLS7AOBzAXv2ECc4a4X8Tv2IzvG+9S3I93sL+H3VxVH6qqmdY+8nBvvKfnT2ERbsVRXI49mNvDfIxFQ5wbsaKte67FvsaGQRtgx9uuF2MXvmjjJ/AQ5iXZ2dRfD1X1UZLn8VU7+itwaOSxJw9gFW7HGP5O8i1WtzG8h03oxDT7pKomGskLLXaiqla22FQPuwtvtZP5IMktVfXPsJiqmsTkCJFP6VJMl3bDYlYkebP5y7G9t6BP9AiebXMr8asuva8NYxv+O1364A5dqh/Dvhb7bJSY//FgaZIB0XWt34IduAs/43PMm4WncLz5/7b+l6q6cxg4DlX1I65Ksg7jVTXRyvjTqrqt7XCQpj+xTVdtY3i7qm6aRcxPVfV447ihxRYmeaX5J6rqmRkxSdZjjVbaSe5uO9o9gvxqHGn+NL5Jck1VjbzEuCzJIIVLWl/4q/ljScaravqUpa27M8t6czt0+X4a9+jK8l7cjOWzlHb/edirO80ve7Er8eRMaQ9bkmtxuKoOJpnfhMzHMbyOP3SPJF01vNR77bc3f2tVvdzjfAMXVtXJJIeTvI+TWIBXaS/wuViSBZiuquOnw54x5/n01/4PqP4Qts5/LxQAAAAASUVORK5CYII=",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAChklEQVR4nM3VTaiXRRQG8N/pf73htU2GQSK6saRPrU1EuNBE/AApzQwSg6DURUYUUQtFRBQxUK9lcIkQXFReg0BEQsGPUhcZQiq4aGEiiqklfi/K4+Kd/+X1Ra+iEQ0Mc94z5z3zzDPPmYnM9H9p9/1biSKiMyI67ylHZoqIJ/FxY+5bzGr4ujPz54jYiAdxAp/hMbTwALbik8x8pwZ0bWa+W+zAZryemRdvyJ6ZfR3vYVbD9wFmNHxby7ijgNiMJXgJyzCpEd9bs9/CQWzAIbzfnusoaO/Hl3gcVyJiCj7Cp3gClyLiZSzIzL8abM3DQ5iN5zEUoyLiHP4o3yLiOQzHG7iC5ejF+v6YeRPPoutOmCljF37CI1hfi3sRc8uiKzGpHOUruIzZ9bxtzUwrP7VwCS/gYZzGHrRL7rvM/CYifsNJDMY+PIoROICx+LEA+B1PYQKO4nPMxDT04EP8ihWZeai9gwEITMQv+KrQu7GAmYpWbcfba5oZWQANLL4p+OIWzCwqxzQAP5TxNYyvM/OqSoB7MAznChOBThzHdCzJzJ6IOI0jJfYy3i5H+2dmfh0Rm7BdJdQ6M8uwruQeVzZzoV15HWXiLOZk5n43aaUcu9EVES3szswZEbFTVdoLC5gjEbEAh7FTJez5GIIxWIwzKt1cw1Uc61uoRv3Tqjui2Q9gSyOuuyHggdhbmByPpfVjKvZKDKrl2VYXb19pF1AHMfkmrGxQL79K3IcbYQuxKTMzIobjVPFfxflif4+ZETG1fD8TEb3F7snMbZroGiU8DLsavkWqG3eLSuirsUr1tKzBfozuL++tmInbPZQR0ZGZf/cz38rMf4odkHf5+t4WzH/ZrgPzB6jKn0Fk4gAAAABJRU5ErkJggg=="
     },
     {
       "bout": 10,
@@ -525,8 +525,8 @@
       "winner": "Nishikifuji",
       "kimarite": "yorikiri",
       "past": "4-2",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4e269abf09cd.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/ce2c148d8d2c.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAYAAAA1+Nx+AAABmklEQVR4nLXSTYjOURQG8N95m5omZkFWRpkFkRg2FhYWGvX6nCRFs/BRSllYKpaymAWb2VhYCKHEQvkoSykzZSHykZ2aHSVTEmmOxXtn+s/tnaLMU7fbfe7pPOfjicy0mOiBiFiBO4X7isP5D8oRsSozp7r9tcrdiymMoh/XI+JF47yKiM8RcbaRdGlErImI5XjZ4LdHRP+cQil0ANdwHCczU/NgHW5W3EXsQxuJDdiMB2jNxvVUHe3B6Yg4gFOFe4571UiGMIPHeIpzuFCSn8jMmXpEs5jADqzGJRzBlnqumfkaV/EIk5k5VkbcRl8ztu5gHE/wsE7aqH4J7uNnKeJZRNzOzNGIOIRbJWY4M6fndZCZv3WWvCAy8zv24gp+YRAHI6KvCL/DzsycrjuIiLiLt+U9hi86O6ixDOcxgqP4gWGsxafM/NasiOKihkN2Y+NCLsIubMJKvMc2vCl3zHNbN4EuNl1fCbSwHx8wUrhjRaSN3r8SwJDO0idwpnCDmMRlDHSJv4GP2JqZnXbKAlpN//4vzAksFv4ATEnzGFGEvtAAAAAASUVORK5CYII=",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAB+UlEQVR4nM2UT2jPcRjHX+9fC1daETkoxcG4YFKrrRWHnwMHSiMXZ7XkwsFh7eCkOChyIlM7aL9aHNTEYWXZlnGQ1s+BUpY/MQnr7fB7vvPp6/f9jmny1Lfv8/95f57n+Xxkm/+FKqkgqSXvIGn5PwcjqRV4I6k35/NQ0rKyJJJGf7egpKeFtmxMki4Ao8Ax4BJwBniW+HYDbcAKYBx4XFJzK7Db9nQTMHXbG5oFtYTDPmCj7ROS7gJngVnbR5Mkt5O4+8AdYHuTnBPA+xKghZTtSAX4Iuk18AToA3ZIupL4bgGw/Qo4GLqrBXkvLxqM7RpQkzQIHLf9QVIKFkBpoKSLwBpgJlGvBL5lHZV0GDidq7lO0lROd8729WxMe4BTNGY9JKlmuz1sD2x3FBxmDvieyCmP7QFgIHeIuu22ptligVcBe4FBYBtwKE48QmP+I8A0ULXN33xAvciWXe1PAQCgI+Qp213Jf34PJFUlTUq6Ft/bhH8kqaegk6VUie58BZ6H7mN0YiH6HN2boTGejJ9dDBD4ebXXAy+BI8BqoIvGPhD2ncB+4FYSO2y7P+ydtnuDP5kWkHQT2JSo1kqaSOQXtg9APHqSuoFdwBgwZvtdkuye7c5cgSrQD+RvBcBm4LztG+V9+JXmX+A/CpIqETu3oPNSg1kq+gE94fJ89wEdQAAAAABJRU5ErkJggg=="
     },
     {
       "bout": 11,
@@ -543,8 +543,8 @@
       "winner": "Gonoyama",
       "kimarite": "oshidashi",
       "past": "6-3",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f7717f1f7ed0.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/6acfef49babb.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAOCAYAAACl66WxAAABkElEQVR4nM3UuWuWQRDH8c8kKRUrFSwET5AoHqhoo4g2gRTqf2CjELBQbGws7Gwt1TIQtDB4IAQsIxYe2KlESBDBSguxEDx+Fu+TEON7RIPHDwb22Zmd+e7s7lNJ/C/q6+Soqv6/CUIXGLz6EwWrarSjL4mq2o+Ti8h1LcmDLoXWYEWS511ippJs6gizgHq6TdzOJMO9SKvqIlYnOTVvbm2S151gqmpdkml+PqZt+NLGtvcCaXQMVxfMTfRYc292MNDQLcdenO2wYLKqDuNRkg/tAqrqED4lebwY6naa7cxmjGBZFxvBlg4gA7iM878LQtMZvMMYtmIIu5vvA7iN9xjF2w55LuFFkvtLgemDJDMY1OrQGCYxg2e4gT34Nv8iQlX1VdWVBv7EUkDmYBo91HpJG7V2erSBGsfpJLcWgAzjKVZhKMnHpcLMPe2qOojPOIKveIJ9eIPjOJPkZRM7qHVsF5Lc6VqgaqoHQ3+S9aCBWdkkP4cduI672NX49+EmNiTxK4aJHv7x2fEPP71/re/gQcuaYBnGJAAAAABJRU5ErkJggg==",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACfklEQVR4nM3VTYiWVRQH8N/fKcVqCsvCksZF0apAaVNW0AcuElpV0EirQhGMSIigxSstXERQmUkuCprVzORIEmVCBDN9UKushZFRYUUfRG4KpEUfp8Vz33x8nQhaZAde7rnnnHvOuf/zv8+bqvJ/kSVnomiSpUmWnmavKklWYqbZjlfVZJLV2Icbq6qSpP4FjEn2YQW+wx5chTGch0N4tKq2cBKZZfgG92I8yZJ28GdMJ/kE2xcptDbJk0nmk8wl2ZZkbCRsvKo2YAKHcQ+uxKfYjJeHgaNj2ogDmMIJ/ILH8CueH2nkYTyB17AGA6zEfJJlfwPUVlzULv0I7sDmJNeBhvxqvIhZXIy7mv0p/ISbqsrwh9vwOs7GBTja8w0w6O0PtXW+refgXVyKqVPyjjSzExtwNZ7FQTyAL7AbV7T4hZ5+M2Z7xS/E4d7+c7yDj/EC3sKXbQLH27ppsWbG8UY79B4uwdM4H1uwXjfaI71iO7B9BLnve/qbQ2R0XHkfy5ttI/Yuikzv0C069r+iI/YMZpo/+KynH8FEr/gafNTb/9iQOdbQWY9tmGz+/dhaVc5yUtKe+Aody9c2TuypqslhUHvm3ya5HZfr+PJ1L88OvNoSjuHtqrozyYLuhQ6wDkeTPNgaXBgmHyIzhTls0jF9ZgSZx3u3XYev8AEu0303rsVLDalzW9w12D1C4OU6CgS3Yucwbx+Zqqq7e3vtw3cKMi3wwzaOYdxD7cbTuK+qTjTX9e3mfRlgf0N4Aj8MHf1m/miJV2HvSFMHmjpXVdNOl+da07+N2FdhNslBHEuyC4VdSZ7BDbj/rzr/5R9lkrGq+r3poRvHGWnmn+RPvndeHp0l4bYAAAAASUVORK5CYII="
     },
     {
       "bout": 12,
@@ -561,8 +561,8 @@
       "winner": "Shodai",
       "kimarite": "tsukiotoshi",
       "past": "24-11",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f62639ffe161.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/dc81dd4d3947.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACS0lEQVR4nM3VT4hXVRQH8M9pRh0ZxWbINFHUhZgYghlqCw03iohg4UJQXEigSzel0sJa1NAfFyWJIeomClHBEfFfgoLgn0GJKFC0jQ4uWrQIXFggx8W72uv5exORCy9c7rnn3HfOud9zvvdFZnpexgtthogY8ywCRMSosvZERGu8EZPBjRECLIyI7UVeFxFbaraBiFhT5LE4W0zvYVdEnC/zw5o8B2Rmx4kbI9i6cR1zMQGXiv5NnENX7ewxvFL0Y4puG1YU+XMsykzdLTfvxZ8ttgk4gXHYh4fojoiLmIXfcSEi1uENLMD3mINNEXGouBobES/VfXeXAMvxZUM/NSKapXofl/AgM2fXEtycmd/U9ofRk5mDGIyIy5k5KSL6ywWGMAVf4+4T7y1l2FSQ2dBSotcautuN/avowXz8gD/K+g4OYjdW4Dj2K2WKTtSOiO/wC5Zk5sqGrVdVpvpYhKsN3cbMHC7fXMnMxUV+EVvwI87jYxzJzKudUHkZwxiNnzFvhEYeXyC/j8sY1wHF+fgV32Krqq8GCzJzcesxMp0C7MaOIq8t8EZLuU5hA25jI076J5M+ULFoGEuLvyEcwB5cw9GOyWB9QaO3pjuLTxrnpuM0Pqr3DAZwBjNqZ1/HwSJ/hj4VtT9Fvxq167fciTuY2Qjch5vYW8ryNu6VnniqgfEufsMadKn6a1XD53Z/vzNfNJNZpnqcJrb0Rj+O4C1Mw/R/YdMsFXVX46uavqsg95Pq3TmnIsrkVjb91xERozPzr//t53n6az8C4dS+T5Plj6gAAAAASUVORK5CYII=",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAOCAYAAAA1+Nx+AAABPklEQVR4nM2UzyvEURTFP2eMH7NRNopIjZXsKDuKhdJsjTIr/4JibWMxxUqxl/Jjq/wHNqPEwsxQLOwtsJGSY+FNPd/8mMwop27dd+6P8+7t9WSbv0SqkWJJO5I6g38oKS1pVVJbLScdgi3AeaK+H7gDniJu3PZ9qJkGMrYfQyxr+0VSGdiXNGv7FdufGrAHjH4RE1ACRiLuIvIXgC7b7xP8AivAGFCW1AoMAClJi0AfMBgmP/ggIKlqe+i7zpLyQB64AeaC2C2QAXqAY2AbuAZIjl5NrOgKOAtWDPwSkA1ce5RfBHLJdf60ooLt05iwvR4mSeZeAsPAUUw29EwTOAEmaweFGzRNwHYF6JXULakD2GiqQMAWsAlMAQ8Aso2kArBcR4M127sAkkrAhO3nOEFSEZgHZmxX9K//onrwBjq0q+p3NlvDAAAAAElFTkSuQmCC"
     },
     {
       "bout": 13,
@@ -579,8 +579,8 @@
       "winner": "Hiradoumi",
       "kimarite": "oshidashi",
       "past": "10-3",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/61c1c591c525.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/a88dc0be95cd.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAB5ElEQVR4nM2Uv0tVcRjGP8+9F6wIaSkSKqQbOoVFEESjbZVLCREXJNTFoVuTJA25BDZUirZFBYU0CQW55NAPyCUQcqkLrTn0B9QgT8P5HvlyPOdydNAeOHCe533h+5znfc9XtvlfUNnJwyRVJGnXzEial3Q90AZwr7A3HZOkd8DRqNYD/Ij4d9tXJZ0F5kr4uGn7i6R9wINgYgHYD/zO9D63/QrbBENVYDTireh9HNib8u08wAAw366nllqzvS5pUNIH2xuJSDoBDNieirQ+YAlo5SRyCJixPS3pInAqJDMMrEh6m+n/abuZmojdN4DJOBlgFric6esr+spwaDO8dwCPgIeBPwFOAteAG0H7vCmZgDfAkYy2YHspo1VzEtkE23+B25I6g9QF/ALOA2uSOoA/aX8NQFKDZC8IHOCYpG8RB5iy/RI4CPRL+pTj4TBJmjHqkiaAfpIl7iZZ4jvAcUn3bU+0W7hWm9oQMF5QuwBcivgBYJnkGvkYtKchpV7gWdGYyuIc8DqvYPt9RhoFXoQ0eiUtAmdI1qET6JJ0y/bjLSdDMoYVYE+J37kGrJLcLaeBkUy9SVhk22zHzBhwpeTd0g3czdHrIdmvQD3VN27gLCRVba+XHtwWIakC2JGBQjO7gX/f9+JvL4eKpgAAAABJRU5ErkJggg==",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAAB8ElEQVR4nM3UTYiNYRQH8N+5pkZjwkKJJLEQUqRsZGFjM8gsaHxsRGQxDQs7C1lICiVJCitJNsoCTRa+jclHIrtJWfhakQWrY3HfO73e7r3mJnLqqff8n/95zv855zxvZKb/xWr/MllE1CIiJiQmIvoiYrCCnYqI1X8g4HJEbC3c7TjUkpyZ4wtT8BLdhT8HD1Ar81otzMaiCtaD05iBe3iO4cralpmiMTMRcQ3TSjpX4knJ/5KZG39ThcOYmZl7muxtwJbM3NIqvqv0fQblFiW+lfwL7YQU1o8dJQF9WIZj2IkXEXG9EjOWmUP1jK1L/mYirSnx12C0gnXjJE4U/hksxQB2FNj9Br+ruMFaHKgonhsRwxXsaGberpYjIrpwCvvLeGb+wP6ImFpAs/Aeq/AhIrrxvRzQ7JYzMdJBVY7japv95biKr+pD/E59kEfwGUcyU4O8ya/T/bggNZ36UpIazuEOelsImV6cV8PdAjtfVGkhLo5zmwRPxih24yYmtUiyDi9wDT1tqnIAezEfH3EDn3ALj/AW+34Roz5s/XiGoQIbxEOsLYvCkqLM63/Tvi68Qm/Rql2V/SHFIJfbNIDXOIvFlYAVuIQxbO7whc3DwSb4AlzBUyxo4OM/vYlYRER2EtD+rBqyfF5HYv62/QSI4fqemjaRpAAAAABJRU5ErkJggg=="
     },
     {
       "bout": 14,
@@ -597,8 +597,8 @@
       "winner": "Fujinokawa",
       "kimarite": "sukuinage",
       "past": "1-0",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7d6ae672346e.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/8057faf4c1b5.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAOCAYAAACl66WxAAAByElEQVR4nM3VTYhPURgG8N/L1DAWMzXNaFAyZUqSjaVijFJYjJgFSRSxUEpZKCQW2MmS3UQWypAyyseC5VBWkp2dj8RKs6DX4p7R7e/+zayYt07n/Tjn3uc8933Ojcw0X2xBayIinkVEZ/H7I2Lin6EpzIzgQRlf8bD4j/GpVhvJTO0GlmFNS24zrtbiI+gqfjemZmodBdDTiNiNPvRgb5n7sB+X0ZmZ72c52zEsxdFabiE6a/EB3MX31s31zzSQmWN4hB+4gG2YwCksngUI7MKNOaxrtI42+e0q5MexsQDpiohzmfm5aUNEDGM6M1+2luYKps7MYETcQT/WYwmm8UVFPaxrA6QD13C6odyNb3MBU2fmQ2aORcQkprADmzCAFSV+3uY5V/A2M5801PpVIpjV6swMRcRtrMYZvEMvRrEKP1XN99siYkFEXMcGHGrzjuVzBVOX5HjxJ8u8RaWkWzjcIOOdeI17ilTbyP0VVtbiF+htkvYMMyN4UzvxmEpBg6oG3BoRJyMiSn0tLuJsZo5m5h8yLev24GPLlXBf1YttmTmPIVzCuKpXunETB8uafej526XXwMpwnZWG+iKcmIljXv+b/qf9Aq1IDOeDlfpoAAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAABYElEQVR4nLXUO2uVQRAG4OeNN7yAIgRR0S4Koo2drU0kpFFbKwtLrYIpBREUf4JoYyH4CxQEG7G1iFVSCEbURhFEsDg4Ft8e+TyeFDk5Diw7uzs7l/fd2VSV/ykz03SWJFsOkGRXkidtLLb5ejs+n+R233577+JzHOmdncBqb71eVQvtzmccwEncwnKSF3jXfK1X1bG/AlTV/Eima1V1ZhPF/cK3pg/+qWCTcgE78Rb38R0/qmqpJXd6KwGCZzqIYAnLOJTkQdv7MDT+Q3KSS0lWhgPH++sk15rpDh0cw2Djs0iuQDbqg8bB3Jj9w3ipg+gRzumw31NVF0ftJ4FoNx7iVNOv4i5WkzzGNuzH66q6M0mjzeFj02fxpel78QpreI+vTNbJZ3WvZwazVTVoGQ9wUNc7b/CJBlEj5OaIo5+N7L7c0xG7Dys4muSGjoOnrbJ5XNZBtzHJ05Kpfnbj5Dc/DF5nTf+R5QAAAABJRU5ErkJggg=="
     },
     {
       "bout": 15,
@@ -615,8 +615,8 @@
       "winner": "Yoshinofuji",
       "kimarite": "yorikiri",
       "past": "0-1",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/b63f0b1bdf33.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4f2ca042e712.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAOCAYAAACl66WxAAAB0klEQVR4nM2VT0tVURTFf+t5ibKQHDV4JSgUOLBJZFQWIUmDBpKEIQgFDsJP0LhpX0CieE6aRYQgWjiIIBBqIBgpKDmLoIk6yJmsBvfc1+n0rpdHEG64sNb+c/beh3XvlW0Oi2UxkfQAyGw/D7wBnIlSxm1v/0tDSS9sT5YOI2kMmAbqOdU94CXQb/tyyFkEjkg6BnwM9eeAjYCPAhu2b1fMc6k0Yrv5AFPAw4gvR3gROJXkr0f4OvAsjgd/T8I3E95b4FrYui5pC7gJ3JC0JukqcELSkqQl4GLFxqeBby38byvqFgpQi5zvbU/YngDmgu+n7RHbI8Cn+ARJGRCrvxe4L2lF0o6kwYoh/rJYwEOSZgO+AMwDnQfUngW+Rvw7MGp7NeirbaFnB8QE9El6F/j5JH4FWC2I7UYUOwnstjtMqYCBbmChTMDAMjCQCrYQKdCRirxEwM148WpPA2P8frXvkuvhQ6sFJA2HRT63iGVAzfZ+uxeThUNngBlJU+QfvaeS5oFXcZ/QrA40gDvJEMeBPWAYWIt7SNpMcmPe8ccwqUkaIL/OL5K6gDdAF7koR4HHtleSsifANeAH8Cjyb9m+1apP6PW6iQ/Tv6lWnfL/7BfRogtm7dZa+wAAAABJRU5ErkJggg==",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAPCAYAAACbSf2kAAACTElEQVR4nNXWT4hXVRQH8M8ZJgwjdBamjkG4ECOxlYG4k4qIKWEWLkQSIrC2IRIkEUIuDFK0wJho16g0i1ZCJRLjRkjQUCIiZCJoIyLBaFGTnBb3Pbn+fL/xN2LIfOHyzr977rnnnHfei8y0GDH0sAO4X9wReESMRMRUj2w6IlY9qAMj4twCbH/sq2tbJSIm8Diex/eYxWPYjDOYzczd9zhoFMsy86eGX4MLuDTPtmexJTOvdPibycy1XZuGK/pdbMCnDT+JnZW+7+0rvIWVeLOSncXX2NRhfxF/DOD3LtSBL8WTPbqanxnA3zheb5nM/B3bG/bzPnsmBvB7FyIzRcSLqNtgNa5jBFeVS/yDicw83ekoYis+zMznOnQfYxWuVeIRzGXma43NDqXqNdbj5x7Zwcz8os34ZdzEGqzADziitM0H+Ax7M/O7PkEP4yje7tI3uIV/K76mZeYJnOjxO5OZGzu9ZabmBV2Gp3C6kl1onmuxu5X3LnyEqX76+12Y6acbbm72At7AEmyMiPbmyyPiG8xhLiJ+zcxvq4wMKVVZj7GuxETEGA4oVdXYnWroZ3AoMyc7szoP2jn+mzLyLiu9/BfOYx9+waN4vyfoV5RR9wRezswb85zzp9Lf15QWaembCw34NpqSrMM2vIRpPIJR7Fd6c5cyYXY19huUUfbqAOUew76Kv1jRe7Cz4k82ftv1dw//VWtbf4DGsUOZIl/iHRxTqvCJktn36qwPgo5WqfE0Dmfm8YX4pPpy/l9o3oPIzFsP1O9i/Tv8D2mbWcvgvIT8AAAAAElFTkSuQmCC"
     },
     {
       "bout": 16,
@@ -633,8 +633,8 @@
       "winner": "Oshoma",
       "kimarite": "uwatenage",
       "past": "2-3",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/237f8001784b.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/211e3175be03.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAOCAYAAACl66WxAAAB+0lEQVR4nM3UT4iOURQG8N9hYhaUkTSbydiIxSxQQkJYyMafhgUKhVDYiDQjC6wksaE0RVIopZhIyl5iylJINkSShcbqWMz9zDuvbyahOHXrnuc8997nPPe9b2Sm/yXG1YGIeFLLB/7WYRExKyKuj1rPTBGxHCcKNhfPKpx5eFrmJzLzQUSsRe8Y557OzJtFwHnMLHgHJuBlhfs6Mw+AzBwxipAOTC/58zrndweOY9Oo9SYLOnAFKxv5Hwroxh304yvu4hPuF7y7wW1c03ocLra1YRpeNLH/TNnw1BhX1IgeJPaVfApm4TG68A4fSu1iZvbXuwg8wKpf7PoSVpT5BSwbhbcUA5hQOechNlZ5LbVuDmEJIiKO1Gp9mVl/CTPxZix7ImIBbuEjrkVEo9SOyxHRmplXMSwmIg5iP25k5o7ahtswo4a1FuxVEwGTDV3nBhzFSUzLzGMVTg8GsTkipmbmuZZS2I092IGtY3VaiV3oz+Z/zcWYjz5DH+pS7IyIzgqnC2exBhMZduZeWdT2KyoiYh32YmEF/oZJZd6JD5n5vvDhdhNnlGYGf4jJzLeF0IbVEfGodn47LhfOImwx9PS/VDg3cTwievEZ22t7dEfE7Eo+B6dHNFl1OSImoi0z39WcmIzxmfnZb0REtKAlMwcrWPDDmZ/F/Ov4Dminc2Z2R7apAAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACe0lEQVR4nM3VTYiWVRQH8N9xHHVkoDGp1DKorDQNXRilmxgrir5WglptWqQj7RIEAysitE1U0geVZUVEOdpIYS+hWWI0QSEhuhNcGH0uqm1Sp8V73uHhQVR04wOX556Pe87//s+590Zmuli+SWcyRsQ1EdF/LoEiYkpETLkQMJMr0GX4pGV7B+sxjFOtxDsxAz/jFdyAPgxGRAebMnNt+V6LV8+AYU9mvgGqTFdiLDN78lRd1o73dM2BTv2/KhCf4VncgS24p+G7GDsa8vfoO13cyW2YETGIPRjB7Ig4VKZ+bM7Mfa0lI5iJR3Ar5uDGiPgrM78rn+GIGK35ddgZEf+V/ERmnmwzcwDbsALPYy02YqwCvIDlbWbqPx3fYDbebbF4zsw0G/hv/Ik38SUexqeIGgvwY/leX4xdHhHb0cFVeA33R8RYRDzUiD0cEaPFTo+Z0RpzJ7yaPVNJf8EDeKxsB7AEjzZ2t7/RM/MwjoHS3YvXz4eZNpi7sAOHMVi2k1jTov4PHMIJHMNyPN7zwy6MNMD8VOx1qgJfNOQObmqD+bzqfinWYC5uwQd4uwGkD7tr/jVWVsBfSx7Hdswvn4WYhemNXJNwX8kfYuHpwNzdYuAjLKokV5TuZmxrNfAAvq0yr8BzjRhvVZl3Y7CST8PHteH9vdjNo30bZkTEMyUPYDwzj0bEVrwfEQ9iWZWm+W3GrszMiLgav0FEDGEpjuA45uMg7sTTBWoOfscEM0OqYUteVuWZ1tA9iXV4SvfG3at7S7+EF4v6l/EDFtea1VhV89t1T9IQLsEG3cPxXi9HXOhDGRF9mflvzaM2eNag5dufmf9M6C6mV/t/9dGUCc/dFXoAAAAASUVORK5CYII="
     },
     {
       "bout": 17,
@@ -651,8 +651,8 @@
       "winner": "Takayasu",
       "kimarite": "uwatehineri",
       "past": "4-4",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/602aa26ea98e.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/86224e712662.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAPCAYAAACbSf2kAAACwklEQVR4nNXVTaiWVRAH8N//YpkldoOIxBZGhfaJdQ3KaCEKEUK2qMjShaS0CVRq08eilaEQdQmCoLAyuIIXWhYVJJalQd1L2a66iyKDIkJMCpVp8TyvPvflVdQuQQMHZs7MmTPzn5lzUlX+jzT0bx0kGUqSmQjmXGha4ElWJHm8Iw8n2dl/KMlYkkdacS2eP9sLk3x+Drbfnk43q2P0Im7CcJKl2IILcOGAc49he5IPsBFzkyzrs3kTe/AVvu7sH0nyYUe+Bcuq6vsB91x8xsCTjGBen245fsPdSb7B61U1ClV1FE8kuQ8/VdWaQc6TLMBevI+lA0wm8MfpgjsTpTecSe7BdbgCY1iNG3EI+7CwqkaTrMISbMc4JnFbn98fqmrT+QQ0LbhkqqquHqTrIb5CU/Jx3NHyb+NajGB/58xHWIltVbU6yat4pk1yTlXtSPJpXwCv4EpNBXt0GY5V1brWZk3rp0sL2mp3aVtVvdPr8f2aIduAS3EMv2KOpsfXYU+SJVU1iS1Jeq01X1OVu/BLktn4awBIJ3C8I3d5VTWmqXQ34amqunmAL6rq5MIqPIXLcQM+07w8a7EZox3bW7Ebh/EJftT07IE26a1d3+ezMHVaXWtwLz5ukd+HXfgOy1v97fgCT7fycGs7hL3t3hst+ouwow+MSexs1+8d/ks8ej6B91qlF/RFVXWo/VDmdcr5M1ZW1eFW3oi3sBCLkrynmYWr2nPzk2yuqpdb+6NO9ffxDv/nwDY4G+pk9wLWa16M19q9A7gED2B3uzcLBzFX0y4b+lDahPV9iD/bkSc6/JM6iGsqPdFZf/fJ705DPMn1mlfhOc20z27zGsdIVY0nuT/JnZpB3FVVRzoOJbkGWzUv0UN9+DyYZHHLH+z8xovxUgfEh88W8JPv+ExQkqHm/lNO271U1YkZu8gMB/5f0j/YbIuaQ8mqZQAAAABJRU5ErkJggg==",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAABk0lEQVR4nLWSP0tcURDFf8ddtghIIDYiSGANBCuDIlYGLBITq5Am4DfYUhBTBRuDdlr4BWRBLBOxSEgwIEIwW4hiWkkQK/+gaOOKORbet1xf3i5u4cDlcc6Zd+bemZFt7jNa6gmSWu+1APDrriaStupqtpE0AEzdwWsC2AVWUnw/UElxb20f5AFsbwAvJA0DbzKMP9n+Gm7bFv4ZDLgInNg+jl70AyjA/y16Bny3XUoOsB74ejEPPK0n5jO4kqRXEX4CfEmA7SMguX0H8Nj2z9jA9lDtNc2uqaQR4EOA3cAecB5wF3ACHAHTtpdrBSRVgMMG3kXbtVZIage+Ab22LwP3G3hpez/JuzUD26+BMvAnOuXAV1MFJ4FN4EEwHwW2Y3PInsEgMGP7r6QuYBxYjBMkFYALYAf4LOkU6CNjGbIKAHyUdAY8BE7Tou2qpPfA86BfcLMIq5JmgQXb/5Jkwhwq4fsOeBTxY8AasBRwLphtAHNAT5TbyU2LZxMuHnLBdrrPmSEpZ/uqgd6SvKDpNW02rgFnLrtx+cZJZwAAAABJRU5ErkJggg=="
     },
     {
       "bout": 18,
@@ -669,8 +669,8 @@
       "winner": "Kotozakura",
       "kimarite": "oshidashi",
       "past": "16-9",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/50ddfa8933a5.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2fa78077be50.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAABzUlEQVR4nLXUPWyOURQH8N95Wwxq8FFCCKIGYhUWUiwNFQwdhI4kLE0jRKxdLO/mYyzpxEiDTqQLC4kQq6SiqUEYLKgcw3vf9unTpos4yUnuPefc8z/n/O+9kZn+pzT+NUFExHL+zkrgaZxYJvZRZj5ewt4fEScz8+KSBWSmiOjGtZpvEGM1WzMzZyKiA19QB1yB7Zl5qN7BOnRl5qVKR72ZebWyv4v1mCmmP/heA1hZ76AN8AvTEXEZa/G8JD2Gg/iKafysnJ3KzOFqsohYjWeLADLzI0Yi4kbF9xL7sLkVkiO14nZGxGi9YjytbhoFuRERt7EVZ3ABd3AWsxiIiIcRsaVacCmwrnsiYiwijlJILiC7cB0Hil4p4+rBj8w8VxlFB15l5v4lOlgg7Vt0GAM4j/fYgCdapDbwDRtxMzPfRkQD97ENa/ChlrcvM7uZ52CytL8bE9iLz1q3oh/jBfhdSXAvMwcj4hR6MrO5oOqIN3ObMqIjeIDjGEJHsd9CL1ZhPDPb8VNab+QFXpf1J2wqY52ciy0HurBD6+H0a92cCQyjD6MYqgA00VG0YZ7LZgEdbsfOkbyInIjOzJytr5eTQn4jM3/P2f73b/oX3jS0vXiA5DwAAAAASUVORK5CYII=",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAPCAYAAAD+pA/bAAAB40lEQVR4nLXUS4jOYRQG8N8xM7nlMhsLaSxYYEKURDaTQhi30ihZ2LAjKVFWskS5LURSMhmaldEssMQCkUy5bMxiymXBJJcyORbf+02fr3GJnHr7d27/5zzveXojM/1PG/U3TRExKiIm/kltY2loxf66XBc66mInMvMexuIS2iOiF0+wGH0YwlKsy8yBRsjMPmyLiN14lZld5Yc9EbEXLzOz+ydDJr7gW/G/FJAfGIzGOczG54hYjX04gjn4GBEbsCsz39UBDOJU6YWzmFRNRu2SC4P3eIxnmfmpnkFEdOAApuMmxpRvO16gH6uwNTMHIjNFxDrsRAM+Ygmm4C1ul2uA7sy8HBGbcBjzcRITyhXdxhqMx8bMHFQYNCGwAg9wHlNxpaapITOr9afLtMdxA80FsBPzSnxhZg7LdL2KAjbjjYpKjpapXmMl+iNiR9lXM56iB3sK8wU4k5mPcRAfhncQEW34kJn3jWAREZiBcVikIo61OKQihjbcVVHQMjxCV2ZeUEN7LnpHOA9xvaZuCybjWvFb8QwtmIk71drMpNYZ6eAiltfFxtcAzMJ2PFeRbCemVGt/+VRExDS0ZOatn+SX4Bg2lUEWFtZXI2L28A5+A9KYmUMjxJsy8+svm/8E4F/tO73t9W7wPOE2AAAAAElFTkSuQmCC"
     },
     {
       "bout": 19,
@@ -687,13 +687,13 @@
       "winner": "Hoshoryu",
       "kimarite": "kakenage",
       "past": "1-5",
-      "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1e787d46ec35.png",
-      "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/0dd255ab0b70.png"
+      "east_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACWElEQVR4nM2VT0hVURDGf59akBC0CKqVRBFkFEUmBVFESIuXRbisRbUSWxSIi6hVIBQhLooK3BgkQeIixcyC/kBgJKWRJVlW1q5lpZnk+1rc8+Tw3lWDIBw4zDdzZ86cOWdmrmyzUKjofwRRoPnsSlIc1wB1tuslddvOpNhUAPVz7Hve9stIrgN+ANeDf7/tbQVetglPdQJ4ANwChoAW4Evgz4CayPYgcCYnxwtoBvYFvBsYBu4B94FRYCfwGeiKVsZ2wc1MAuPAVMhkOvCplOxrJK1N0VcCd0OijyXdDEkuBnbZfiJpEngUXUg3FD5TL/Aq4MvA1sBrU4J22G7MV0pqjvBxYD+QAYqBX5I+AgeCDNABNAEo102SNgN7U4LmqMv2SLCtBE5H35YC3yP5nO2B2TaS1ACUBrHW9qqZw0gqBxrmOEiOmmwPSaoCNgEbgHJgkKRIu0iKfywK/Al4GMRqYAXwAXgRdFnbNRCeyfYb4JikS7McImv7ZCQvB94De0JmgyFw2qgwSd0BZAP/avtQvqHioSdpwPaWAiNp2Pb6gA8DR8KnjcAY8C3IFcBr4Cdww3abpD7bO4JvP7AdGAE6g8+47bNQWMBPJY2StGKOqoHbM2nabUCbpFLgLVBleyIE6yG5qbHIf6WkqwGX5bYh6VyAYkkltn+nzYl2YF3AlcC1FJslQCtwMU/fA5Tl6foi3E/SRc8j3Wrg1MyckZQBjkbZNMbTW1J7gK0hYC9wB7jAX5KkFmCR7WlJ7yR1ksyxZcAVyKuZfyVJRbaz81vO4r+Q/tp/AGWcOGSfgOmzAAAAAElFTkSuQmCC",
+      "west_jp_img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAPCAYAAABut3YUAAACT0lEQVR4nM2UT4iNURjGf8/MRU1KpIhQSMmfUYwooyahjIUsLORPUzZSU9Q0CzFpih2SsrCynoVMRJFZSDKzmMZwJVFCqZlhbq4acuex+M53O75774QFnvr6znnf5zznPe95zyvb/C+o+xubSMpVsc345WAkDf3GZv1T+OYCI5KOZ1z9kqb/xLWNpFnAzQy5CRjI2PbaHpF0DNgS2VuBW9E8b7s7BHMJeAQcBq4AJ4EXEXcbsMb2WJq+HIDt5iCwFBi3/TE6YR+QnqQP2BAJTgIT0fx6WLMbWG67XdI9oAv4YvtgpHs7HVfcZcBloDucqAK280BbJLjJdlsVah0wIekD8DRoNkm6GnFWl3Wyr0nSAuCu7VXVApHUDLTXOESMi7YfhjU9wBHbBUmPgXzE2w402h5La2YXcCo4VwJvgWKYLwPGgTHgnO3esMEZYHGVIEZtdwTODqADWAs8B3ptnw++B2lZlGG7/AHzgWFgWmR7BiyMecE+mLVl7cAcYCfQAzQC+4BRkpobD/9XQKvtiprpAgaBBqAgaT/wxPb7Khkgc/cpGqJxMQQA0Ay8BoZtt4TMtEjqTMnlYMKb/0pSaDckFYD1wLpqgQR8n8KH7W+SXgadzySZ6KjFz2UWdgJbgUII7A5wX9IF4JrtycxmR7OCkgaj8SLgHXAAmAe0AKXIvxHYQ2gFuWCsJ2las0me82nbQ5HgWZIizHbROIhDJM3vTWReASwBTgADtj9FvpLtfmBzWSN92pLqbZeoAUl1cWYkzbRdrMX/E1T0mX+JH8GdCpfDsqdzAAAAAElFTkSuQmCC"
     }
   ],
   "leaders": [
     "Kirishima"
   ],
   "leader_wins": 12,
-  "last_updated": "2026-04-05 17:33 JST"
+  "last_updated": "2026-04-05 17:45 JST"
 }
