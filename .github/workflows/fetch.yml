@@ -34,7 +34,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install pillow fonttools
+        run: pip install pillow
 
       - name: Download Japanese font
         run: |
@@ -46,6 +46,8 @@ jobs:
         env:
           DATA_OUTPUT_PATH: gh-pages/data.json
           JP_FONT_PATH: fonts/NotoSansJP-Regular.otf
+          JP_IMG_DIR: gh-pages/jp
+          JP_IMG_BASE_URL: https://alexfry.github.io/SumoTrmnl/jp
         run: python3 src/scripts/fetch.py
 
       - name: Commit and push to gh-pages
@@ -53,6 +55,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json
+          git add data.json jp/
           git diff --cached --quiet || git commit -m "chore: update sumo data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
