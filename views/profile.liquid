@@ -8,127 +8,98 @@
     justify-content: center;
     border: 1px solid currentColor;
     border-radius: 6px;
-    padding: 4px 8px;
+    padding: 6px 10px;
     flex: 1;
   }
-  .stat-box .num { font-size: 22px; font-weight: bold; line-height: 1; }
-  .stat-box .lbl { font-size: 8px; opacity: 0.6; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em; }
 </style>
 
 <div style="display: flex; flex-direction: row; width: 800px; height: 480px; overflow: hidden;">
 
-  {{-- Photo --}}
-  <div style="width: 220px; flex-shrink: 0; overflow: hidden;">
+  <!-- Photo -->
+  <div style="width: 210px; flex-shrink: 0; overflow: hidden;">
     {% if image_url != "" and image_url != nil %}
-      <img class="image image-dither image--cover" src="{{ image_url }}"
-           style="width: 220px; height: 480px; display: block; object-fit: cover; object-position: top;">
+      <img class="image image-dither image--cover"
+           src="{{ image_url }}"
+           style="display: block; width: 210px; height: 480px; object-fit: cover; object-position: top;">
     {% else %}
-      <div style="width: 220px; height: 480px; display: flex; align-items: center; justify-content: center; opacity: 0.2;">
-        <span class="title" style="font-size: 48px;">?</span>
+      <div style="width: 210px; height: 480px; display: flex; align-items: center; justify-content: center;">
+        <span style="font-size: 64px; opacity: 0.15;">?</span>
       </div>
     {% endif %}
   </div>
 
-  {{-- Info panel --}}
-  <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; padding: 16px 16px 12px 20px; gap: 0;">
+  <!-- Info panel -->
+  <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; padding: 20px 20px 16px 24px; gap: 0;">
 
-    {{-- Name --}}
-    <div style="display: flex; align-items: flex-end; gap: 12px; margin-bottom: 8px;">
+    <!-- Name -->
+    <div style="display: flex; align-items: flex-end; gap: 12px; margin-bottom: 12px;">
       {% if kanji_img_url != "" and kanji_img_url != nil %}
-        <img class="image image-dither" src="{{ kanji_img_url }}"
+        <img class="image image-dither"
+             src="{{ kanji_img_url }}"
              style="display: inline; height: 48px; vertical-align: bottom;">
       {% endif %}
-      <span class="title" style="font-size: 28px; line-height: 1; font-weight: bold;">{{ shikona }}</span>
+      <span class="title" style="font-size: 28px; line-height: 1;">{{ shikona }}</span>
     </div>
 
-    {{-- Rank row --}}
-    <div style="display: flex; gap: 20px; margin-bottom: 10px; flex-wrap: wrap;">
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Rank</span>&nbsp;
-        <span class="label" style="font-weight: bold;">{{ rank }}</span>
-      </div>
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Peak</span>&nbsp;
-        <span class="label">{{ highest_rank }}</span>
-      </div>
+    <!-- Rank / Stable / From -->
+    <div style="display: flex; gap: 20px; margin-bottom: 8px; flex-wrap: wrap;">
+      <div><span class="label label--small">Rank</span>&nbsp;<span class="label" style="font-weight: bold;">{{ rank }}</span></div>
+      <div><span class="label label--small">Peak</span>&nbsp;<span class="label">{{ highest_rank }}</span></div>
       {% if heya != "" and heya != nil %}
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Stable</span>&nbsp;
-        <span class="label">{{ heya }}</span>
-      </div>
+        <div><span class="label label--small">Stable</span>&nbsp;<span class="label">{{ heya }}</span></div>
       {% endif %}
       {% if shusshin != "" and shusshin != nil %}
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">From</span>&nbsp;
-        <span class="label">{{ shusshin }}</span>
-      </div>
+        <div><span class="label label--small">From</span>&nbsp;<span class="label">{{ shusshin }}</span></div>
       {% endif %}
     </div>
 
-    {{-- Physical stats --}}
-    <div style="display: flex; gap: 20px; margin-bottom: 14px;">
+    <!-- Physical -->
+    <div style="display: flex; gap: 20px; margin-bottom: 16px;">
       {% if age != nil %}
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Age</span>&nbsp;
-        <span class="label">{{ age }}</span>
-      </div>
+        <div><span class="label label--small">Age</span>&nbsp;<span class="label">{{ age }}</span></div>
       {% endif %}
       {% if height != "" and height != nil %}
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Height</span>&nbsp;
-        <span class="label">{{ height }}</span>
-      </div>
+        <div><span class="label label--small">Height</span>&nbsp;<span class="label">{{ height }}</span></div>
       {% endif %}
       {% if weight != "" and weight != nil %}
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Weight</span>&nbsp;
-        <span class="label">{{ weight }}</span>
-      </div>
+        <div><span class="label label--small">Weight</span>&nbsp;<span class="label">{{ weight }}</span></div>
       {% endif %}
     </div>
 
-    {{-- Divider --}}
-    <hr style="border: none; border-top: 1px solid currentColor; opacity: 0.15; margin-bottom: 14px;">
+    <!-- Divider -->
+    <hr style="border: none; border-top: 1px solid currentColor; margin-bottom: 16px;">
 
-    {{-- Career stat boxes --}}
-    <div style="display: flex; gap: 8px; margin-bottom: 12px;">
+    <!-- Career stat boxes -->
+    <div style="display: flex; gap: 8px; margin-bottom: 14px;">
       <div class="stat-box" style="flex: 2.5;">
-        <span class="num value--tnums">{{ total_wins }}W &ndash; {{ total_losses }}L &ndash; {{ total_absents }}A</span>
-        <span class="lbl">{{ total_bashos }} basho career</span>
+        <span class="title value--tnums" style="font-size: 18px;">{{ total_wins }}W &ndash; {{ total_losses }}L &ndash; {{ total_absents }}A</span>
+        <span class="label label--small">{{ total_bashos }} basho career</span>
       </div>
       <div class="stat-box">
-        <span class="num value--tnums">{{ yusho }}</span>
-        <span class="lbl">Yusho</span>
+        <span class="title value--tnums">{{ yusho }}</span>
+        <span class="label label--small">Yusho</span>
       </div>
       <div class="stat-box">
-        <span class="num value--tnums">{{ jun_yusho }}</span>
-        <span class="lbl">Jun-Yusho</span>
+        <span class="title value--tnums">{{ jun_yusho }}</span>
+        <span class="label label--small">Jun-Yusho</span>
       </div>
       <div class="stat-box">
-        <span class="num value--tnums">{{ special_prizes }}</span>
-        <span class="lbl">Prizes</span>
+        <span class="title value--tnums">{{ special_prizes }}</span>
+        <span class="label label--small">Prizes</span>
       </div>
     </div>
 
-    {{-- Timeline --}}
-    <div style="display: flex; gap: 16px; margin-bottom: 10px;">
+    <!-- Timeline -->
+    <div style="display: flex; gap: 20px; margin-bottom: 8px;">
       {% if first_basho != "" and first_basho != nil %}
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Debut</span>&nbsp;
-        <span class="label label--small">{{ first_basho }}</span>
-      </div>
+        <div><span class="label label--small">Debut</span>&nbsp;<span class="label label--small">{{ first_basho }}</span></div>
       {% endif %}
-      <div>
-        <span class="label label--small" style="opacity: 0.5;">Status</span>&nbsp;
-        <span class="label label--small">{{ status }}</span>
-      </div>
+      <div><span class="label label--small">Status</span>&nbsp;<span class="label label--small">{{ status }}</span></div>
     </div>
 
-    {{-- Description --}}
+    <!-- Description -->
     {% if description != "" and description != nil %}
-    <p class="label label--small" style="opacity: 0.6; margin: 0; line-height: 1.4; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;">
-      {{ description }}
-    </p>
+      <p class="label label--small" style="margin: 0; line-height: 1.45; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">{{ description }}</p>
     {% endif %}
 
   </div>
