@@ -105,22 +105,29 @@ def format_basho(bid) -> str:
 
 # ── Rikishi selection ──────────────────────────────────────────────────────────
 
-def pick_active_rikishi_id(basho_id: str, divisions: list) -> int:
-    """Return a random rikishi_id from the current banzuke for the given divisions."""
-    ids = []
-    for division in divisions:
-        data = get_json(f"{SUMOSTATS_API}/banzuke", {
-            "basho_id": basho_id,
-            "division": division,
+def pick_active_rikishi_id(depth: int) -> int:
+    """Return a random active rikishi_id within the eligible division depth."""
+    candidates = []
+    page = 0
+    while page < 20:
+        data = get_json(f"{SUMOSTATS_API}/rikishi", {
+            "active": "true",
             "pageSize": 100,
+            "pageIndex": page,
         })
-        for entry in data.get("data", []):
-            rid = entry.get("rikishi_id")
-            if rid:
-                ids.append(rid)
-    if not ids:
-        raise RuntimeError(f"No active rikishi found in {divisions} for basho {basho_id}")
-    return random.choice(ids)
+        entries = data.get("data", [])
+        if not entries:
+            break
+        for r in entries:
+            if rank_in_depth(r.get("rank", ""), depth):
+                candidates.append(r.get("id"))
+        # If we have candidates and have scanned at least 200 wrestlers, that's enough
+        if candidates and page >= 1:
+            break
+        page += 1
+    if not candidates:
+        raise RuntimeError(f"No active rikishi found for depth={depth}")
+    return random.choice(candidates)
 
 
 def pick_alltime_rikishi_id(depth: int) -> int:
@@ -268,9 +275,7 @@ def main():
     print(f"fetch_profile | depth={depth} active_only={active_only} | {now.strftime('%Y-%m-%d %H:%M JST')}")
 
     if active_only:
-        bid = current_basho_id(now)
-        print(f"Current basho: {bid}")
-        rikishi_id = pick_active_rikishi_id(bid, DIVISIONS_BY_DEPTH[depth])
+        rikishi_id = pick_active_rikishi_id(depth)
     else:
         rikishi_id = pick_alltime_rikishi_id(depth)
 
