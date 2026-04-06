@@ -20,7 +20,7 @@ import urllib.parse
 import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
-SUMOSTATS_API = "https://api.sumostats.com/v1"
+SUMOSTATS_API = "https://sumostats.com/api/v1"
 
 BASHO_MONTHS = [1, 3, 5, 7, 9, 11]
 
@@ -137,12 +137,10 @@ def pick_alltime_rikishi_id(depth: int) -> int:
     """Return a random rikishi_id from all-time records filtered by division depth."""
     # Fetch first page to get total count
     first = get_json(f"{SUMOSTATS_API}/rikishi", {"pageSize": 1, "pageIndex": 0})
-    total = first.get("total") or first.get("count") or 0
+    total_pages = first.get("totalPages") or 0
 
     candidates = []
-    if total > 0:
-        page_size = 100
-        total_pages = (total + page_size - 1) // page_size
+    if total_pages > 0:
         # Try random pages until we have candidates (usually succeeds first try for large divisions)
         seen_pages = set()
         for _ in range(10):
@@ -302,6 +300,9 @@ def main():
     # Mirror photo to GitHub Pages so TRMNL's renderer can load it reliably
     photo_url = ""
     raw_image_url = profile.get("image_url", "")
+    # image_url from the API is a relative path (e.g. /processed_images/123.png)
+    if raw_image_url and raw_image_url.startswith("/"):
+        raw_image_url = "https://sumostats.com" + raw_image_url
     if photos_dir and photos_base_url and raw_image_url:
         photo_url = mirror_photo(raw_image_url, rikishi_id, photos_dir, photos_base_url)
     else:
