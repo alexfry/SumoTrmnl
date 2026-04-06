@@ -42,7 +42,7 @@ jobs:
           curl -L "https://github.com/googlefonts/noto-cjk/raw/main/Sans/OTF/Japanese/NotoSansCJKjp-Regular.otf" \
             -o fonts/NotoSansJP-Regular.otf
 
-      - name: Fetch sumo data
+      - name: Fetch torikumi data
         env:
           DATA_OUTPUT_PATH: gh-pages/data.json
           JP_FONT_PATH: fonts/NotoSansJP-Regular.otf
@@ -50,11 +50,29 @@ jobs:
           JP_IMG_BASE_URL: https://alexfry.github.io/SumoTrmnl/jp
         run: python3 src/scripts/fetch.py
 
+      - name: Fetch rikishi profile
+        env:
+          PROFILE_OUTPUT_PATH: gh-pages/profile.json
+          JP_FONT_PATH: fonts/NotoSansJP-Regular.otf
+          JP_IMG_DIR: gh-pages/jp
+          JP_IMG_BASE_URL: https://alexfry.github.io/SumoTrmnl/jp
+          PROFILE_PHOTOS_DIR: gh-pages/photos
+          PROFILE_PHOTOS_BASE_URL: https://alexfry.github.io/SumoTrmnl/photos
+          # ── Customize these ──────────────────────────────────────────
+          # PROFILE_DIVISIONS_DEPTH: 1 = Makuuchi only, 2 = +Juryo,
+          #   3 = +Makushita, 4 = +Sandanme, 5 = +Jonidan, 6 = all
+          PROFILE_DIVISIONS_DEPTH: "1"
+          # PROFILE_ACTIVE_ONLY: "true" = current banzuke only,
+          #   "false" = pick from all-time records
+          PROFILE_ACTIVE_ONLY: "true"
+          # ─────────────────────────────────────────────────────────────
+        run: python3 src/scripts/fetch_profile.py
+
       - name: Commit and push to gh-pages
         working-directory: gh-pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data.json jp/
+          git add data.json profile.json jp/ photos/
           git diff --cached --quiet || git commit -m "chore: update sumo data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
