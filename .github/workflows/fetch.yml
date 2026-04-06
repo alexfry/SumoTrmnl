@@ -51,6 +51,7 @@ jobs:
         run: python3 src/scripts/fetch.py
 
       - name: Fetch rikishi profile
+        continue-on-error: true
         env:
           PROFILE_OUTPUT_PATH: gh-pages/profile.json
           JP_FONT_PATH: fonts/NotoSansJP-Regular.otf
