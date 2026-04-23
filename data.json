@@ -7,7 +7,7 @@
   "status": "complete",
   "next_basho_id": "202605",
   "next_basho_name": "Natsu Basho",
-  "days_until_next": 17,
+  "days_until_next": 16,
   "division": "Makuuchi",
   "standings": [
     {
@@ -695,5 +695,5 @@
     "Kirishima"
   ],
   "leader_wins": 12,
-  "last_updated": "2026-04-23 23:53 JST"
+  "last_updated": "2026-04-24 00:41 JST"
 }
