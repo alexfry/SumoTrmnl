@@ -343,8 +343,8 @@
       "shikona": "Ryuden",
       "shikona_jp": "竜電　剛至",
       "wins": 0,
-      "losses": 3,
-      "absent": 12
+      "losses": 4,
+      "absent": 11
     }
   ],
   "torikumi": [
@@ -359,10 +359,10 @@
       "west_jp": "竜電",
       "west_rank": "M16w",
       "west_wins": 0,
-      "west_losses": 3,
-      "winner": "",
-      "kimarite": "",
-      "past": "2-0",
+      "west_losses": 4,
+      "winner": "Daiseizan",
+      "kimarite": "yorikiri",
+      "past": "3-0",
       "east_jp_img": "",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/a1417faadaa8.png"
     },
@@ -716,5 +716,5 @@
     "Tobizaru"
   ],
   "leader_wins": 3,
-  "last_updated": "2026-05-13 14:24 JST"
+  "last_updated": "2026-05-13 16:14 JST"
 }
