@@ -19,33 +19,25 @@
       "absent": 9
     },
     {
-      "rank": "K1e",
-      "shikona": "Wakatakakage",
-      "shikona_jp": "若隆景　渥",
-      "wins": 5,
-      "losses": 1,
-      "absent": 9
-    },
-    {
       "rank": "M13e",
       "shikona": "Kotoeiho",
       "shikona_jp": "琴栄峰　央起",
-      "wins": 5,
+      "wins": 6,
       "losses": 1,
-      "absent": 9
+      "absent": 8
     },
     {
       "rank": "M15e",
       "shikona": "Tobizaru",
       "shikona_jp": "翔猿　正也",
-      "wins": 5,
+      "wins": 6,
       "losses": 1,
-      "absent": 9
+      "absent": 8
     },
     {
-      "rank": "M17e",
-      "shikona": "Fujiryoga",
-      "shikona_jp": "藤凌駕　雅治",
+      "rank": "K1e",
+      "shikona": "Wakatakakage",
+      "shikona_jp": "若隆景　渥",
       "wins": 5,
       "losses": 1,
       "absent": 9
@@ -57,6 +49,22 @@
       "wins": 5,
       "losses": 1,
       "absent": 9
+    },
+    {
+      "rank": "M11e",
+      "shikona": "Ura",
+      "shikona_jp": "宇良　和輝",
+      "wins": 5,
+      "losses": 2,
+      "absent": 8
+    },
+    {
+      "rank": "M17e",
+      "shikona": "Fujiryoga",
+      "shikona_jp": "藤凌駕　雅治",
+      "wins": 5,
+      "losses": 2,
+      "absent": 8
     },
     {
       "rank": "M6e",
@@ -83,22 +91,6 @@
       "absent": 9
     },
     {
-      "rank": "M11e",
-      "shikona": "Ura",
-      "shikona_jp": "宇良　和輝",
-      "wins": 4,
-      "losses": 2,
-      "absent": 9
-    },
-    {
-      "rank": "M16e",
-      "shikona": "Wakanosho",
-      "shikona_jp": "若ノ勝　栄道",
-      "wins": 4,
-      "losses": 2,
-      "absent": 9
-    },
-    {
       "rank": "M6w",
       "shikona": "Fujiseiun",
       "shikona_jp": "藤青雲　龍輝",
@@ -113,6 +105,30 @@
       "wins": 4,
       "losses": 2,
       "absent": 9
+    },
+    {
+      "rank": "M16e",
+      "shikona": "Wakanosho",
+      "shikona_jp": "若ノ勝　栄道",
+      "wins": 4,
+      "losses": 3,
+      "absent": 8
+    },
+    {
+      "rank": "M11w",
+      "shikona": "Kinbozan",
+      "shikona_jp": "金峰山　晴樹",
+      "wins": 4,
+      "losses": 3,
+      "absent": 8
+    },
+    {
+      "rank": "M14w",
+      "shikona": "Roga",
+      "shikona_jp": "狼雅　外喜義",
+      "wins": 4,
+      "losses": 3,
+      "absent": 8
     },
     {
       "rank": "M2e",
@@ -147,14 +163,6 @@
       "absent": 9
     },
     {
-      "rank": "M14e",
-      "shikona": "Mitakeumi",
-      "shikona_jp": "御嶽海　久司",
-      "wins": 3,
-      "losses": 3,
-      "absent": 9
-    },
-    {
       "rank": "S1w",
       "shikona": "Kotoshoho",
       "shikona_jp": "琴勝峰　吉成",
@@ -179,20 +187,12 @@
       "absent": 9
     },
     {
-      "rank": "M11w",
-      "shikona": "Kinbozan",
-      "shikona_jp": "金峰山　晴樹",
+      "rank": "M14e",
+      "shikona": "Mitakeumi",
+      "shikona_jp": "御嶽海　久司",
       "wins": 3,
-      "losses": 3,
-      "absent": 9
-    },
-    {
-      "rank": "M14w",
-      "shikona": "Roga",
-      "shikona_jp": "狼雅　外喜義",
-      "wins": 3,
-      "losses": 3,
-      "absent": 9
+      "losses": 4,
+      "absent": 8
     },
     {
       "rank": "K1w",
@@ -243,14 +243,6 @@
       "absent": 9
     },
     {
-      "rank": "M12e",
-      "shikona": "Shishi",
-      "shikona_jp": "獅司　大",
-      "wins": 2,
-      "losses": 4,
-      "absent": 9
-    },
-    {
       "rank": "M2w",
       "shikona": "Ichiyamamoto",
       "shikona_jp": "一山本　大生",
@@ -273,6 +265,22 @@
       "wins": 2,
       "losses": 4,
       "absent": 9
+    },
+    {
+      "rank": "M12e",
+      "shikona": "Shishi",
+      "shikona_jp": "獅司　大",
+      "wins": 2,
+      "losses": 5,
+      "absent": 8
+    },
+    {
+      "rank": "M16w",
+      "shikona": "Ryuden",
+      "shikona_jp": "竜電　剛至",
+      "wins": 2,
+      "losses": 5,
+      "absent": 8
     },
     {
       "rank": "M3w",
@@ -303,16 +311,8 @@
       "shikona": "Oshoumi",
       "shikona_jp": "欧勝海　成矢",
       "wins": 1,
-      "losses": 5,
-      "absent": 9
-    },
-    {
-      "rank": "M16w",
-      "shikona": "Ryuden",
-      "shikona_jp": "竜電　剛至",
-      "wins": 1,
-      "losses": 5,
-      "absent": 9
+      "losses": 6,
+      "absent": 8
     },
     {
       "rank": "Y1w",
@@ -343,8 +343,8 @@
       "shikona": "Tamawashi",
       "shikona_jp": "玉鷲　一朗",
       "wins": 0,
-      "losses": 6,
-      "absent": 9
+      "losses": 7,
+      "absent": 8
     }
   ],
   "torikumi": [
@@ -354,15 +354,15 @@
       "east_jp": "藤凌駕",
       "east_rank": "M17e",
       "east_wins": 5,
-      "east_losses": 1,
+      "east_losses": 2,
       "west": "Roga",
       "west_jp": "狼雅",
       "west_rank": "M14w",
-      "west_wins": 3,
+      "west_wins": 4,
       "west_losses": 3,
-      "winner": "",
-      "kimarite": "",
-      "past": "0-1",
+      "winner": "Roga",
+      "kimarite": "oshidashi",
+      "past": "0-2",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/afa9f05f0256.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/518bf3389f6b.png"
     },
@@ -372,15 +372,15 @@
       "east_jp": "御嶽海",
       "east_rank": "M14e",
       "east_wins": 3,
-      "east_losses": 3,
+      "east_losses": 4,
       "west": "Ryuden",
       "west_jp": "竜電",
       "west_rank": "M16w",
-      "west_wins": 1,
+      "west_wins": 2,
       "west_losses": 5,
-      "winner": "",
-      "kimarite": "",
-      "past": "3-11",
+      "winner": "Ryuden",
+      "kimarite": "yorikiri",
+      "past": "3-12",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/bf8e8b24b393.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/a1417faadaa8.png"
     },
@@ -389,16 +389,16 @@
       "east": "Kotoeiho",
       "east_jp": "琴栄峰",
       "east_rank": "M13e",
-      "east_wins": 5,
+      "east_wins": 6,
       "east_losses": 1,
       "west": "Wakanosho",
       "west_jp": "若ノ勝",
       "west_rank": "M16e",
       "west_wins": 4,
-      "west_losses": 2,
-      "winner": "",
-      "kimarite": "",
-      "past": "2-1",
+      "west_losses": 3,
+      "winner": "Kotoeiho",
+      "kimarite": "hikiotoshi",
+      "past": "3-1",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1cec8d605215.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/95d12456ce58.png"
     },
@@ -408,15 +408,15 @@
       "east_jp": "獅司",
       "east_rank": "M12e",
       "east_wins": 2,
-      "east_losses": 4,
+      "east_losses": 5,
       "west": "Tobizaru",
       "west_jp": "翔猿",
       "west_rank": "M15e",
-      "west_wins": 5,
+      "west_wins": 6,
       "west_losses": 1,
-      "winner": "",
-      "kimarite": "",
-      "past": "3-2",
+      "winner": "Tobizaru",
+      "kimarite": "uwatedashinage",
+      "past": "3-3",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/4d570452c51c.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2ca89e621fb6.png"
     },
@@ -426,15 +426,15 @@
       "east_jp": "欧勝海",
       "east_rank": "M15w",
       "east_wins": 1,
-      "east_losses": 5,
+      "east_losses": 6,
       "west": "Kinbozan",
       "west_jp": "金峰山",
       "west_rank": "M11w",
-      "west_wins": 3,
+      "west_wins": 4,
       "west_losses": 3,
-      "winner": "",
-      "kimarite": "",
-      "past": "0-0",
+      "winner": "Kinbozan",
+      "kimarite": "tsukidashi",
+      "past": "0-1",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/c5bd818df528.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e762df1ffd46.png"
     },
@@ -443,16 +443,16 @@
       "east": "Ura",
       "east_jp": "宇良",
       "east_rank": "M11e",
-      "east_wins": 4,
+      "east_wins": 5,
       "east_losses": 2,
       "west": "Tamawashi",
       "west_jp": "玉鷲",
       "west_rank": "M13w",
       "west_wins": 0,
-      "west_losses": 6,
-      "winner": "",
-      "kimarite": "",
-      "past": "6-7",
+      "west_losses": 7,
+      "winner": "Ura",
+      "kimarite": "oshidashi",
+      "past": "7-7",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/e7eb13f08182.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7611430a3935.png"
     },
@@ -692,8 +692,10 @@
     }
   ],
   "leaders": [
-    "Kirishima"
+    "Kirishima",
+    "Kotoeiho",
+    "Tobizaru"
   ],
   "leader_wins": 6,
-  "last_updated": "2026-05-16 15:55 JST"
+  "last_updated": "2026-05-16 16:41 JST"
 }
