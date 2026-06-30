@@ -7,7 +7,7 @@
   "status": "complete",
   "next_basho_id": "202607",
   "next_basho_name": "Nagoya Basho",
-  "days_until_next": 12,
+  "days_until_next": 11,
   "division": "Makuuchi",
   "standings": [
     {
@@ -678,5 +678,5 @@
     "Wakatakakage"
   ],
   "leader_wins": 12,
-  "last_updated": "2026-06-30 23:59 JST"
+  "last_updated": "2026-07-01 00:58 JST"
 }
