@@ -11,6 +11,14 @@
   "division": "Makuuchi",
   "standings": [
     {
+      "rank": "Y1e",
+      "shikona": "Hoshoryu",
+      "shikona_jp": "豊昇龍　智勝",
+      "wins": 1,
+      "losses": 0,
+      "absent": 14
+    },
+    {
       "rank": "O1e",
       "shikona": "Kirishima",
       "shikona_jp": "霧島　鐵力",
@@ -171,25 +179,9 @@
       "absent": 14
     },
     {
-      "rank": "Y1e",
-      "shikona": "Hoshoryu",
-      "shikona_jp": "豊昇龍　智勝",
-      "wins": 0,
-      "losses": 0,
-      "absent": 15
-    },
-    {
       "rank": "S2e",
       "shikona": "Wakatakakage",
       "shikona_jp": "若隆景　渥",
-      "wins": 0,
-      "losses": 0,
-      "absent": 15
-    },
-    {
-      "rank": "K1w",
-      "shikona": "Oho",
-      "shikona_jp": "王鵬　幸之介",
       "wins": 0,
       "losses": 0,
       "absent": 15
@@ -286,6 +278,14 @@
       "rank": "Y1w",
       "shikona": "Onosato",
       "shikona_jp": "大の里　泰輝",
+      "wins": 0,
+      "losses": 1,
+      "absent": 14
+    },
+    {
+      "rank": "K1w",
+      "shikona": "Oho",
+      "shikona_jp": "王鵬　幸之介",
       "wins": 0,
       "losses": 1,
       "absent": 14
@@ -713,21 +713,22 @@
       "east": "Hoshoryu",
       "east_jp": "豊昇龍",
       "east_rank": "Y1e",
-      "east_wins": 0,
+      "east_wins": 1,
       "east_losses": 0,
       "west": "Oho",
       "west_jp": "王鵬",
       "west_rank": "K1w",
       "west_wins": 0,
-      "west_losses": 0,
-      "winner": "",
-      "kimarite": "",
-      "past": "9-7",
+      "west_losses": 1,
+      "winner": "Hoshoryu",
+      "kimarite": "watashikomi",
+      "past": "10-7",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1e787d46ec35.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/8057faf4c1b5.png"
     }
   ],
   "leaders": [
+    "Hoshoryu",
     "Kirishima",
     "Atamifuji",
     "Yoshinofuji",
@@ -750,5 +751,5 @@
     "Asakoryu"
   ],
   "leader_wins": 1,
-  "last_updated": "2026-07-12 17:49 JST"
+  "last_updated": "2026-07-12 18:37 JST"
 }
