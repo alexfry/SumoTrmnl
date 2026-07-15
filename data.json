@@ -219,12 +219,12 @@
       "absent": 11
     },
     {
-      "rank": "Y1w",
-      "shikona": "Onosato",
-      "shikona_jp": "大の里　泰輝",
+      "rank": "M2e",
+      "shikona": "Gonoyama",
+      "shikona_jp": "豪ノ山　登輝",
       "wins": 1,
-      "losses": 2,
-      "absent": 12
+      "losses": 3,
+      "absent": 11
     },
     {
       "rank": "M5e",
@@ -246,6 +246,14 @@
       "rank": "M16e",
       "shikona": "Daiseizan",
       "shikona_jp": "大青山　大介",
+      "wins": 1,
+      "losses": 3,
+      "absent": 11
+    },
+    {
+      "rank": "Y1w",
+      "shikona": "Onosato",
+      "shikona_jp": "大の里　泰輝",
       "wins": 1,
       "losses": 3,
       "absent": 11
@@ -305,14 +313,6 @@
       "wins": 0,
       "losses": 0,
       "absent": 15
-    },
-    {
-      "rank": "M2e",
-      "shikona": "Gonoyama",
-      "shikona_jp": "豪ノ山　登輝",
-      "wins": 0,
-      "losses": 3,
-      "absent": 12
     },
     {
       "rank": "M3e",
@@ -713,16 +713,16 @@
       "east": "Gonoyama",
       "east_jp": "豪ノ山",
       "east_rank": "M2e",
-      "east_wins": 0,
+      "east_wins": 1,
       "east_losses": 3,
       "west": "Onosato",
       "west_jp": "大の里",
       "west_rank": "Y1w",
       "west_wins": 1,
-      "west_losses": 2,
-      "winner": "",
-      "kimarite": "",
-      "past": "1-6",
+      "west_losses": 3,
+      "winner": "Gonoyama",
+      "kimarite": "oshidashi",
+      "past": "2-6",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f7717f1f7ed0.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/632fb2f053e0.png"
     }
@@ -733,5 +733,5 @@
     "Shishi"
   ],
   "leader_wins": 4,
-  "last_updated": "2026-07-15 17:52 JST"
+  "last_updated": "2026-07-15 18:41 JST"
 }
