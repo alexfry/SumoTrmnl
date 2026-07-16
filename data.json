@@ -27,6 +27,14 @@
       "absent": 10
     },
     {
+      "rank": "Y1e",
+      "shikona": "Hoshoryu",
+      "shikona_jp": "豊昇龍　智勝",
+      "wins": 4,
+      "losses": 1,
+      "absent": 10
+    },
+    {
       "rank": "O1e",
       "shikona": "Kirishima",
       "shikona_jp": "霧島　鐵力",
@@ -89,14 +97,6 @@
       "wins": 4,
       "losses": 1,
       "absent": 10
-    },
-    {
-      "rank": "Y1e",
-      "shikona": "Hoshoryu",
-      "shikona_jp": "豊昇龍　智勝",
-      "wins": 3,
-      "losses": 1,
-      "absent": 11
     },
     {
       "rank": "S1e",
@@ -255,8 +255,8 @@
       "shikona": "Gonoyama",
       "shikona_jp": "豪ノ山　登輝",
       "wins": 1,
-      "losses": 3,
-      "absent": 11
+      "losses": 4,
+      "absent": 10
     },
     {
       "rank": "M3e",
@@ -713,16 +713,16 @@
       "east": "Hoshoryu",
       "east_jp": "豊昇龍",
       "east_rank": "Y1e",
-      "east_wins": 3,
+      "east_wins": 4,
       "east_losses": 1,
       "west": "Gonoyama",
       "west_jp": "豪ノ山",
       "west_rank": "M2e",
       "west_wins": 1,
-      "west_losses": 3,
-      "winner": "",
-      "kimarite": "",
-      "past": "8-2",
+      "west_losses": 4,
+      "winner": "Hoshoryu",
+      "kimarite": "tottari",
+      "past": "9-2",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/1e787d46ec35.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f7717f1f7ed0.png"
     }
@@ -732,5 +732,5 @@
     "Shishi"
   ],
   "leader_wins": 5,
-  "last_updated": "2026-07-16 17:52 JST"
+  "last_updated": "2026-07-16 18:46 JST"
 }
