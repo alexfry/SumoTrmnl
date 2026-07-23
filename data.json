@@ -11,6 +11,14 @@
   "division": "Makuuchi",
   "standings": [
     {
+      "rank": "O1e",
+      "shikona": "Kirishima",
+      "shikona_jp": "霧島　鐵力",
+      "wins": 10,
+      "losses": 2,
+      "absent": 3
+    },
+    {
       "rank": "S2w",
       "shikona": "Aonishiki",
       "shikona_jp": "安青錦　新大",
@@ -33,14 +41,6 @@
       "wins": 10,
       "losses": 2,
       "absent": 3
-    },
-    {
-      "rank": "O1e",
-      "shikona": "Kirishima",
-      "shikona_jp": "霧島　鐵力",
-      "wins": 9,
-      "losses": 2,
-      "absent": 4
     },
     {
       "rank": "S1e",
@@ -139,14 +139,6 @@
       "absent": 4
     },
     {
-      "rank": "Y1w",
-      "shikona": "Onosato",
-      "shikona_jp": "大の里　泰輝",
-      "wins": 6,
-      "losses": 5,
-      "absent": 4
-    },
-    {
       "rank": "M1e",
       "shikona": "Fujinokawa",
       "shikona_jp": "藤ノ川　成剛",
@@ -166,6 +158,14 @@
       "rank": "M16e",
       "shikona": "Daiseizan",
       "shikona_jp": "大青山　大介",
+      "wins": 6,
+      "losses": 6,
+      "absent": 3
+    },
+    {
+      "rank": "Y1w",
+      "shikona": "Onosato",
+      "shikona_jp": "大の里　泰輝",
       "wins": 6,
       "losses": 6,
       "absent": 3
@@ -695,13 +695,13 @@
       "east": "Kirishima",
       "east_jp": "霧島",
       "east_rank": "O1e",
-      "east_wins": 9,
+      "east_wins": 10,
       "east_losses": 2,
       "west": "Onosato",
       "west_jp": "大の里",
       "west_rank": "Y1w",
       "west_wins": 6,
-      "west_losses": 5,
+      "west_losses": 6,
       "winner": "Kirishima",
       "kimarite": "tottari",
       "past": "1-10",
@@ -710,10 +710,11 @@
     }
   ],
   "leaders": [
+    "Kirishima",
     "Aonishiki",
     "Takerufuji",
     "Shishi"
   ],
   "leader_wins": 10,
-  "last_updated": "2026-07-23 17:58 JST"
+  "last_updated": "2026-07-23 18:54 JST"
 }
