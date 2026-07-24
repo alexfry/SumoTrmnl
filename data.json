@@ -27,6 +27,14 @@
       "absent": 2
     },
     {
+      "rank": "S1e",
+      "shikona": "Atamifuji",
+      "shikona_jp": "熱海富士　朔太郎",
+      "wins": 10,
+      "losses": 3,
+      "absent": 2
+    },
+    {
       "rank": "M13w",
       "shikona": "Takerufuji",
       "shikona_jp": "尊富士　弥輝也",
@@ -41,14 +49,6 @@
       "wins": 10,
       "losses": 3,
       "absent": 2
-    },
-    {
-      "rank": "S1e",
-      "shikona": "Atamifuji",
-      "shikona_jp": "熱海富士　朔太郎",
-      "wins": 9,
-      "losses": 3,
-      "absent": 3
     },
     {
       "rank": "M7e",
@@ -115,20 +115,20 @@
       "absent": 2
     },
     {
-      "rank": "Y1e",
-      "shikona": "Hoshoryu",
-      "shikona_jp": "豊昇龍　智勝",
-      "wins": 7,
-      "losses": 5,
-      "absent": 3
-    },
-    {
       "rank": "M14e",
       "shikona": "Kinbozan",
       "shikona_jp": "金峰山　晴樹",
       "wins": 7,
       "losses": 5,
       "absent": 3
+    },
+    {
+      "rank": "Y1e",
+      "shikona": "Hoshoryu",
+      "shikona_jp": "豊昇龍　智勝",
+      "wins": 7,
+      "losses": 6,
+      "absent": 2
     },
     {
       "rank": "Y1w",
@@ -696,11 +696,11 @@
       "east_jp": "豊昇龍",
       "east_rank": "Y1e",
       "east_wins": 7,
-      "east_losses": 5,
+      "east_losses": 6,
       "west": "Atamifuji",
       "west_jp": "熱海富士",
       "west_rank": "S1e",
-      "west_wins": 9,
+      "west_wins": 10,
       "west_losses": 3,
       "winner": "Atamifuji",
       "kimarite": "yoritaoshi",
@@ -713,5 +713,5 @@
     "Aonishiki"
   ],
   "leader_wins": 11,
-  "last_updated": "2026-07-24 17:56 JST"
+  "last_updated": "2026-07-24 18:52 JST"
 }
