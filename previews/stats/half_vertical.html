@@ -15,15 +15,18 @@
       <div class="view view--half_vertical">
         <style>
   :root {
-    --table-xsmall-tbody-height: 13px;
-    --table-xsmall-thead-height: 10px;
+    --table-xsmall-tbody-height: 18px;
+    --table-xsmall-thead-height: 14px;
   }
   .layout { padding: 0 !important; margin: 0 !important; }
   .view { padding: 0 !important; }
   .table.table--xsmall th,
   .table.table--xsmall td {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
     padding-left: 2px !important;
     padding-right: 2px !important;
+    line-height: 18px;
   }
 </style>
 
@@ -34,7 +37,7 @@
   </div>
 
   <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
-  <table class="table table--xsmall" data-table-limit="true" style="table-layout: fixed; width: 100%;">
+  <table class="table table--xsmall" style="table-layout: fixed; width: 100%;">
     <thead>
       <tr>
         <th style="width: 28%; text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>

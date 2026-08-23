@@ -15,11 +15,17 @@
       <div class="view view--full">
         <style>
   :root {
-    --table-xsmall-tbody-height: 13px;
-    --table-xsmall-thead-height: 10px;
+    --table-xsmall-tbody-height: 18px;
+    --table-xsmall-thead-height: 14px;
   }
   .layout { padding: 0 !important; margin: 0 !important; }
   .view { padding: 0 !important; }
+  .table.table--xsmall th,
+  .table.table--xsmall td {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: 18px;
+  }
 </style>
 
 <div style="display: flex; flex-direction: row; width: 800px; height: 480px; overflow: hidden;">
@@ -29,7 +35,7 @@
   </div>
 
   <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
-  <table class="table table--xsmall" data-table-limit="true">
+  <table class="table table--xsmall">
     <thead>
       <tr>
         <th style="text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
