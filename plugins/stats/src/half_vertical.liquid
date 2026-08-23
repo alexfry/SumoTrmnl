@@ -1,19 +1,27 @@
 <style>
   :root {
-    --table-xsmall-tbody-height: 13px;
-    --table-xsmall-thead-height: 10px;
+    --table-xsmall-tbody-height: 18px;
+    --table-xsmall-thead-height: 16px;
   }
-  .layout { padding: 0 !important; margin: 0 !important; }
+  .layout {
+    padding: 0 !important;
+    margin: 0 !important;
+    justify-content: flex-start !important;
+    align-content: flex-start !important;
+  }
   .view { padding: 0 !important; }
+  .table.table--xsmall {
+    border-spacing: 0 !important;
+  }
   .table.table--xsmall thead tr,
   .table.table--xsmall thead th {
-    height: 10px !important;
-    line-height: 10px !important;
+    height: 16px !important;
+    line-height: 16px !important;
   }
   .table.table--xsmall tbody tr,
   .table.table--xsmall tbody td {
-    height: 13px !important;
-    line-height: 13px !important;
+    height: 18px !important;
+    line-height: 18px !important;
   }
   .table.table--xsmall th,
   .table.table--xsmall td {
@@ -21,14 +29,13 @@
     padding-bottom: 0 !important;
     padding-left: 2px !important;
     padding-right: 2px !important;
-    overflow: hidden;
   }
   .table.table--xsmall .label {
-    line-height: 13px !important;
+    line-height: 18px !important;
   }
 </style>
 
-<div style="display: flex; flex-direction: row; width: 100%; height: 100%;">
+<div style="display: flex; flex-direction: row; width: 100%; height: 100%; align-items: stretch;">
 
   <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; max-width: 34px; height: auto; border-radius: 10px; margin: 8px 3px 8px 6px; padding: 10px 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
     <span class="title">Grand Sumo &mdash; {{ basho_name }} {{ basho_year }} &mdash; Day {{ day }} / {{ total_days }}</span>
