@@ -1,0 +1,5 @@
+# Local trmnlp 0.3.x preview (views/ + polling a JSON file).
+# Production polling URL lives in src/settings.yml.
+strategy = "polling"
+url = "../../data/profile.json"
+live_render = true

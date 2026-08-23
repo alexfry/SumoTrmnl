@@ -1,4 +1,11 @@
-{
+---
+# Local official trmnlp config (src/ + .trmnlp.yml).
+# Merge variables are seeded from the repo sample so serve/build
+# works offline. Production polling URLs live in src/settings.yml.
+watch:
+  - src
+  - .trmnlp.yml
+variables: {
   "basho_id": "202603",
   "basho_name": "Haru Basho",
   "basho_year": "2026",

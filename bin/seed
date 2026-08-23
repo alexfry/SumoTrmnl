@@ -1,10 +1,22 @@
 #!/usr/bin/env bash
-# POST sample data to the local trmnlp webhook endpoint.
-# Run this after `trmnlp serve` is up to inject variables into the preview.
+# POST sample data to a local trmnlp webhook endpoint.
+# Usage: bin/seed [stats|profile] [webhook-url]
+# Prefer `bin/dev` with the plugin's config.toml polling the sample file;
+# this is for webhook-strategy servers.
 set -euo pipefail
 
-WEBHOOK="${1:-http://localhost:4567/webhook}"
-DATA_FILE="$(dirname "$0")/../data/sample.json"
+PLUGIN="${1:-stats}"
+WEBHOOK="${2:-http://localhost:4567/webhook}"
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+
+case "$PLUGIN" in
+  stats) DATA_FILE="$ROOT/data/sample.json" ;;
+  profile) DATA_FILE="$ROOT/data/profile.json" ;;
+  *)
+    echo "Usage: bin/seed [stats|profile] [webhook-url]" >&2
+    exit 1
+    ;;
+esac
 
 echo "Seeding $WEBHOOK with $DATA_FILE ..."
 curl -s -X POST "$WEBHOOK" \

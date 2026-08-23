@@ -1,0 +1,5 @@
+# trmnlp local output
+tmp/
+plugins/*/tmp/
+_build/
+plugins/*/_build/
