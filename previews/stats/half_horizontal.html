@@ -15,188 +15,303 @@
       <div class="view view--half_horizontal">
         <style>
   :root {
-    --table-xsmall-tbody-height: 16px;
-    --table-xsmall-thead-height: 12px;
+    --table-xsmall-tbody-height: 13px;
+    --table-xsmall-thead-height: 10px;
   }
+  .layout { padding: 0 !important; margin: 0 !important; }
+  .view { padding: 0 !important; }
 </style>
 
-<div class="layout layout--col gap--none">
-  
-    <table class="table table--xsmall" data-table-limit="true">
-      <thead>
-        <tr>
-          <th><span class="title">East</span></th>
-          <th style="width: 16px;"></th>
-          <th style="width: 88px; text-align: center;"><span class="title">Kimarite</span></th>
-          <th style="width: 16px;"></th>
-          <th><span class="title">West</span></th>
-        </tr>
-      </thead>
-      <tbody>
-        
-        
-          <tr>
-            <td>
-              <span class="label">Hoshoryu</span>
-              <span class="label label--small">O1e</span>
-            </td>
-            <td style="text-align: right;">
-              
-            </td>
-            <td style="text-align: center;">
-              
-                <span class="label label--small">vs</span>
-              
-            </td>
-            <td style="text-align: left;">
-              
-            </td>
-            <td>
-              <span class="label">Onosato</span>
-              <span class="label label--small">Y1e</span>
-            </td>
-          </tr>
-        
-          <tr>
-            <td>
-              <span class="label">Daieisho</span>
-              <span class="label label--small">S1e</span>
-            </td>
-            <td style="text-align: right;">
-              <span class="label label--small">•</span>
-            </td>
-            <td style="text-align: center;">
-              
-                <span class="label label--small">hatakikomi</span>
-              
-            </td>
-            <td style="text-align: left;">
-              
-            </td>
-            <td>
-              <span class="label">Kotozakura</span>
-              <span class="label label--small">O1w</span>
-            </td>
-          </tr>
-        
-          <tr>
-            <td>
-              <span class="label">Abi</span>
-              <span class="label label--small">K1e</span>
-            </td>
-            <td style="text-align: right;">
-              <span class="label label--small">•</span>
-            </td>
-            <td style="text-align: center;">
-              
-                <span class="label label--small">tsukiotoshi</span>
-              
-            </td>
-            <td style="text-align: left;">
-              
-            </td>
-            <td>
-              <span class="label">Wakamotoharu</span>
-              <span class="label label--small">S1w</span>
-            </td>
-          </tr>
-        
-          <tr>
-            <td>
-              <span class="label">Tobizaru</span>
-              <span class="label label--small">M3e</span>
-            </td>
-            <td style="text-align: right;">
-              
-            </td>
-            <td style="text-align: center;">
-              
-                <span class="label label--small">yorikiri</span>
-              
-            </td>
-            <td style="text-align: left;">
-              <span class="label label--small">•</span>
-            </td>
-            <td>
-              <span class="label">Nishikigi</span>
-              <span class="label label--small">K1w</span>
-            </td>
-          </tr>
-        
-          <tr>
-            <td>
-              <span class="label">Kotonowaka</span>
-              <span class="label label--small">M1w</span>
-            </td>
-            <td style="text-align: right;">
-              
-            </td>
-            <td style="text-align: center;">
-              
-                <span class="label label--small">vs</span>
-              
-            </td>
-            <td style="text-align: left;">
-              
-            </td>
-            <td>
-              <span class="label">Mitakeumi</span>
-              <span class="label label--small">M2e</span>
-            </td>
-          </tr>
-        
-          <tr>
-            <td>
-              <span class="label">Midorifuji</span>
-              <span class="label label--small">M2w</span>
-            </td>
-            <td style="text-align: right;">
-              <span class="label label--small">•</span>
-            </td>
-            <td style="text-align: center;">
-              
-                <span class="label label--small">uwatenage</span>
-              
-            </td>
-            <td style="text-align: left;">
-              
-            </td>
-            <td>
-              <span class="label">Shonannoumi</span>
-              <span class="label label--small">M1e</span>
-            </td>
-          </tr>
-        
-          <tr>
-            <td>
-              <span class="label">Takakeisho</span>
-              <span class="label label--small">M5e</span>
-            </td>
-            <td style="text-align: right;">
-              
-            </td>
-            <td style="text-align: center;">
-              
-                <span class="label label--small">vs</span>
-              
-            </td>
-            <td style="text-align: left;">
-              
-            </td>
-            <td>
-              <span class="label">Tobizaru</span>
-              <span class="label label--small">M3e</span>
-            </td>
-          </tr>
-        
-      </tbody>
-    </table>
-  
-</div>
+<div style="display: flex; flex-direction: row; width: 800px; height: 240px; overflow: hidden;">
 
-<div class="title_bar">
-  <span class="title">Grand Sumo</span>
-  <span class="instance">Haru Basho 2026 — Day 10</span>
+  <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; height: auto; border-radius: 10px; margin: 6px 6px 6px 8px; padding: 10px 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
+    <span class="title">Grand Sumo &mdash; Day 10</span>
+  </div>
+
+  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
+  <table class="table table--xsmall" data-table-limit="true">
+    <thead>
+      <tr>
+        <th style="text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
+        <th style="width: 40px; text-align: center;"><span class="title" style="font-size: 9px;">Rank</span></th>
+        <th style="width: 36px; text-align: center;"><span class="title" style="font-size: 9px;">W-L</span></th>
+        <th style="width: 12px;"></th>
+        <th style="width: 90px; text-align: center;"><span class="title" style="font-size: 9px;">Kimarite</span></th>
+        <th style="width: 12px;"></th>
+        <th style="width: 36px; text-align: center;"><span class="title" style="font-size: 9px;">W-L</span></th>
+        <th style="width: 40px; text-align: center;"><span class="title" style="font-size: 9px;">Rank</span></th>
+        <th><span class="title" style="font-size: 9px;">West</span></th>
+        <th style="width: 30px; text-align: center;"><span class="title" style="font-size: 9px;">Past</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Hoshoryu</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">O1e</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">8-2</span></td>
+          <td style="text-align: right;">
+            
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">vs</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">9-1</span></td>
+          <td style="text-align: center;"><span class="label label--small">Y1e</span></td>
+          <td>
+            <span class="label">Onosato</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">3-5</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Daieisho</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">S1e</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">7-3</span></td>
+          <td style="text-align: right;">
+            <span class="label label--small">•</span>
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">hatakikomi</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">7-3</span></td>
+          <td style="text-align: center;"><span class="label label--small">O1w</span></td>
+          <td>
+            <span class="label">Kotozakura</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">6-8</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Abi</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">K1e</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">6-4</span></td>
+          <td style="text-align: right;">
+            <span class="label label--small">•</span>
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">tsukiotoshi</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">6-4</span></td>
+          <td style="text-align: center;"><span class="label label--small">S1w</span></td>
+          <td>
+            <span class="label">Wakamotoharu</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">5-4</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Tobizaru</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">M3e</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-5</span></td>
+          <td style="text-align: right;">
+            
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">yorikiri</span>
+            
+          </td>
+          <td style="text-align: left;">
+            <span class="label label--small">•</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-5</span></td>
+          <td style="text-align: center;"><span class="label label--small">K1w</span></td>
+          <td>
+            <span class="label">Nishikigi</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">4-6</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Kotonowaka</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">M1w</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">6-4</span></td>
+          <td style="text-align: right;">
+            
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">vs</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-5</span></td>
+          <td style="text-align: center;"><span class="label label--small">M2e</span></td>
+          <td>
+            <span class="label">Mitakeumi</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">4-3</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Midorifuji</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">M2w</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-5</span></td>
+          <td style="text-align: right;">
+            <span class="label label--small">•</span>
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">uwatenage</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">6-4</span></td>
+          <td style="text-align: center;"><span class="label label--small">M1e</span></td>
+          <td>
+            <span class="label">Shonannoumi</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">3-2</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Takakeisho</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">M5e</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-5</span></td>
+          <td style="text-align: right;">
+            
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">vs</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-5</span></td>
+          <td style="text-align: center;"><span class="label label--small">M3e</span></td>
+          <td>
+            <span class="label">Tobizaru</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">8-5</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Gonoyama</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">M5w</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">4-6</span></td>
+          <td style="text-align: right;">
+            <span class="label label--small">•</span>
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">oshidashi</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-4</span></td>
+          <td style="text-align: center;"><span class="label label--small">M4e</span></td>
+          <td>
+            <span class="label">Kirishima</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">0-1</span>
+          </td>
+        </tr>
+      
+        <tr>
+          <td style="text-align: right;">
+            
+            <span class="label">Nishikifuji</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">M6w</span></td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">6-4</span></td>
+          <td style="text-align: right;">
+            
+          </td>
+          <td style="text-align: center;">
+            
+              <span class="label label--small">vs</span>
+            
+          </td>
+          <td style="text-align: left;">
+            
+          </td>
+          <td style="text-align: center;"><span class="label label--small value--tnums">5-5</span></td>
+          <td style="text-align: center;"><span class="label label--small">M6e</span></td>
+          <td>
+            <span class="label">Asanoyama</span>
+            
+          </td>
+          <td style="text-align: center; min-width: 30px;">
+            <span class="label label--small value--tnums">1-2</span>
+          </td>
+        </tr>
+      
+    </tbody>
+  </table>
+  </div>
+
 </div>
 
 <script>terminalize()</script>

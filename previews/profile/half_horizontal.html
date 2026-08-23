@@ -13,48 +13,45 @@
   <body class="environment trmnl">
     <div class="screen">
       <div class="view view--half_horizontal">
-        <div class="layout layout--col gap--small">
-  <div class="flex flex--center-y" style="gap: 10px;">
-    
-      <img class="image image-dither" src="https://alexfry.github.io/SumoTrmnl/jp/2c88e9afcd6b.png" style="display: inline; height: 28px;">
-    
-    <span class="title">Kazuma</span>
-  </div>
+        <style>
+  .layout { padding: 0 !important; margin: 0 !important; }
+  .view { padding: 0 !important; }
+</style>
 
-  <div class="flex" style="gap: 16px; flex-wrap: wrap;">
-    <div><span class="label label--small">Rank</span>&nbsp;<span class="label">M15w</span></div>
-    <div><span class="label label--small">Peak</span>&nbsp;<span class="label">M15w</span></div>
+<div style="display: flex; flex-direction: row; width: 800px; height: 240px; overflow: hidden;">
+
+  <div style="width: 180px; flex-shrink: 0; overflow: hidden;">
     
-      <div><span class="label label--small">Stable</span>&nbsp;<span class="label">Kise</span></div>
-    
-    
-      <div><span class="label label--small">From</span>&nbsp;<span class="label">Ishikawa</span></div>
+      <img class="image image-dither image--cover"
+           src="https://alexfry.github.io/SumoTrmnl/photos/12226.png"
+           style="display: block; width: 180px; height: 240px; object-fit: cover; object-position: top;">
     
   </div>
 
-  <div class="flex flex--between flex--center-y">
-    <div class="flex flex--col">
-      <span class="title value--tnums">66W – 27L</span>
-      <span class="label label--small">13 basho</span>
-    </div>
-    <div class="flex flex--col flex--center-x">
-      <span class="title value--tnums">4</span>
-      <span class="label label--small">Yusho</span>
-    </div>
-    <div class="flex flex--col flex--center-x">
-      <span class="title value--tnums">0</span>
-      <span class="label label--small">Jun-Yusho</span>
-    </div>
-    <div class="flex flex--col flex--center-x">
-      <span class="title value--tnums">0</span>
-      <span class="label label--small">Prizes</span>
-    </div>
-  </div>
-</div>
+  <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; padding: 16px 20px 16px 24px; gap: 0;">
 
-<div class="title_bar">
-  <span class="title">Rikishi</span>
-  <span class="instance">M15w · Active</span>
+    <div style="display: flex; align-items: flex-end; gap: 12px; margin-bottom: 12px;">
+      
+        <img class="image image-dither"
+             src="https://alexfry.github.io/SumoTrmnl/jp/2c88e9afcd6b.png"
+             style="display: inline; height: 36px; vertical-align: bottom;">
+      
+      <span class="title" style="font-size: 28px; line-height: 1;">Kazuma</span>
+    </div>
+
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+      <div><span class="label label--small">Rank</span>&nbsp;<span class="label" style="font-weight: bold;">M15w</span></div>
+      <div><span class="label label--small">Peak</span>&nbsp;<span class="label">M15w</span></div>
+      
+        <div><span class="label label--small">Stable</span>&nbsp;<span class="label">Kise</span></div>
+      
+      
+        <div><span class="label label--small">From</span>&nbsp;<span class="label">Ishikawa</span></div>
+      
+    </div>
+
+  </div>
+
 </div>
 
 <script>terminalize()</script>

@@ -1,54 +1,46 @@
-<div class="layout layout--col gap--small">
-  <div class="flex flex--col">
-    {% if kanji_img_url != "" and kanji_img_url != nil %}
-      <img class="image image-dither" src="{{ kanji_img_url }}" style="display: block; height: 32px; margin-bottom: 4px;">
+<style>
+  .layout { padding: 0 !important; margin: 0 !important; }
+  .view { padding: 0 !important; }
+</style>
+
+<div style="display: flex; flex-direction: row; width: 400px; height: 480px; overflow: hidden;">
+
+  <div style="width: 170px; flex-shrink: 0; overflow: hidden;">
+    {% if image_url != "" and image_url != nil %}
+      <img class="image image-dither image--cover"
+           src="{{ image_url }}"
+           style="display: block; width: 170px; height: 480px; object-fit: cover; object-position: top;">
+    {% else %}
+      <div style="width: 170px; height: 480px; display: flex; align-items: center; justify-content: center;">
+        <span style="font-size: 48px; opacity: 0.15;">?</span>
+      </div>
     {% endif %}
-    <span class="title">{{ shikona }}</span>
-    <span class="label">{{ rank }}</span>
   </div>
 
-  <div class="flex flex--col">
-    <div><span class="label label--small">Peak</span>&nbsp;<span class="label">{{ highest_rank }}</span></div>
-    {% if heya != "" and heya != nil %}
-      <div><span class="label label--small">Stable</span>&nbsp;<span class="label">{{ heya }}</span></div>
-    {% endif %}
-    {% if shusshin != "" and shusshin != nil %}
-      <div><span class="label label--small">From</span>&nbsp;<span class="label">{{ shusshin }}</span></div>
-    {% endif %}
-  </div>
+  <div style="flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; padding: 16px 14px 16px 16px; gap: 0;">
 
-  <div class="flex flex--col">
-    <span class="title value--tnums">{{ total_wins }}W – {{ total_losses }}L</span>
-    <span class="label label--small">{{ total_bashos }} basho career</span>
-  </div>
-
-  <div class="flex flex--between">
-    <div class="flex flex--col flex--center-x">
-      <span class="title value--tnums">{{ yusho }}</span>
-      <span class="label label--small">Yusho</span>
+    <div style="display: flex; flex-direction: column; align-items: flex-start; gap: 8px; margin-bottom: 14px;">
+      {% if kanji_img_url != "" and kanji_img_url != nil %}
+        <img class="image image-dither"
+             src="{{ kanji_img_url }}"
+             style="display: block; height: 36px;">
+      {% endif %}
+      <span class="title" style="font-size: 24px; line-height: 1;">{{ shikona }}</span>
     </div>
-    <div class="flex flex--col flex--center-x">
-      <span class="title value--tnums">{{ jun_yusho }}</span>
-      <span class="label label--small">Jun-Yusho</span>
+
+    <div style="display: flex; flex-direction: column; gap: 6px;">
+      <div><span class="label label--small">Rank</span>&nbsp;<span class="label" style="font-weight: bold;">{{ rank }}</span></div>
+      <div><span class="label label--small">Peak</span>&nbsp;<span class="label">{{ highest_rank }}</span></div>
+      {% if heya != "" and heya != nil %}
+        <div><span class="label label--small">Stable</span>&nbsp;<span class="label">{{ heya }}</span></div>
+      {% endif %}
+      {% if shusshin != "" and shusshin != nil %}
+        <div><span class="label label--small">From</span>&nbsp;<span class="label">{{ shusshin }}</span></div>
+      {% endif %}
     </div>
-    <div class="flex flex--col flex--center-x">
-      <span class="title value--tnums">{{ special_prizes }}</span>
-      <span class="label label--small">Prizes</span>
-    </div>
+
   </div>
 
-  <div>
-    {% if first_basho != "" and first_basho != nil %}
-      <span class="label label--small">Debut {{ first_basho }}</span>
-      <span class="label label--small"> · </span>
-    {% endif %}
-    <span class="label label--small">{{ status }}</span>
-  </div>
-</div>
-
-<div class="title_bar">
-  <span class="title">Rikishi</span>
-  <span class="instance">{{ rank }}</span>
 </div>
 
 <script>terminalize()</script>

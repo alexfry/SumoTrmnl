@@ -1,35 +1,66 @@
-<div class="layout layout--col gap--none">
-  {% if torikumi == empty or torikumi == nil %}
-    <div class="flex flex--center-x flex--center-y" style="flex: 1;">
-      <span class="label">No bouts scheduled today.</span>
-    </div>
-  {% else %}
-    {% assign featured = torikumi | reverse %}
-    {% for bout in featured limit: 9 %}
-      <div class="flex flex--between flex--center-y">
-        <div class="flex flex--col">
-          <span class="label">{% if bout.winner == bout.east %}• {% endif %}{{ bout.east }}</span>
-          <span class="label label--small">{{ bout.east_rank }}</span>
-        </div>
-        <div class="flex flex--col flex--center-x">
-          {% if bout.kimarite != "" and bout.kimarite != nil %}
-            <span class="label label--small">{{ bout.kimarite }}</span>
-          {% else %}
-            <span class="label label--small">vs</span>
-          {% endif %}
-        </div>
-        <div class="flex flex--col" style="text-align: right;">
-          <span class="label">{% if bout.winner == bout.west %}• {% endif %}{{ bout.west }}</span>
-          <span class="label label--small">{{ bout.west_rank }}</span>
-        </div>
-      </div>
-    {% endfor %}
-  {% endif %}
-</div>
+<style>
+  :root {
+    --table-xsmall-tbody-height: 13px;
+    --table-xsmall-thead-height: 10px;
+  }
+  .layout { padding: 0 !important; margin: 0 !important; }
+  .view { padding: 0 !important; }
+  .table.table--xsmall th,
+  .table.table--xsmall td {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+</style>
 
-<div class="title_bar">
-  <span class="title">Grand Sumo</span>
-  <span class="instance">{{ basho_name }} {{ basho_year }} — Day {{ day }}</span>
+<div style="display: flex; flex-direction: row; width: 400px; height: 480px; overflow: hidden;">
+
+  <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; max-width: 34px; height: auto; border-radius: 10px; margin: 8px 3px 8px 6px; padding: 10px 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
+    <span class="title">Grand Sumo &mdash; {{ basho_name }} {{ basho_year }} &mdash; Day {{ day }} / {{ total_days }}</span>
+  </div>
+
+  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
+  <table class="table table--xsmall" data-table-limit="true" style="table-layout: fixed; width: 100%;">
+    <thead>
+      <tr>
+        <th style="width: 28%; text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
+        <th style="width: 30px; text-align: center;"><span class="title" style="font-size: 9px;">Rank</span></th>
+        <th style="width: 10px;"></th>
+        <th style="width: 62px; text-align: center;"><span class="title" style="font-size: 9px;">Kimarite</span></th>
+        <th style="width: 10px;"></th>
+        <th style="width: 30px; text-align: center;"><span class="title" style="font-size: 9px;">Rank</span></th>
+        <th style="width: 28%;"><span class="title" style="font-size: 9px;">West</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for bout in torikumi reversed %}
+        <tr>
+          <td style="text-align: right;">
+            <span class="label">{{ bout.east }}</span>
+          </td>
+          <td style="text-align: center;"><span class="label label--small">{{ bout.east_rank }}</span></td>
+          <td style="text-align: right;">
+            {% if bout.winner == bout.east %}<span class="label label--small">•</span>{% endif %}
+          </td>
+          <td style="text-align: center;">
+            {% if bout.kimarite != "" and bout.kimarite != nil %}
+              <span class="label label--small">{{ bout.kimarite }}</span>
+            {% else %}
+              <span class="label label--small">vs</span>
+            {% endif %}
+          </td>
+          <td style="text-align: left;">
+            {% if bout.winner == bout.west %}<span class="label label--small">•</span>{% endif %}
+          </td>
+          <td style="text-align: center;"><span class="label label--small">{{ bout.west_rank }}</span></td>
+          <td>
+            <span class="label">{{ bout.west }}</span>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  </div>
+
 </div>
 
 <script>terminalize()</script>

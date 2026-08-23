@@ -1,50 +1,63 @@
-<div class="layout layout--col gap--small">
-  <div class="flex flex--between flex--center-y">
-    <span class="label">{{ basho_name }} {{ basho_year }}</span>
-    <span class="label label--small">
-      {% if status == "active" %}Day {{ day }} / {{ total_days }}
-      {% elsif status == "complete" %}Complete
-      {% else %}Upcoming{% endif %}
-    </span>
+<style>
+  :root {
+    --table-xsmall-tbody-height: 13px;
+    --table-xsmall-thead-height: 10px;
+  }
+  .layout { padding: 0 !important; margin: 0 !important; }
+  .view { padding: 0 !important; }
+  .table.table--xsmall th,
+  .table.table--xsmall td {
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+  }
+</style>
+
+<div style="display: flex; flex-direction: row; width: 400px; height: 240px; overflow: hidden;">
+
+  <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; max-width: 34px; height: auto; border-radius: 10px; margin: 6px 3px 6px 6px; padding: 8px 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
+    <span class="title">Grand Sumo &mdash; Day {{ day }}</span>
   </div>
 
-  <div class="flex flex--col">
-    <span class="label label--small">
-      {% if status == "complete" %}Champion{% else %}Leader{% endif %}
-    </span>
-    <span class="title">{{ leaders | join: " · " }}</span>
-    <span class="label value--tnums">
-      {{ leader_wins }}W
-      {% if status == "active" %}
-        {% assign leader_losses = day | minus: leader_wins %}
-        &nbsp;–&nbsp;{{ leader_losses }}L
-      {% endif %}
-    </span>
+  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
+  <table class="table table--xsmall" data-table-limit="true" style="table-layout: fixed; width: 100%;">
+    <thead>
+      <tr>
+        <th style="width: 34%; text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
+        <th style="width: 12px;"></th>
+        <th style="width: 72px; text-align: center;"><span class="title" style="font-size: 9px;">Kimarite</span></th>
+        <th style="width: 12px;"></th>
+        <th style="width: 34%;"><span class="title" style="font-size: 9px;">West</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% assign featured = torikumi | reverse %}
+      {% for bout in featured limit: 8 %}
+        <tr>
+          <td style="text-align: right;">
+            <span class="label">{{ bout.east }}</span>
+          </td>
+          <td style="text-align: right;">
+            {% if bout.winner == bout.east %}<span class="label label--small">•</span>{% endif %}
+          </td>
+          <td style="text-align: center;">
+            {% if bout.kimarite != "" and bout.kimarite != nil %}
+              <span class="label label--small">{{ bout.kimarite }}</span>
+            {% else %}
+              <span class="label label--small">vs</span>
+            {% endif %}
+          </td>
+          <td style="text-align: left;">
+            {% if bout.winner == bout.west %}<span class="label label--small">•</span>{% endif %}
+          </td>
+          <td>
+            <span class="label">{{ bout.west }}</span>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
   </div>
 
-  {% if torikumi != empty and torikumi != nil %}
-    {% assign headlines = torikumi | reverse %}
-    {% for bout in headlines limit: 2 %}
-      <div class="flex flex--between flex--center-y">
-        <span class="label">{{ bout.east }}</span>
-        <span class="label label--small">
-          {% if bout.kimarite != "" and bout.kimarite != nil %}{{ bout.kimarite }}
-          {% else %}vs{% endif %}
-        </span>
-        <span class="label">{{ bout.west }}</span>
-      </div>
-    {% endfor %}
-  {% elsif status == "complete" or status == "upcoming" %}
-    <div class="flex flex--between flex--center-y">
-      <span class="label label--small">Next</span>
-      <span class="label">{{ next_basho_name }} in {{ days_until_next }}d</span>
-    </div>
-  {% endif %}
-</div>
-
-<div class="title_bar">
-  <span class="title">Sumo Stats</span>
-  <span class="instance">{{ division }}</span>
 </div>
 
 <script>terminalize()</script>
