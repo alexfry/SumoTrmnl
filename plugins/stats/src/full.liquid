@@ -1,26 +1,41 @@
 <style>
   :root {
-    --table-xsmall-tbody-height: 18px;
-    --table-xsmall-thead-height: 14px;
+    --table-xsmall-tbody-height: 13px;
+    --table-xsmall-thead-height: 10px;
   }
   .layout { padding: 0 !important; margin: 0 !important; }
   .view { padding: 0 !important; }
+  /* Rows must actually be 13px. .label is 16/20 and JP images were 14px,
+     which grew each tr to ~22px and overflowed the 460px view. */
+  .table.table--xsmall thead tr,
+  .table.table--xsmall thead th {
+    height: 10px !important;
+    line-height: 10px !important;
+  }
+  .table.table--xsmall tbody tr,
+  .table.table--xsmall tbody td {
+    height: 13px !important;
+    line-height: 13px !important;
+  }
   .table.table--xsmall th,
   .table.table--xsmall td {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    line-height: 18px;
+    overflow: hidden;
+  }
+  .table.table--xsmall .label {
+    line-height: 13px !important;
   }
 </style>
 
-<div style="display: flex; flex-direction: row; width: 800px; height: 480px; overflow: hidden;">
+<div style="display: flex; flex-direction: row; width: 100%; height: 100%;">
 
   <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; height: auto; border-radius: 10px; margin: 8px 6px 8px 8px; padding: 10px 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
     <span class="title">Grand Sumo &mdash; {{ basho_name }} {{ basho_year }} &mdash; Day {{ day }} / {{ total_days }}</span>
   </div>
 
-  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
-  <table class="table table--xsmall">
+  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0; min-height: 0;">
+  <table class="table table--xsmall" data-table-limit="true">
     <thead>
       <tr>
         <th style="text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
@@ -40,7 +55,7 @@
         <tr>
           <td style="text-align: right;">
             {% if bout.east_jp_img != "" and bout.east_jp_img != nil %}
-              <img class="image image-dither" src="{{ bout.east_jp_img }}" style="display: inline; height: 14px; vertical-align: middle; margin-right: 4px;">
+              <img class="image image-dither" src="{{ bout.east_jp_img }}" style="display: inline; height: 11px; vertical-align: middle; margin-right: 4px;">
             {% endif %}
             <span class="label">{{ bout.east }}</span>
           </td>
@@ -64,7 +79,7 @@
           <td>
             <span class="label">{{ bout.west }}</span>
             {% if bout.west_jp_img != "" and bout.west_jp_img != nil %}
-              <img class="image image-dither" src="{{ bout.west_jp_img }}" style="display: inline; height: 14px; vertical-align: middle; margin-left: 4px;">
+              <img class="image image-dither" src="{{ bout.west_jp_img }}" style="display: inline; height: 11px; vertical-align: middle; margin-left: 4px;">
             {% endif %}
           </td>
           <td style="text-align: center; min-width: 30px;">
