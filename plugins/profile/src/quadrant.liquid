@@ -1,0 +1,27 @@
+<div class="layout layout--col gap--small">
+  <span class="title">{{ shikona }}</span>
+  <span class="label">{{ rank }}</span>
+
+  <div class="flex flex--col">
+    <span class="title value--tnums">{{ total_wins }}W – {{ total_losses }}L</span>
+    <span class="label label--small">{{ total_bashos }} basho</span>
+  </div>
+
+  <div class="flex flex--between">
+    <div>
+      <span class="label value--tnums">{{ yusho }}</span>
+      <span class="label label--small"> Yusho</span>
+    </div>
+    <div>
+      <span class="label value--tnums">{{ special_prizes }}</span>
+      <span class="label label--small"> Prizes</span>
+    </div>
+  </div>
+</div>
+
+<div class="title_bar">
+  <span class="title">Rikishi</span>
+  <span class="instance">{{ status }}</span>
+</div>
+
+<script>terminalize()</script>

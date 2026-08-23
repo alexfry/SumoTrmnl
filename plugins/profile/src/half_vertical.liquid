@@ -1,0 +1,54 @@
+<div class="layout layout--col gap--small">
+  <div class="flex flex--col">
+    {% if kanji_img_url != "" and kanji_img_url != nil %}
+      <img class="image image-dither" src="{{ kanji_img_url }}" style="display: block; height: 32px; margin-bottom: 4px;">
+    {% endif %}
+    <span class="title">{{ shikona }}</span>
+    <span class="label">{{ rank }}</span>
+  </div>
+
+  <div class="flex flex--col">
+    <div><span class="label label--small">Peak</span>&nbsp;<span class="label">{{ highest_rank }}</span></div>
+    {% if heya != "" and heya != nil %}
+      <div><span class="label label--small">Stable</span>&nbsp;<span class="label">{{ heya }}</span></div>
+    {% endif %}
+    {% if shusshin != "" and shusshin != nil %}
+      <div><span class="label label--small">From</span>&nbsp;<span class="label">{{ shusshin }}</span></div>
+    {% endif %}
+  </div>
+
+  <div class="flex flex--col">
+    <span class="title value--tnums">{{ total_wins }}W – {{ total_losses }}L</span>
+    <span class="label label--small">{{ total_bashos }} basho career</span>
+  </div>
+
+  <div class="flex flex--between">
+    <div class="flex flex--col flex--center-x">
+      <span class="title value--tnums">{{ yusho }}</span>
+      <span class="label label--small">Yusho</span>
+    </div>
+    <div class="flex flex--col flex--center-x">
+      <span class="title value--tnums">{{ jun_yusho }}</span>
+      <span class="label label--small">Jun-Yusho</span>
+    </div>
+    <div class="flex flex--col flex--center-x">
+      <span class="title value--tnums">{{ special_prizes }}</span>
+      <span class="label label--small">Prizes</span>
+    </div>
+  </div>
+
+  <div>
+    {% if first_basho != "" and first_basho != nil %}
+      <span class="label label--small">Debut {{ first_basho }}</span>
+      <span class="label label--small"> · </span>
+    {% endif %}
+    <span class="label label--small">{{ status }}</span>
+  </div>
+</div>
+
+<div class="title_bar">
+  <span class="title">Rikishi</span>
+  <span class="instance">{{ rank }}</span>
+</div>
+
+<script>terminalize()</script>

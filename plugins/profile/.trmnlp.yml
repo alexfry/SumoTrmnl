@@ -1,0 +1,34 @@
+---
+# Local official trmnlp config (src/ + .trmnlp.yml).
+# Merge variables are seeded from the repo sample so serve/build
+# works offline. Production polling URLs live in src/settings.yml.
+watch:
+  - src
+  - .trmnlp.yml
+variables: {
+  "rikishi_id": 12901,
+  "shikona": "Kazuma",
+  "shikona_kanji": "一意",
+  "shikona_kana": "かずま",
+  "rank": "M15w",
+  "highest_rank": "M15w",
+  "heya": "Kise",
+  "shusshin": "Ishikawa",
+  "age": 24,
+  "height": "185.0cm",
+  "weight": "205.0kg",
+  "total_wins": 66,
+  "total_losses": 27,
+  "total_absents": 16,
+  "total_bashos": 13,
+  "yusho": 4,
+  "jun_yusho": 0,
+  "special_prizes": 0,
+  "image_url": "https://alexfry.github.io/SumoTrmnl/photos/12226.png",
+  "kanji_img_url": "https://alexfry.github.io/SumoTrmnl/jp/2c88e9afcd6b.png",
+  "first_basho": "2024-07",
+  "latest_basho": "2026-07",
+  "status": "Active",
+  "description": "Makuuchi wrestler from Ishikawa, Kise-beya.",
+  "last_updated": "2026-08-23 16:16 JST"
+}

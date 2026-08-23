@@ -1,0 +1,9 @@
+---
+name: Rikishi Card
+description: Random rikishi profile card
+strategy: polling
+polling_url: https://alexfry.github.io/SumoTrmnl/profile.json
+polling_verb: GET
+refresh_interval: 60
+no_screen_padding: 'no'
+dark_mode: 'no'

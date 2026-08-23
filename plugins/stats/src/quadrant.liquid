@@ -1,0 +1,50 @@
+<div class="layout layout--col gap--small">
+  <div class="flex flex--between flex--center-y">
+    <span class="label">{{ basho_name }} {{ basho_year }}</span>
+    <span class="label label--small">
+      {% if status == "active" %}Day {{ day }} / {{ total_days }}
+      {% elsif status == "complete" %}Complete
+      {% else %}Upcoming{% endif %}
+    </span>
+  </div>
+
+  <div class="flex flex--col">
+    <span class="label label--small">
+      {% if status == "complete" %}Champion{% else %}Leader{% endif %}
+    </span>
+    <span class="title">{{ leaders | join: " · " }}</span>
+    <span class="label value--tnums">
+      {{ leader_wins }}W
+      {% if status == "active" %}
+        {% assign leader_losses = day | minus: leader_wins %}
+        &nbsp;–&nbsp;{{ leader_losses }}L
+      {% endif %}
+    </span>
+  </div>
+
+  {% if torikumi != empty and torikumi != nil %}
+    {% assign headlines = torikumi | reverse %}
+    {% for bout in headlines limit: 2 %}
+      <div class="flex flex--between flex--center-y">
+        <span class="label">{{ bout.east }}</span>
+        <span class="label label--small">
+          {% if bout.kimarite != "" and bout.kimarite != nil %}{{ bout.kimarite }}
+          {% else %}vs{% endif %}
+        </span>
+        <span class="label">{{ bout.west }}</span>
+      </div>
+    {% endfor %}
+  {% elsif status == "complete" or status == "upcoming" %}
+    <div class="flex flex--between flex--center-y">
+      <span class="label label--small">Next</span>
+      <span class="label">{{ next_basho_name }} in {{ days_until_next }}d</span>
+    </div>
+  {% endif %}
+</div>
+
+<div class="title_bar">
+  <span class="title">Sumo Stats</span>
+  <span class="instance">{{ division }}</span>
+</div>
+
+<script>terminalize()</script>

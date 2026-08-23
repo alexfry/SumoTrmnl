@@ -1,0 +1,9 @@
+---
+name: Sumo Stats
+description: Makuuchi basho day table
+strategy: polling
+polling_url: https://alexfry.github.io/SumoTrmnl/data.json
+polling_verb: GET
+refresh_interval: 60
+no_screen_padding: 'no'
+dark_mode: 'no'

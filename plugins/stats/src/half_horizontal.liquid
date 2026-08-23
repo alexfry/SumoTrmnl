@@ -1,0 +1,61 @@
+<style>
+  :root {
+    --table-xsmall-tbody-height: 16px;
+    --table-xsmall-thead-height: 12px;
+  }
+</style>
+
+<div class="layout layout--col gap--none">
+  {% if torikumi == empty or torikumi == nil %}
+    <div class="flex flex--center-x flex--center-y" style="flex: 1;">
+      <span class="label">No bouts scheduled today.</span>
+    </div>
+  {% else %}
+    <table class="table table--xsmall" data-table-limit="true">
+      <thead>
+        <tr>
+          <th><span class="title">East</span></th>
+          <th style="width: 16px;"></th>
+          <th style="width: 88px; text-align: center;"><span class="title">Kimarite</span></th>
+          <th style="width: 16px;"></th>
+          <th><span class="title">West</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign featured = torikumi | reverse %}
+        {% for bout in featured limit: 7 %}
+          <tr>
+            <td>
+              <span class="label">{{ bout.east }}</span>
+              <span class="label label--small">{{ bout.east_rank }}</span>
+            </td>
+            <td style="text-align: right;">
+              {% if bout.winner == bout.east %}<span class="label label--small">•</span>{% endif %}
+            </td>
+            <td style="text-align: center;">
+              {% if bout.kimarite != "" and bout.kimarite != nil %}
+                <span class="label label--small">{{ bout.kimarite }}</span>
+              {% else %}
+                <span class="label label--small">vs</span>
+              {% endif %}
+            </td>
+            <td style="text-align: left;">
+              {% if bout.winner == bout.west %}<span class="label label--small">•</span>{% endif %}
+            </td>
+            <td>
+              <span class="label">{{ bout.west }}</span>
+              <span class="label label--small">{{ bout.west_rank }}</span>
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endif %}
+</div>
+
+<div class="title_bar">
+  <span class="title">Grand Sumo</span>
+  <span class="instance">{{ basho_name }} {{ basho_year }} — Day {{ day }}</span>
+</div>
+
+<script>terminalize()</script>

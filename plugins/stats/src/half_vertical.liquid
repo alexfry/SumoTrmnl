@@ -1,0 +1,35 @@
+<div class="layout layout--col gap--none">
+  {% if torikumi == empty or torikumi == nil %}
+    <div class="flex flex--center-x flex--center-y" style="flex: 1;">
+      <span class="label">No bouts scheduled today.</span>
+    </div>
+  {% else %}
+    {% assign featured = torikumi | reverse %}
+    {% for bout in featured limit: 9 %}
+      <div class="flex flex--between flex--center-y">
+        <div class="flex flex--col">
+          <span class="label">{% if bout.winner == bout.east %}• {% endif %}{{ bout.east }}</span>
+          <span class="label label--small">{{ bout.east_rank }}</span>
+        </div>
+        <div class="flex flex--col flex--center-x">
+          {% if bout.kimarite != "" and bout.kimarite != nil %}
+            <span class="label label--small">{{ bout.kimarite }}</span>
+          {% else %}
+            <span class="label label--small">vs</span>
+          {% endif %}
+        </div>
+        <div class="flex flex--col" style="text-align: right;">
+          <span class="label">{% if bout.winner == bout.west %}• {% endif %}{{ bout.west }}</span>
+          <span class="label label--small">{{ bout.west_rank }}</span>
+        </div>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>
+
+<div class="title_bar">
+  <span class="title">Grand Sumo</span>
+  <span class="instance">{{ basho_name }} {{ basho_year }} — Day {{ day }}</span>
+</div>
+
+<script>terminalize()</script>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SumoTrmnl layout previews</title>
+  <style>
+    body { font-family: Inter, system-ui, sans-serif; margin: 24px; background: #eee; color: #111; }
+    h1 { font-size: 20px; }
+    h2 { font-size: 16px; margin-top: 28px; }
+    .row { display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-start; }
+    figure { margin: 0; }
+    figcaption { font-size: 12px; margin-bottom: 6px; color: #333; }
+    iframe { border: 1px solid #222; background: #fff; display: block; }
+    .full { width: 800px; height: 480px; }
+    .half_h { width: 800px; height: 240px; }
+    .half_v { width: 400px; height: 480px; }
+    .quad { width: 400px; height: 240px; }
+  </style>
+</head>
+<body>
+  <h1>SumoTrmnl — TRMNL layout previews</h1>
+  <p>Seeded from <code>data/sample.json</code> and <code>data/profile.json</code>. Open these HTML files directly, or run <code>bin/dev stats</code> / <code>bin/dev profile</code> for live <code>trmnlp serve</code>.</p>
+
+  <h2>Sumo Stats</h2>
+  <div class="row">
+    <figure>
+      <figcaption>full 800×480</figcaption>
+      <iframe class="full" src="stats/full.html"></iframe>
+    </figure>
+    <figure>
+      <figcaption>half_horizontal 800×240</figcaption>
+      <iframe class="half_h" src="stats/half_horizontal.html"></iframe>
+    </figure>
+    <figure>
+      <figcaption>half_vertical 400×480</figcaption>
+      <iframe class="half_v" src="stats/half_vertical.html"></iframe>
+    </figure>
+    <figure>
+      <figcaption>quadrant 400×240</figcaption>
+      <iframe class="quad" src="stats/quadrant.html"></iframe>
+    </figure>
+  </div>
+
+  <h2>Rikishi Card</h2>
+  <div class="row">
+    <figure>
+      <figcaption>full 800×480</figcaption>
+      <iframe class="full" src="profile/full.html"></iframe>
+    </figure>
+    <figure>
+      <figcaption>half_horizontal 800×240</figcaption>
+      <iframe class="half_h" src="profile/half_horizontal.html"></iframe>
+    </figure>
+    <figure>
+      <figcaption>half_vertical 400×480</figcaption>
+      <iframe class="half_v" src="profile/half_vertical.html"></iframe>
+    </figure>
+    <figure>
+      <figcaption>quadrant 400×240</figcaption>
+      <iframe class="quad" src="profile/quadrant.html"></iframe>
+    </figure>
+  </div>
+</body>
+</html>
