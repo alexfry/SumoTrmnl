@@ -1,48 +1,22 @@
 <style>
   :root {
-    --table-xsmall-tbody-height: 18px;
-    --table-xsmall-thead-height: 16px;
+    --table-xsmall-tbody-height: 13px;
+    --table-xsmall-thead-height: 10px;
   }
-  .layout {
-    padding: 0 !important;
-    margin: 0 !important;
-    justify-content: flex-start !important;
-    align-content: flex-start !important;
-  }
-  .view { padding: 0 !important; }
-  /* .label defaults to 16/20 and grows each row to 22px. 16 + 21×22
-     overflows the 460px view and terminalize paints "and 2 more".
-     16 + 21×20 = 436, which fits. */
-  .table.table--xsmall {
-    border-spacing: 0 !important;
-  }
-  .table.table--xsmall thead tr,
-  .table.table--xsmall thead th {
-    height: 16px !important;
-    line-height: 16px !important;
-  }
-  .table.table--xsmall tbody tr,
-  .table.table--xsmall tbody td {
-    height: 18px !important;
-    line-height: 18px !important;
-  }
-  .table.table--xsmall th,
-  .table.table--xsmall td {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
+  .layout { padding: 0 !important; margin: 0 !important; }
+  /* Match the 13px row token so .label (16/20) does not grow rows to 22px. */
   .table.table--xsmall .label {
-    line-height: 18px !important;
+    line-height: 13px;
   }
 </style>
 
-<div style="display: flex; flex-direction: row; width: 100%; height: 100%; align-items: stretch;">
+<div style="display: flex; flex-direction: row; width: 800px; height: 480px; overflow: hidden;">
 
   <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; height: auto; border-radius: 10px; margin: 8px 6px 8px 8px; padding: 10px 6px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
     <span class="title">Grand Sumo &mdash; {{ basho_name }} {{ basho_year }} &mdash; Day {{ day }} / {{ total_days }}</span>
   </div>
 
-  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0; min-height: 0;">
+  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
   <table class="table table--xsmall" data-table-limit="true">
     <thead>
       <tr>
@@ -63,7 +37,7 @@
         <tr>
           <td style="text-align: right;">
             {% if bout.east_jp_img != "" and bout.east_jp_img != nil %}
-              <img class="image image-dither" src="{{ bout.east_jp_img }}" style="display: inline; height: 14px; vertical-align: middle; margin-right: 4px;">
+              <img class="image image-dither" src="{{ bout.east_jp_img }}" style="display: inline; height: 12px; vertical-align: middle; margin-right: 4px;">
             {% endif %}
             <span class="label">{{ bout.east }}</span>
           </td>
@@ -87,7 +61,7 @@
           <td>
             <span class="label">{{ bout.west }}</span>
             {% if bout.west_jp_img != "" and bout.west_jp_img != nil %}
-              <img class="image image-dither" src="{{ bout.west_jp_img }}" style="display: inline; height: 14px; vertical-align: middle; margin-left: 4px;">
+              <img class="image image-dither" src="{{ bout.west_jp_img }}" style="display: inline; height: 12px; vertical-align: middle; margin-left: 4px;">
             {% endif %}
           </td>
           <td style="text-align: center; min-width: 30px;">
