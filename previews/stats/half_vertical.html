@@ -14,59 +14,36 @@
     <div class="screen">
       <div class="view view--half_vertical">
         <style>
-  :root {
-    --table-xsmall-tbody-height: 18px;
-    --table-xsmall-thead-height: 16px;
+  .trmnl .table.table--xsmall {
+    --table-xsmall-tbody-height: 21px;
+    --table-xsmall-thead-height: 10px;
   }
-  .layout {
-    padding: 0 !important;
-    margin: 0 !important;
-    justify-content: flex-start !important;
-    align-content: flex-start !important;
-  }
-  .view { padding: 0 !important; }
-  .table.table--xsmall {
-    border-spacing: 0 !important;
-  }
-  .table.table--xsmall thead tr,
-  .table.table--xsmall thead th {
-    height: 16px !important;
-    line-height: 16px !important;
-  }
-  .table.table--xsmall tbody tr,
-  .table.table--xsmall tbody td {
-    height: 18px !important;
-    line-height: 18px !important;
-  }
+  .layout { padding: 0 !important; margin: 0 !important; }
   .table.table--xsmall th,
   .table.table--xsmall td {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
     padding-left: 2px !important;
     padding-right: 2px !important;
   }
-  .table.table--xsmall .label {
-    line-height: 18px !important;
-  }
+  .trmnl .table.table--xsmall thead .title { line-height: 10px; }
 </style>
 
-<div style="display: flex; flex-direction: row; width: 100%; height: 100%; align-items: stretch;">
+<div style="display: flex; flex-direction: row; width: 400px; height: 480px; overflow: hidden;">
 
   <div class="title_bar" style="writing-mode: vertical-lr; transform: rotate(180deg); position: static; width: auto; max-width: 34px; height: auto; border-radius: 10px; margin: 8px 3px 8px 6px; padding: 10px 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; white-space: nowrap;">
     <span class="title">Grand Sumo &mdash; Haru Basho 2026 &mdash; Day 10 / 15</span>
   </div>
 
-  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0; min-height: 0;">
-  <table class="table table--xsmall" data-table-limit="true" style="table-layout: fixed; width: 100%;">
+  <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
+  <table class="table table--xsmall" data-table-limit="true" data-table-max-height="460" style="table-layout: fixed; width: 100%;">
     <thead>
       <tr>
-        <th style="width: 28%; text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
+        <th style="width: 26%; text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
         <th style="width: 30px; text-align: center;"><span class="title" style="font-size: 9px;">Rank</span></th>
-        <th style="width: 10px;"></th>
-        <th style="width: 62px; text-align: center;"><span class="title" style="font-size: 9px;">Kimarite</span></th>
-        <th style="width: 10px;"></th>
+        <th style="width: 16px;"></th>
+        <th style="width: 56px; text-align: center;"><span class="title" style="font-size: 9px;">Kimarite</span></th>
+        <th style="width: 16px;"></th>
         <th style="width: 30px; text-align: center;"><span class="title" style="font-size: 9px;">Rank</span></th>
-        <th style="width: 28%;"><span class="title" style="font-size: 9px;">West</span></th>
+        <th style="width: 26%;"><span class="title" style="font-size: 9px;">West</span></th>
       </tr>
     </thead>
     <tbody>
@@ -76,7 +53,7 @@
             <span class="label">Hoshoryu</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">O1e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -84,7 +61,7 @@
               <span class="label label--small">vs</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">Y1e</span></td>
@@ -98,7 +75,7 @@
             <span class="label">Daieisho</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">S1e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -106,7 +83,7 @@
               <span class="label label--small">hatakikomi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">O1w</span></td>
@@ -120,7 +97,7 @@
             <span class="label">Abi</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">K1e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -128,7 +105,7 @@
               <span class="label label--small">tsukiotoshi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">S1w</span></td>
@@ -142,7 +119,7 @@
             <span class="label">Tobizaru</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M3e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -150,7 +127,7 @@
               <span class="label label--small">yorikiri</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">K1w</span></td>
@@ -164,7 +141,7 @@
             <span class="label">Kotonowaka</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M1w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -172,7 +149,7 @@
               <span class="label label--small">vs</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M2e</span></td>
@@ -186,7 +163,7 @@
             <span class="label">Midorifuji</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M2w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -194,7 +171,7 @@
               <span class="label label--small">uwatenage</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M1e</span></td>
@@ -208,7 +185,7 @@
             <span class="label">Takakeisho</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M5e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -216,7 +193,7 @@
               <span class="label label--small">vs</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M3e</span></td>
@@ -230,7 +207,7 @@
             <span class="label">Gonoyama</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M5w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -238,7 +215,7 @@
               <span class="label label--small">oshidashi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M4e</span></td>
@@ -252,7 +229,7 @@
             <span class="label">Nishikifuji</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M6w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -260,7 +237,7 @@
               <span class="label label--small">vs</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M6e</span></td>
@@ -274,7 +251,7 @@
             <span class="label">Atamifuji</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M9w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -282,7 +259,7 @@
               <span class="label label--small">yorikiri</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M7e</span></td>
@@ -296,7 +273,7 @@
             <span class="label">Kinbozan</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M9e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -304,7 +281,7 @@
               <span class="label label--small">vs</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M8w</span></td>
@@ -318,7 +295,7 @@
             <span class="label">Kotoshoho</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M8e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -326,7 +303,7 @@
               <span class="label label--small">vs</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M9e</span></td>
@@ -340,7 +317,7 @@
             <span class="label">Aoiyama</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M11e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -348,7 +325,7 @@
               <span class="label label--small">vs</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M10w</span></td>
@@ -362,7 +339,7 @@
             <span class="label">Sadanoumi</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M10e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -370,7 +347,7 @@
               <span class="label label--small">tsukiotoshi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M10w</span></td>
@@ -384,7 +361,7 @@
             <span class="label">Hiradoumi</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M11w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -392,7 +369,7 @@
               <span class="label label--small">oshidashi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M12w</span></td>
@@ -406,7 +383,7 @@
             <span class="label">Ura</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M13w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -414,7 +391,7 @@
               <span class="label label--small">watashikomi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M12e</span></td>
@@ -428,7 +405,7 @@
             <span class="label">Hokuseiho</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M13e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -436,7 +413,7 @@
               <span class="label label--small">yorikiri</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M15e</span></td>
@@ -450,7 +427,7 @@
             <span class="label">Hidenoumi</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M15w</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -458,7 +435,7 @@
               <span class="label label--small">hatakikomi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M14w</span></td>
@@ -472,7 +449,7 @@
             <span class="label">Myogiryu</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M14e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -480,7 +457,7 @@
               <span class="label label--small">yorikiri</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M16w</span></td>
@@ -494,7 +471,7 @@
             <span class="label">Tamashoho</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M17e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;">
@@ -502,7 +479,7 @@
               <span class="label label--small">yorikiri</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;"><span class="label label--small">M16w</span></td>
@@ -516,7 +493,7 @@
             <span class="label">Oho</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M16e</span></td>
-          <td style="text-align: right;">
+          <td style="width: 16px; text-align: center;">
             
           </td>
           <td style="text-align: center;">
@@ -524,7 +501,7 @@
               <span class="label label--small">oshidashi</span>
             
           </td>
-          <td style="text-align: left;">
+          <td style="width: 16px; text-align: center;">
             <span class="label label--small">•</span>
           </td>
           <td style="text-align: center;"><span class="label label--small">M17w</span></td>

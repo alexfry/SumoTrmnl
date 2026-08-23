@@ -1,13 +1,11 @@
 <style>
-  :root {
-    --table-xsmall-tbody-height: 13px;
+  /* Framework sets 22px / 18px on .table; :root and .trmnl lose. */
+  .trmnl .table.table--xsmall {
+    --table-xsmall-tbody-height: 21px;
     --table-xsmall-thead-height: 10px;
   }
   .layout { padding: 0 !important; margin: 0 !important; }
-  /* Match the 13px row token so .label (16/20) does not grow rows to 22px. */
-  .table.table--xsmall .label {
-    line-height: 13px;
-  }
+  .trmnl .table.table--xsmall thead .title { line-height: 10px; }
 </style>
 
 <div style="display: flex; flex-direction: row; width: 800px; height: 480px; overflow: hidden;">
@@ -17,7 +15,7 @@
   </div>
 
   <div class="layout layout--col gap--none" style="flex: 1; min-width: 0;">
-  <table class="table table--xsmall" data-table-limit="true">
+  <table class="table table--xsmall" data-table-limit="true" data-table-max-height="460">
     <thead>
       <tr>
         <th style="text-align: right;"><span class="title" style="font-size: 9px;">East</span></th>
