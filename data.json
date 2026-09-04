@@ -7,7 +7,7 @@
   "status": "complete",
   "next_basho_id": "202609",
   "next_basho_name": "Aki Basho",
-  "days_until_next": 9,
+  "days_until_next": 8,
   "division": "Makuuchi",
   "standings": [
     {
@@ -714,5 +714,5 @@
     "Aonishiki"
   ],
   "leader_wins": 12,
-  "last_updated": "2026-09-04 23:15 JST"
+  "last_updated": "2026-09-05 00:15 JST"
 }
