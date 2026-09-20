@@ -27,6 +27,14 @@
       "absent": 8
     },
     {
+      "rank": "M16w",
+      "shikona": "Toshinofuji",
+      "shikona_jp": "寿之富士　大聖",
+      "wins": 6,
+      "losses": 2,
+      "absent": 7
+    },
+    {
       "rank": "O1e",
       "shikona": "Kirishima",
       "shikona_jp": "霧島　鐵力",
@@ -94,14 +102,6 @@
       "rank": "M10w",
       "shikona": "Kinbozan",
       "shikona_jp": "金峰山　晴樹",
-      "wins": 5,
-      "losses": 2,
-      "absent": 8
-    },
-    {
-      "rank": "M16w",
-      "shikona": "Toshinofuji",
-      "shikona_jp": "寿之富士　大聖",
       "wins": 5,
       "losses": 2,
       "absent": 8
@@ -358,11 +358,11 @@
       "west": "Toshinofuji",
       "west_jp": "寿之富士",
       "west_rank": "M16w",
-      "west_wins": 5,
+      "west_wins": 6,
       "west_losses": 2,
-      "winner": "",
-      "kimarite": "",
-      "past": "0-0",
+      "winner": "Toshinofuji",
+      "kimarite": "yoritaoshi",
+      "past": "0-1",
       "east_jp_img": "",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/0288c61bde77.png"
     },
@@ -378,9 +378,9 @@
       "west_rank": "M15w",
       "west_wins": 4,
       "west_losses": 3,
-      "winner": "",
-      "kimarite": "",
-      "past": "1-0",
+      "winner": "Tokihayate",
+      "kimarite": "yoritaoshi",
+      "past": "1-1",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2ca89e621fb6.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/02134f40ea77.png"
     },
@@ -711,8 +711,9 @@
   ],
   "leaders": [
     "Onosato",
-    "Kotozakura"
+    "Kotozakura",
+    "Toshinofuji"
   ],
   "leader_wins": 6,
-  "last_updated": "2026-09-20 15:24 JST"
+  "last_updated": "2026-09-20 16:16 JST"
 }
