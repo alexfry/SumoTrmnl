@@ -83,6 +83,14 @@
       "absent": 5
     },
     {
+      "rank": "M11e",
+      "shikona": "Wakamotoharu",
+      "shikona_jp": "若元春　港",
+      "wins": 7,
+      "losses": 4,
+      "absent": 4
+    },
+    {
       "rank": "M7e",
       "shikona": "Fujiseiun",
       "shikona_jp": "藤青雲　龍輝",
@@ -94,14 +102,6 @@
       "rank": "M8e",
       "shikona": "Takerufuji",
       "shikona_jp": "尊富士　弥輝也",
-      "wins": 6,
-      "losses": 4,
-      "absent": 5
-    },
-    {
-      "rank": "M11e",
-      "shikona": "Wakamotoharu",
-      "shikona_jp": "若元春　港",
       "wins": 6,
       "losses": 4,
       "absent": 5
@@ -195,14 +195,6 @@
       "absent": 5
     },
     {
-      "rank": "M14e",
-      "shikona": "Tobizaru",
-      "shikona_jp": "翔猿　正也",
-      "wins": 4,
-      "losses": 6,
-      "absent": 5
-    },
-    {
       "rank": "M15e",
       "shikona": "Asasuiryu",
       "shikona_jp": "朝翠龍　涼馬",
@@ -243,12 +235,20 @@
       "absent": 5
     },
     {
+      "rank": "M14e",
+      "shikona": "Tobizaru",
+      "shikona_jp": "翔猿　正也",
+      "wins": 4,
+      "losses": 7,
+      "absent": 4
+    },
+    {
       "rank": "M14w",
       "shikona": "Chiyoshoma",
       "shikona_jp": "千代翔馬　富士雄",
       "wins": 4,
-      "losses": 6,
-      "absent": 5
+      "losses": 7,
+      "absent": 4
     },
     {
       "rank": "K1e",
@@ -359,10 +359,10 @@
       "west_jp": "千代翔馬",
       "west_rank": "M14w",
       "west_wins": 4,
-      "west_losses": 6,
-      "winner": "",
-      "kimarite": "",
-      "past": "0-0",
+      "west_losses": 7,
+      "winner": "Dewanoryu",
+      "kimarite": "oshidashi",
+      "past": "1-0",
       "east_jp_img": "",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/84d96ad326bd.png"
     },
@@ -371,16 +371,16 @@
       "east": "Wakamotoharu",
       "east_jp": "若元春",
       "east_rank": "M11e",
-      "east_wins": 6,
+      "east_wins": 7,
       "east_losses": 4,
       "west": "Tobizaru",
       "west_jp": "翔猿",
       "west_rank": "M14e",
       "west_wins": 4,
-      "west_losses": 6,
-      "winner": "",
-      "kimarite": "",
-      "past": "14-9",
+      "west_losses": 7,
+      "winner": "Wakamotoharu",
+      "kimarite": "uwatehineri",
+      "past": "15-9",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/237f8001784b.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/2ca89e621fb6.png"
     },
@@ -713,5 +713,5 @@
     "Onosato"
   ],
   "leader_wins": 9,
-  "last_updated": "2026-09-23 15:28 JST"
+  "last_updated": "2026-09-23 16:19 JST"
 }
