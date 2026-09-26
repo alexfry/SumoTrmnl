@@ -171,6 +171,14 @@
       "absent": 2
     },
     {
+      "rank": "M15e",
+      "shikona": "Asasuiryu",
+      "shikona_jp": "朝翠龍　涼馬",
+      "wins": 7,
+      "losses": 7,
+      "absent": 1
+    },
+    {
       "rank": "M4w",
       "shikona": "Fujiryoga",
       "shikona_jp": "藤凌駕　雅治",
@@ -182,14 +190,6 @@
       "rank": "M2e",
       "shikona": "Takayasu",
       "shikona_jp": "高安　晃",
-      "wins": 6,
-      "losses": 7,
-      "absent": 2
-    },
-    {
-      "rank": "M15e",
-      "shikona": "Asasuiryu",
-      "shikona_jp": "朝翠龍　涼馬",
       "wins": 6,
       "losses": 7,
       "absent": 2
@@ -353,16 +353,16 @@
       "east": "Asasuiryu",
       "east_jp": "朝翠龍",
       "east_rank": "M15e",
-      "east_wins": 6,
+      "east_wins": 7,
       "east_losses": 7,
       "west": "Daiseizan",
       "west_jp": "",
       "west_rank": "J2e",
       "west_wins": 0,
       "west_losses": 0,
-      "winner": "",
-      "kimarite": "",
-      "past": "2-2",
+      "winner": "Asasuiryu",
+      "kimarite": "oshidashi",
+      "past": "3-2",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/f7997fad81a1.png",
       "west_jp_img": ""
     },
@@ -695,5 +695,5 @@
     "Onosato"
   ],
   "leader_wins": 11,
-  "last_updated": "2026-09-26 15:25 JST"
+  "last_updated": "2026-09-26 16:15 JST"
 }
