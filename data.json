@@ -14,17 +14,17 @@
       "rank": "Y1e",
       "shikona": "Onosato",
       "shikona_jp": "大の里　泰輝",
-      "wins": 11,
+      "wins": 12,
       "losses": 3,
-      "absent": 1
+      "absent": 0
     },
     {
       "rank": "O2e",
       "shikona": "Aonishiki",
       "shikona_jp": "安青錦　新大",
       "wins": 11,
-      "losses": 3,
-      "absent": 1
+      "losses": 4,
+      "absent": 0
     },
     {
       "rank": "S1w",
@@ -677,25 +677,23 @@
       "east": "Onosato",
       "east_jp": "大の里",
       "east_rank": "Y1e",
-      "east_wins": 11,
+      "east_wins": 12,
       "east_losses": 3,
       "west": "Aonishiki",
       "west_jp": "安青錦",
       "west_rank": "O2e",
       "west_wins": 11,
-      "west_losses": 3,
-      "winner": "",
-      "kimarite": "",
-      "past": "4-1",
+      "west_losses": 4,
+      "winner": "Onosato",
+      "kimarite": "tsukidashi",
+      "past": "5-1",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/632fb2f053e0.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/0dd255ab0b70.png"
     }
   ],
   "leaders": [
-    "Onosato",
-    "Aonishiki",
-    "Fujinokawa"
+    "Onosato"
   ],
-  "leader_wins": 11,
-  "last_updated": "2026-09-27 17:20 JST"
+  "leader_wins": 12,
+  "last_updated": "2026-09-27 18:16 JST"
 }
