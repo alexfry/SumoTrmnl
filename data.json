@@ -7,7 +7,7 @@
   "status": "complete",
   "next_basho_id": "202611",
   "next_basho_name": "Kyushu Basho",
-  "days_until_next": 11,
+  "days_until_next": 10,
   "division": "Makuuchi",
   "standings": [
     {
@@ -695,5 +695,5 @@
     "Onosato"
   ],
   "leader_wins": 12,
-  "last_updated": "2026-10-28 23:12 JST"
+  "last_updated": "2026-10-29 00:11 JST"
 }
