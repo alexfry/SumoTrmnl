@@ -11,6 +11,14 @@
   "division": "Makuuchi",
   "standings": [
     {
+      "rank": "M16e",
+      "shikona": "Arashifuji",
+      "shikona_jp": "嵐富士　奏凪人",
+      "wins": 2,
+      "losses": 0,
+      "absent": 13
+    },
+    {
       "rank": "O2e",
       "shikona": "Kirishima",
       "shikona_jp": "霧島　鐵力",
@@ -54,14 +62,6 @@
       "rank": "M11e",
       "shikona": "Takanosho",
       "shikona_jp": "隆の勝　伸明",
-      "wins": 1,
-      "losses": 0,
-      "absent": 14
-    },
-    {
-      "rank": "M16e",
-      "shikona": "Arashifuji",
-      "shikona_jp": "嵐富士　奏凪人",
       "wins": 1,
       "losses": 0,
       "absent": 14
@@ -291,14 +291,6 @@
       "absent": 14
     },
     {
-      "rank": "M17e",
-      "shikona": "Daiseizan",
-      "shikona_jp": "大青山　大介",
-      "wins": 0,
-      "losses": 1,
-      "absent": 14
-    },
-    {
       "rank": "O1w",
       "shikona": "Kotozakura",
       "shikona_jp": "琴櫻　将傑",
@@ -345,6 +337,14 @@
       "wins": 0,
       "losses": 1,
       "absent": 14
+    },
+    {
+      "rank": "M17e",
+      "shikona": "Daiseizan",
+      "shikona_jp": "大青山　大介",
+      "wins": 0,
+      "losses": 2,
+      "absent": 13
     }
   ],
   "torikumi": [
@@ -353,16 +353,16 @@
       "east": "Arashifuji",
       "east_jp": "嵐富士",
       "east_rank": "M16e",
-      "east_wins": 1,
+      "east_wins": 2,
       "east_losses": 0,
       "west": "Daiseizan",
       "west_jp": "大青山",
       "west_rank": "M17e",
       "west_wins": 0,
-      "west_losses": 1,
-      "winner": "",
-      "kimarite": "",
-      "past": "1-0",
+      "west_losses": 2,
+      "winner": "Arashifuji",
+      "kimarite": "oshidashi",
+      "past": "2-0",
       "east_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/d607d49cc344.png",
       "west_jp_img": "https://alexfry.github.io/SumoTrmnl/jp/7cb2009f3679.png"
     },
@@ -728,28 +728,8 @@
     }
   ],
   "leaders": [
-    "Kirishima",
-    "Asanoyama",
-    "Hiradoumi",
-    "Wakamotoharu",
-    "Oshoma",
-    "Takanosho",
-    "Arashifuji",
-    "Hoshoryu",
-    "Atamifuji",
-    "Yoshinofuji",
-    "Fujiryoga",
-    "Fujiseiun",
-    "Daieisho",
-    "Gonoyama",
-    "Kinbozan",
-    "Asakoryu",
-    "Asahakuryu",
-    "Abi",
-    "Asasuiryu",
-    "Dewanoryu",
-    "Kyokukaiyu"
+    "Arashifuji"
   ],
-  "leader_wins": 1,
-  "last_updated": "2026-11-09 14:11 JST"
+  "leader_wins": 2,
+  "last_updated": "2026-11-09 16:13 JST"
 }
