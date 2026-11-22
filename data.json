@@ -4,10 +4,10 @@
   "basho_year": "2026",
   "day": 15,
   "total_days": 15,
-  "status": "active",
+  "status": "complete",
   "next_basho_id": "202701",
   "next_basho_name": "Hatsu Basho",
-  "days_until_next": 49,
+  "days_until_next": 48,
   "division": "Makuuchi",
   "standings": [
     {
@@ -714,5 +714,5 @@
     "Wakamotoharu"
   ],
   "leader_wins": 13,
-  "last_updated": "2026-11-22 23:08 JST"
+  "last_updated": "2026-11-23 00:08 JST"
 }
